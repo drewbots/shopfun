@@ -1,0 +1,214 @@
+/*
+ * simpleflex.css 
+ * http://simpleflexcss.com
+ * Version - 1.0
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2016 Andrew Slaughter
+ */
+
+
+/*===  PARENT CONTAINER PROPERTIES  ===*/
+
+.flex {
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+}
+
+/* flex-direction - use to specify the main axis or direction of flex, i.e. specifying rows or columns (default is row)*/
+
+.flex-col {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+}
+
+/* flex-wrap - so that flexed children will create line-breaks and wrap the page */
+
+.flex-wrap {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* align-items - use to align the cross axis, example: to vertically align elements in a row */
+
+.align-start {  /* DEFAULT */
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  -webkit-box-align: start;
+  align-items: flex-start;
+}
+
+.align-center {
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.align-end {
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  -webkit-box-align: end;
+  align-items: flex-end;
+}
+
+/* justify-content - use to align the main axis, example: to horizontally align elements in a row */
+
+.justify-start {  /* DEFAULT */
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+
+.justify-center {
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.justify-end {
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}
+
+.justify-between {
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.justify-around {
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+/* align-content - align rows of flexed content in the cross axis */
+
+.rows-start {  /* DEFAULT */
+  align-content: flex-start;
+  -webkit-align-content: flex-start;
+  -ms-align-content: flex-start;
+}
+
+.rows-center {
+  align-content: center;
+  -webkit-align-content: center;
+  -ms-align-content: center;
+}
+
+.rows-end {
+  align-content: flex-end;
+  -webkit-align-content: flex-end;
+  -ms-align-content: flex-end;
+}
+
+.rows-space {
+  align-content: space-between;
+  -webkit-align-content: space-between;
+  -ms-align-content: space-between;
+}
+
+.rows-around {
+  align-content: space-around;
+  -webkit-align-content: space-around;
+  -ms-align-content: space-around;
+}
+
+.rows-stretch {
+  align-content: stretch;
+  -webkit-align-content: stretch;
+  -ms-align-content: stretch;
+}
+
+
+/*===  COMMON CHILD CONTAINER RULES  ===*/
+
+/* flexgrow: 1; - set all children the same size or enlarge the size of one child compared to other children (default is 0) */
+
+.single-flex-child {
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+
+/* flexgrow: 2; - 2x enlarge the size of a child compared to children with flexgrow: 1; (default is 0) */
+
+.double-flex-child {
+  -webkit-flex-grow: 2;
+  -ms-flex-positive: 2;
+  -webkit-box-flex: 2;
+  flex-grow: 2;
+}
+
+/* flex-basis - children are 50% wide (default is auto) */
+
+.half-flex-child {
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  -webkit-flex-basis: 50%;
+}
+
+/* flex-shrink: 0; - prevents children from shrinking (default is 1) */
+
+.flex-shrink-no {
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+}
+
+
+
+/*===  MOBILE RULES  ===*/
+
+@media (max-width: 768px) {
+
+  /* two ways to make elements vertical on mobile */
+
+  .onecol-flex-mobile {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+
+  .onecol-flex-mobile-child {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-flex-basis: 100%;
+  }
+
+  /* used in conjuction to force 2 col mobile */
+
+  .flex-wrap-mobile {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .half-flex-mobile-child {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    -webkit-flex-basis: 50%;
+  }
+
+}
+

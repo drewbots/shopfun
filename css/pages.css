@@ -1,0 +1,85 @@
+/*
+ * HomePage
+ */
+
+.removecontent:after {
+  content: none;
+}
+
+#hompage .homehero {
+  max-width: 800px;
+}
+
+.pointer {
+    margin-left:-10px;
+    margin-top:-10px;
+    width:20px;
+    height:20px;
+    border-radius:10px;
+    background-color:#F00;
+    position:absolute;
+}
+
+.surfing {
+  width: 6697px;
+}
+
+.backdrop {
+  /* color: #524656; */
+  /* background:linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../images/surfing/01.jpg); */
+  /* -webkit-background-size: cover; */
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /* background-size: cover; */
+  /* background-position: 0% 100%; */
+  /* background-repeat: no-repeat; */
+  height: 100%;
+}
+
+.backdrop img {
+  height: 100%;
+  display: block;
+}
+
+.goods img {
+  position: absolute;
+  top: 0;
+  width: 66px;
+}
+
+.product1 {
+  margin-top: 45%;
+  margin-left: 18%;
+}
+
+.product2 {
+  margin-top: 47%;
+  margin-left: 48%;
+}
+
+.product3 {
+  margin-top: 29%;
+  margin-left: 106%;
+}
+
+
+
+@media (max-width: 480px) {
+  .homehero h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .homehero h1 {
+    font-size: 3.2rem;
+  }
+
+  .homehero h4 {
+    font-size: 2rem;
+  }
+}
+
+
+
+

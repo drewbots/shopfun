@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:ng="http://angularjs.org" id="ng-app" xmlns:zd="http://zendeploy.com">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags  -->
+    
+    <title>Shopjoy</title>
+    
+    <meta name="description" content="Send snail mail from your browser. Great for letters, invoices, statements, bills, documents and more. Check out our business tool that integrates with Quickbooks!">
+
+    <meta property="og:title" content="Mail Letters and Documents Online with Mailform" />
+    <meta property="og:description" content="Send snail mail from your browser. Great for letters, invoices, statements, bills, documents and more.Check out our business tool that integrates with Quickbooks!" />
+    <meta property="og:image" content="http://mailform.io/images/mailform-promo.png" />
+
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js" zd:ignore></script><![endif]-->
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/png" href="images/favicon@512.png" zd:replace="favicon.detail">
+
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/buttons.css" rel="stylesheet">
+    <link href="css/tinyanimations.css" rel="stylesheet">
+    <link href="css/simpleflex.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/skeleton.css" rel="stylesheet">
+    <link href="css/skeleton-overide.css" rel="stylesheet">
+    <link href="css/pages.css" rel="stylesheet">
+    <link href="css/globals.css" rel="stylesheet">
+    <link href="css/thebasics.css" rel="stylesheet">
+    <link href="css/modal.css" rel="stylesheet">
+    <link href="css/rotateword.css" rel="stylesheet">
+    <link href="css/jquery.notifyBar.css" rel="stylesheet">
+    <link href="css/tooltip.css" rel="stylesheet">
+    <link href="css/ionicons.css" rel="stylesheet">
+    <link href="css/glyphicon.css" rel="stylesheet">
+    <link href="css/bootstrap-switch.css" rel="stylesheet">
+    <link href="css/bootstrap-table.css" rel="stylesheet">
+    <link href="css/bootstrap-progressbar.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="js/jquery.mousewheel.js" type="text/javascript"></script>
+
+  <script type="text/javascript">
+ 
+ 
+
+
+</script>
+
+   <script type="text/javascript">
+    $(document).ready(function(){
+
+
+
+      var image = { width: 6997, height: 200 };
+
+      var target = new Array();
+      target[0] = { x: 90, y: 114 };
+      target[1] = { x: 200, y: 94 };
+      target[2] = { x: 80, y: 172 };
+      target[3] = { x: 390, y: 188 };
+      target[4] = { x: 590, y: 188 };
+
+      var pointer = new Array();
+      pointer[0] = $('#pointer0');
+      pointer[1] = $('#pointer1');
+      pointer[2] = $('#pointer2');
+      pointer[3] = $('#pointer3');
+      pointer[4] = $('#pointer4');
+
+      $(document).ready(updatePointer);
+      $(window).resize(updatePointer);
+
+      function updatePointer() {
+          var windowWidth = $(window).width();
+          var windowHeight = $(window).height();
+          
+          // Get largest dimension increase
+          var xScale = windowWidth / image.width;
+          var yScale = windowHeight / image.height;
+          var scale;
+          var yOffset = 0;
+          var xOffset = 0;
+          
+          if (xScale > yScale) {
+              // The image fits perfectly in x axis, stretched in y
+              scale = xScale;
+              yOffset = (windowHeight - (image.height * scale)) / 2;
+          } else {
+              // The image fits perfectly in y axis, stretched in x
+              scale = yScale;
+              xOffset = (windowWidth - (image.width * scale)) / 2;
+          }
+          
+          var arrayLength = target.length;
+
+          for (var i = 0; i < arrayLength; i++) {
+              pointer[i].css('top', (target[i].y) * scale + yOffset);
+              pointer[i].css('left', (target[i].x) * scale);
+          }
+          
+      }
+
+$(function() {
+
+   $("body").mousewheel(function(event, delta) {
+
+      this.scrollLeft -= (delta);
+    
+      event.preventDefault();
+
+   });
+
+});
+
+
+
+
+    });
+
+  </script>
+
+
+
+  </head>
+
+
+	<body class="homepage">
+
+    <!-- START PAGE HEADER HERE -->
+
+    <div class="navbar header">
+      <div class="container flex justify-between align-center">
+        <img class="logo" src="images/logo.png">
+        <div>
+          <input class="menu-btn" type="checkbox" id="menu-btn" />
+          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+          <ul class="topbar-hide bar2">
+            <li>arrow</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="surfing">
+      <div id="pointer0" class="pointer"></div>
+      <div id="pointer1" class="pointer"></div>
+      <div id="pointer2" class="pointer"></div>
+      <div id="pointer3" class="pointer"></div>
+      <div id="pointer4" class="pointer"></div>
+    </div>
+
+    <div class="backdrop flex">
+      <img class="reel" src="images/surfing/01.jpg">
+      <img class="reel" src="images/surfing/02.jpg">
+      <img class="reel" src="images/surfing/03.jpg">
+      <img class="reel" src="images/surfing/04.jpg">
+      <img class="reel" src="images/surfing/05.jpg">
+      <img class="reel" src="images/surfing/06.jpg">
+    </div>
+
+<!--     <div class="goods">
+      <img class="product1" src="images/favicon@512.png">
+      <img class="product2" src="images/favicon@512.png">
+      <img class="product3" src="images/favicon@512.png">
+    </div> -->
+
+    <!--<button class="button-primary button-big mt4 mb0" data-toggle="modal" data-target="#myModal">
+        <div class="flex">
+        <i class="icon ion-upload mr1"></i>             
+        <p class="mb0">Upload PDF<font style="text-transform: lowercase;">s</font></p>
+        </div>
+      </button> -->
+
+
+    <!-- SCRIPTS HERE -->
+
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+
+    <!-- Facebook Pixel Code -->
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=109871069411898&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+  </body>
+</html>
