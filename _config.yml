@@ -8,7 +8,7 @@ paginate: 10
 
 permalink: /:title/
 relative_permalinks: false
-url: http://surfnsol.com
+url: http://blog.surfnsol.com
 #url: http://localhost:2106
 #port: 2106
 #baseurl: http://blog.surfnsol.com
@@ -30,7 +30,7 @@ name : SurfnSol
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://surfnsol.com
+production_url : http://blog.surfnsol.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -59,7 +59,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : http://surfnsol.com
+  BASE_PATH : http://blog.surfnsol.com
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
