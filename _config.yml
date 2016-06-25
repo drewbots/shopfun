@@ -4,7 +4,10 @@ safe: true
 lsi: false
 simple_search: http://google.com/search
 markdown: kramdown
-paginate: 10
+
+gems: [jekyll-paginate]
+paginate: 1
+paginate_path: "page:num"
 
 permalink: /:title/
 relative_permalinks: false
