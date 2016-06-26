@@ -3,15 +3,101 @@
   <channel>
     <title>Surf n Sol</title>
     <description></description>
-    <link>http://drewbots/github.io/shopfunhttp://blog.surfnsol.com/</link>
-    <atom:link href="http://drewbots/github.io/shopfunhttp://blog.surfnsol.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 25 Jun 2016 17:13:01 -0700</pubDate>
-    <lastBuildDate>Sat, 25 Jun 2016 17:13:01 -0700</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 25 Jun 2016 17:40:47 -0700</pubDate>
+    <lastBuildDate>Sat, 25 Jun 2016 17:40:47 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Tim Tams now in America</title>
-        <description>    &lt;div class=&quot;surfing&quot;&gt;
+        <description>    &lt;script type=&quot;text/javascript&quot;&gt;
+      $(document).ready(function(){
+
+        var image = { width: 6997, height: 200 };
+
+        var target = new Array();
+        target[0] = { x: 90, y: 114 };
+        target[1] = { x: 200, y: 94 };
+        target[2] = { x: 80, y: 172 };
+        target[3] = { x: 390, y: 188 };
+        target[4] = { x: 590, y: 188 };
+
+        var pointer = new Array();
+        pointer[0] = $(&#39;#pointer0&#39;);
+        pointer[1] = $(&#39;#pointer1&#39;);
+        pointer[2] = $(&#39;#pointer2&#39;);
+        pointer[3] = $(&#39;#pointer3&#39;);
+        pointer[4] = $(&#39;#pointer4&#39;);
+
+        $(document).ready(updatePointer);
+        $(window).resize(updatePointer);
+
+        function updatePointer() {
+            var windowWidth = $(window).width();
+            var windowHeight = $(window).height();
+            
+            // Get largest dimension increase
+            var xScale = windowWidth / image.width;
+            var yScale = windowHeight / image.height;
+            var scale;
+            var yOffset = 0;
+            var xOffset = 0;
+            
+            if (xScale &gt; yScale) {
+                // The image fits perfectly in x axis, stretched in y
+                scale = xScale;
+                yOffset = (windowHeight - (image.height * scale)) / 2;
+            } else {
+                // The image fits perfectly in y axis, stretched in x
+                scale = yScale;
+                xOffset = (windowWidth - (image.width * scale)) / 2;
+            }
+            
+            var arrayLength = target.length;
+            for (var i = 0; i &lt; arrayLength; i++) {
+                pointer[i].css(&#39;top&#39;, (target[i].y) * scale + yOffset);
+                pointer[i].css(&#39;left&#39;, (target[i].x) * scale);
+            }  
+        }
+
+        $(function() {
+           $(&quot;body&quot;).mousewheel(function(event, delta) {
+              this.scrollLeft -= (delta);
+              event.preventDefault();
+           });
+        });
+
+      });
+
+    &lt;/script&gt;
+
+
+
+&lt;/head&gt;
+
+&lt;!-- header start --&gt;
+
+    &lt;div class=&quot;navbar header&quot;&gt;
+      &lt;div class=&quot;container flex justify-between align-center&quot;&gt;
+        &lt;a href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;input class=&quot;menu-btn&quot; type=&quot;checkbox&quot; id=&quot;menu-btn&quot; /&gt;
+          &lt;label class=&quot;menu-icon&quot; for=&quot;menu-btn&quot;&gt;&lt;span class=&quot;navicon&quot;&gt;&lt;/span&gt;&lt;/label&gt;
+          &lt;ul class=&quot;topbar-hide bar2&quot;&gt;
+            &lt;li&gt;arrow&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;!-- header end --&gt;
+
+    &lt;!-- content start --&gt;
+
+  &lt;body class=&quot;homepage&quot;&gt;
+    
+    &lt;div class=&quot;surfing&quot;&gt;
       &lt;div id=&quot;pointer0&quot; class=&quot;pointer&quot;&gt;&lt;/div&gt;
       &lt;div id=&quot;pointer1&quot; class=&quot;pointer&quot;&gt;&lt;/div&gt;
       &lt;div id=&quot;pointer2&quot; class=&quot;pointer&quot;&gt;&lt;/div&gt;
@@ -30,8 +116,8 @@
 
 </description>
         <pubDate>Wed, 05 May 2010 00:00:00 -0700</pubDate>
-        <link>http://drewbots/github.io/shopfunhttp://blog.surfnsol.com/two/</link>
-        <guid isPermaLink="true">http://drewbots/github.io/shopfunhttp://blog.surfnsol.com/two/</guid>
+        <link>/two/</link>
+        <guid isPermaLink="true">/two/</guid>
         
         
         <category>Food</category>
@@ -40,7 +126,93 @@
     
       <item>
         <title>Tim Tams now in America</title>
-        <description>    &lt;div class=&quot;surfing&quot;&gt;
+        <description>    &lt;script type=&quot;text/javascript&quot;&gt;
+      $(document).ready(function(){
+
+        var image = { width: 6997, height: 200 };
+
+        var target = new Array();
+        target[0] = { x: 90, y: 114 };
+        target[1] = { x: 200, y: 94 };
+        target[2] = { x: 80, y: 172 };
+        target[3] = { x: 390, y: 188 };
+        target[4] = { x: 590, y: 188 };
+
+        var pointer = new Array();
+        pointer[0] = $(&#39;#pointer0&#39;);
+        pointer[1] = $(&#39;#pointer1&#39;);
+        pointer[2] = $(&#39;#pointer2&#39;);
+        pointer[3] = $(&#39;#pointer3&#39;);
+        pointer[4] = $(&#39;#pointer4&#39;);
+
+        $(document).ready(updatePointer);
+        $(window).resize(updatePointer);
+
+        function updatePointer() {
+            var windowWidth = $(window).width();
+            var windowHeight = $(window).height();
+            
+            // Get largest dimension increase
+            var xScale = windowWidth / image.width;
+            var yScale = windowHeight / image.height;
+            var scale;
+            var yOffset = 0;
+            var xOffset = 0;
+            
+            if (xScale &gt; yScale) {
+                // The image fits perfectly in x axis, stretched in y
+                scale = xScale;
+                yOffset = (windowHeight - (image.height * scale)) / 2;
+            } else {
+                // The image fits perfectly in y axis, stretched in x
+                scale = yScale;
+                xOffset = (windowWidth - (image.width * scale)) / 2;
+            }
+            
+            var arrayLength = target.length;
+            for (var i = 0; i &lt; arrayLength; i++) {
+                pointer[i].css(&#39;top&#39;, (target[i].y) * scale + yOffset);
+                pointer[i].css(&#39;left&#39;, (target[i].x) * scale);
+            }  
+        }
+
+        $(function() {
+           $(&quot;body&quot;).mousewheel(function(event, delta) {
+              this.scrollLeft -= (delta);
+              event.preventDefault();
+           });
+        });
+
+      });
+
+    &lt;/script&gt;
+
+
+
+&lt;/head&gt;
+
+&lt;!-- header start --&gt;
+
+    &lt;div class=&quot;navbar header&quot;&gt;
+      &lt;div class=&quot;container flex justify-between align-center&quot;&gt;
+        &lt;a href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;input class=&quot;menu-btn&quot; type=&quot;checkbox&quot; id=&quot;menu-btn&quot; /&gt;
+          &lt;label class=&quot;menu-icon&quot; for=&quot;menu-btn&quot;&gt;&lt;span class=&quot;navicon&quot;&gt;&lt;/span&gt;&lt;/label&gt;
+          &lt;ul class=&quot;topbar-hide bar2&quot;&gt;
+            &lt;li&gt;arrow&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;!-- header end --&gt;
+
+    &lt;!-- content start --&gt;
+
+  &lt;body class=&quot;homepage&quot;&gt;
+    
+    &lt;div class=&quot;surfing&quot;&gt;
       &lt;div id=&quot;pointer0&quot; class=&quot;pointer&quot;&gt;&lt;/div&gt;
       &lt;div id=&quot;pointer1&quot; class=&quot;pointer&quot;&gt;&lt;/div&gt;
       &lt;div id=&quot;pointer2&quot; class=&quot;pointer&quot;&gt;&lt;/div&gt;
@@ -56,19 +228,106 @@
       &lt;img class=&quot;reel&quot; src=&quot;../images/surfing/05.jpg&quot;&gt;
       &lt;img class=&quot;reel&quot; src=&quot;../images/surfing/06.jpg&quot;&gt;
     &lt;/div&gt;
+
 </description>
         <pubDate>Tue, 04 May 2010 00:00:00 -0700</pubDate>
-        <link>http://drewbots/github.io/shopfunhttp://blog.surfnsol.com/ok/</link>
-        <guid isPermaLink="true">http://drewbots/github.io/shopfunhttp://blog.surfnsol.com/ok/</guid>
+        <link>/ok/</link>
+        <guid isPermaLink="true">/ok/</guid>
         
         
-        <category>Food</category>
+        <category>Sports</category>
         
       </item>
     
       <item>
         <title>Tim Tams now in America</title>
-        <description>    &lt;div class=&quot;surfing&quot;&gt;
+        <description>    &lt;script type=&quot;text/javascript&quot;&gt;
+      $(document).ready(function(){
+
+        var image = { width: 6997, height: 200 };
+
+        var target = new Array();
+        target[0] = { x: 90, y: 114 };
+        target[1] = { x: 200, y: 94 };
+        target[2] = { x: 80, y: 172 };
+        target[3] = { x: 390, y: 188 };
+        target[4] = { x: 590, y: 188 };
+
+        var pointer = new Array();
+        pointer[0] = $(&#39;#pointer0&#39;);
+        pointer[1] = $(&#39;#pointer1&#39;);
+        pointer[2] = $(&#39;#pointer2&#39;);
+        pointer[3] = $(&#39;#pointer3&#39;);
+        pointer[4] = $(&#39;#pointer4&#39;);
+
+        $(document).ready(updatePointer);
+        $(window).resize(updatePointer);
+
+        function updatePointer() {
+            var windowWidth = $(window).width();
+            var windowHeight = $(window).height();
+            
+            // Get largest dimension increase
+            var xScale = windowWidth / image.width;
+            var yScale = windowHeight / image.height;
+            var scale;
+            var yOffset = 0;
+            var xOffset = 0;
+            
+            if (xScale &gt; yScale) {
+                // The image fits perfectly in x axis, stretched in y
+                scale = xScale;
+                yOffset = (windowHeight - (image.height * scale)) / 2;
+            } else {
+                // The image fits perfectly in y axis, stretched in x
+                scale = yScale;
+                xOffset = (windowWidth - (image.width * scale)) / 2;
+            }
+            
+            var arrayLength = target.length;
+            for (var i = 0; i &lt; arrayLength; i++) {
+                pointer[i].css(&#39;top&#39;, (target[i].y) * scale + yOffset);
+                pointer[i].css(&#39;left&#39;, (target[i].x) * scale);
+            }  
+        }
+
+        $(function() {
+           $(&quot;body&quot;).mousewheel(function(event, delta) {
+              this.scrollLeft -= (delta);
+              event.preventDefault();
+           });
+        });
+
+      });
+
+    &lt;/script&gt;
+
+
+
+&lt;/head&gt;
+
+&lt;!-- header start --&gt;
+
+    &lt;div class=&quot;navbar header&quot;&gt;
+      &lt;div class=&quot;container flex justify-between align-center&quot;&gt;
+        &lt;a href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;input class=&quot;menu-btn&quot; type=&quot;checkbox&quot; id=&quot;menu-btn&quot; /&gt;
+          &lt;label class=&quot;menu-icon&quot; for=&quot;menu-btn&quot;&gt;&lt;span class=&quot;navicon&quot;&gt;&lt;/span&gt;&lt;/label&gt;
+          &lt;ul class=&quot;topbar-hide bar2&quot;&gt;
+            &lt;li&gt;arrow&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;!-- header end --&gt;
+
+    &lt;!-- content start --&gt;
+
+  &lt;body class=&quot;homepage&quot;&gt;
+    
+    &lt;div class=&quot;surfing&quot;&gt;
       &lt;div id=&quot;pointer0&quot; class=&quot;pointer&quot;&gt;&lt;/div&gt;
       &lt;div id=&quot;pointer1&quot; class=&quot;pointer&quot;&gt;&lt;/div&gt;
       &lt;div id=&quot;pointer2&quot; class=&quot;pointer&quot;&gt;&lt;/div&gt;
@@ -87,8 +346,8 @@
 
 </description>
         <pubDate>Mon, 03 May 2010 00:00:00 -0700</pubDate>
-        <link>http://drewbots/github.io/shopfunhttp://blog.surfnsol.com/thats-right/</link>
-        <guid isPermaLink="true">http://drewbots/github.io/shopfunhttp://blog.surfnsol.com/thats-right/</guid>
+        <link>/thats-right/</link>
+        <guid isPermaLink="true">/thats-right/</guid>
         
         
         <category>Food</category>

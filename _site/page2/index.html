@@ -14,8 +14,8 @@
     <title>Shopjoy |</title>
     <meta name="description" content="" />
 
-    <link rel="canonical" href="http://drewbots/github.io/shopfunhttp://blog.surfnsol.com/page2/">
-    <link rel="shortcut icon" href="http://blog.surfnsol.com/images/favicon.ico">
+    <link rel="canonical" href="/page2/">
+    <link rel="shortcut icon" href="/images/favicon.ico">
 
     <meta property="og:title" content="Mail Letters and Documents Online with Mailform" />
     <meta property="og:description" content="Send snail mail from your browser. Great for letters, invoices, statements, bills, documents and more.Check out our business tool that integrates with Quickbooks!" />
@@ -143,6 +143,92 @@
           <body class="homepage">
 
 
+    <script type="text/javascript">
+      $(document).ready(function(){
+
+        var image = { width: 6997, height: 200 };
+
+        var target = new Array();
+        target[0] = { x: 90, y: 114 };
+        target[1] = { x: 200, y: 94 };
+        target[2] = { x: 80, y: 172 };
+        target[3] = { x: 390, y: 188 };
+        target[4] = { x: 590, y: 188 };
+
+        var pointer = new Array();
+        pointer[0] = $('#pointer0');
+        pointer[1] = $('#pointer1');
+        pointer[2] = $('#pointer2');
+        pointer[3] = $('#pointer3');
+        pointer[4] = $('#pointer4');
+
+        $(document).ready(updatePointer);
+        $(window).resize(updatePointer);
+
+        function updatePointer() {
+            var windowWidth = $(window).width();
+            var windowHeight = $(window).height();
+            
+            // Get largest dimension increase
+            var xScale = windowWidth / image.width;
+            var yScale = windowHeight / image.height;
+            var scale;
+            var yOffset = 0;
+            var xOffset = 0;
+            
+            if (xScale > yScale) {
+                // The image fits perfectly in x axis, stretched in y
+                scale = xScale;
+                yOffset = (windowHeight - (image.height * scale)) / 2;
+            } else {
+                // The image fits perfectly in y axis, stretched in x
+                scale = yScale;
+                xOffset = (windowWidth - (image.width * scale)) / 2;
+            }
+            
+            var arrayLength = target.length;
+            for (var i = 0; i < arrayLength; i++) {
+                pointer[i].css('top', (target[i].y) * scale + yOffset);
+                pointer[i].css('left', (target[i].x) * scale);
+            }  
+        }
+
+        $(function() {
+           $("body").mousewheel(function(event, delta) {
+              this.scrollLeft -= (delta);
+              event.preventDefault();
+           });
+        });
+
+      });
+
+    </script>
+
+
+
+</head>
+
+<!-- header start -->
+
+    <div class="navbar header">
+      <div class="container flex justify-between align-center">
+        <a href="/"><img class="logo" src="/images/logo.png"></a>
+        <div>
+          <input class="menu-btn" type="checkbox" id="menu-btn" />
+          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+          <ul class="topbar-hide bar2">
+            <li>arrow</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+<!-- header end -->
+
+    <!-- content start -->
+
+  <body class="homepage">
+    
     <div class="surfing">
       <div id="pointer0" class="pointer"></div>
       <div id="pointer1" class="pointer"></div>
@@ -168,7 +254,7 @@
 <section id="more-work">
     
     <div class="left">
-        <a class="equalize" href="http://blog.surfnsol.com/two/" title="Previous Post: Tim Tams now in America">
+        <a class="equalize" href="/two/" title="Previous Post: Tim Tams now in America">
             <div>
                 <h6> ← Previous Project </h6>
             </div>
@@ -177,7 +263,7 @@
 
     
     <div class="right">
-        <a class="equalize" href="http://blog.surfnsol.com/thats-right/" title="next Post: Tim Tams now in America">
+        <a class="equalize" href="/thats-right/" title="next Post: Tim Tams now in America">
             <div>
                 <h6> Next Project →</h6>
             </div>
