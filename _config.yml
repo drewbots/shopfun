@@ -11,10 +11,10 @@ paginate_path: "page:num"
 
 permalink: /:title/
 relative_permalinks: false
-url: http://drewbots/github.io/shopfun/
+url: http://drewbots/github.io/shopfun
 #url: http://localhost:2106
 #port: 2106
-baseurl: http://drewbots/github.io/shopfun/
+baseurl: http://drewbots/github.io/shopfun
 name: SurfnSol
 
 # Themes are encouraged to use these universal variables 
