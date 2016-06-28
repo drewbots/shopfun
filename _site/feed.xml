@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 28 Jun 2016 14:06:55 -0700</pubDate>
-    <lastBuildDate>Tue, 28 Jun 2016 14:06:55 -0700</lastBuildDate>
+    <pubDate>Tue, 28 Jun 2016 14:13:06 -0700</pubDate>
+    <lastBuildDate>Tue, 28 Jun 2016 14:13:06 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -124,12 +124,12 @@
     &lt;/div&gt;
 
     &lt;div class=&quot;backdrop flex&quot;&gt;
-      &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/04.jpg&quot;&gt;
-      &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/02.jpg&quot;&gt;
-      &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/03.jpg&quot;&gt;
-      &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/04.jpg&quot;&gt;
-      &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/05.jpg&quot;&gt;
-      &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;img class=&quot;reel single-flex-child&quot; src=&quot;/images/surfing/04.jpg&quot;&gt;
+      &lt;img class=&quot;reel single-flex-child&quot; src=&quot;/images/surfing/02.jpg&quot;&gt;
+      &lt;img class=&quot;reel single-flex-child&quot; src=&quot;/images/surfing/03.jpg&quot;&gt;
+      &lt;img class=&quot;reel single-flex-child&quot; src=&quot;/images/surfing/04.jpg&quot;&gt;
+      &lt;img class=&quot;reel single-flex-child&quot; src=&quot;/images/surfing/05.jpg&quot;&gt;
+      &lt;img class=&quot;reel single-flex-child&quot; src=&quot;/images/surfing/06.jpg&quot;&gt;
     &lt;/div&gt;
 
     &lt;div class=&quot;bottom-text flex justify-between align-center&quot;&gt;
@@ -271,12 +271,12 @@
     &lt;/div&gt;
 
     &lt;div class=&quot;backdrop flex&quot;&gt;
-      &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/06.jpg&quot;&gt;
-      &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/02.jpg&quot;&gt;
-      &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/03.jpg&quot;&gt;
-      &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/04.jpg&quot;&gt;
-      &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/05.jpg&quot;&gt;
-      &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;img class=&quot;reel single-flex-child&quot; src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;img class=&quot;reel single-flex-child&quot; src=&quot;/images/surfing/02.jpg&quot;&gt;
+      &lt;img class=&quot;reel single-flex-child&quot; src=&quot;/images/surfing/03.jpg&quot;&gt;
+      &lt;img class=&quot;reel single-flex-child&quot; src=&quot;/images/surfing/04.jpg&quot;&gt;
+      &lt;img class=&quot;reel single-flex-child&quot; src=&quot;/images/surfing/05.jpg&quot;&gt;
+      &lt;img class=&quot;reel single-flex-child&quot; src=&quot;/images/surfing/06.jpg&quot;&gt;
     &lt;/div&gt;
 
     &lt;div class=&quot;bottom-text flex justify-between align-center&quot;&gt;
@@ -406,12 +406,12 @@
     &lt;/div&gt;
 
     &lt;div class=&quot;backdrop flex&quot;&gt;
-      &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/01.jpg&quot;&gt;
-      &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/02.jpg&quot;&gt;
-      &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/03.jpg&quot;&gt;
-      &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/04.jpg&quot;&gt;
-      &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/05.jpg&quot;&gt;
-      &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;img class=&quot;reel single-flex-child&quot; src=&quot;/images/surfing/01.jpg&quot;&gt;
+      &lt;img class=&quot;reel single-flex-child&quot; src=&quot;/images/surfing/02.jpg&quot;&gt;
+      &lt;img class=&quot;reel single-flex-child&quot; src=&quot;/images/surfing/03.jpg&quot;&gt;
+      &lt;img class=&quot;reel single-flex-child&quot; src=&quot;/images/surfing/04.jpg&quot;&gt;
+      &lt;img class=&quot;reel single-flex-child&quot; src=&quot;/images/surfing/05.jpg&quot;&gt;
+      &lt;img class=&quot;reel single-flex-child&quot; src=&quot;/images/surfing/06.jpg&quot;&gt;
     &lt;/div&gt;
 
     &lt;div class=&quot;bottom-text flex justify-between align-center&quot;&gt;
