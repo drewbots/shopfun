@@ -106,11 +106,27 @@
             }  
         }
 
-        $(function() {
+                $(function() {
            $("body").mousewheel(function(event, delta) {
               this.scrollLeft -= (delta);
               event.preventDefault();
            });
+        });
+
+
+        /* A simple and scalable hamburger menu using css transitions. */
+        var isActive = false;
+
+        $('.js-menu').on('click', function() {
+          if (isActive) {
+            $(this).removeClass('active');
+            $('body').removeClass('menu-open');
+          } else {
+            $(this).addClass('active');
+            $('body').addClass('menu-open');
+          }
+
+          isActive = !isActive;
         });
 
       });
@@ -124,16 +140,18 @@
 <!-- header start -->
 
     <div class="navbar header">
-      <div class="container flex justify-between align-center">
+      <div class="flex justify-between align-center">
         <a href="/"><img class="logo" src="/images/logo.png"></a>
-        <div>
-          <input class="menu-btn" type="checkbox" id="menu-btn" />
-          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-          <ul class="topbar-hide bar2">
-            <li>arrow</li>
-          </ul>
-        </div>
+        <a class="js-menu" ><img class="logo" src="/images/logo.png"></a>
       </div>
+        <nav>
+          <ul>
+            <li>Link</li>
+            <li>Link</li>
+            <li>Link</li>
+            <li>Link</li>
+          </ul>
+        </nav>
     </div>
 
 <!-- header end -->
@@ -159,26 +177,35 @@
       <img class="reel" src="/images/surfing/06.jpg">
     </div>
 
+    <div class="bottom-text flex justify-between align-center">
+        <a class="js-menu" ><img class="logo" src="/images/logo.png"></a>
+        <nav>
+          <ul>
+            <li>Link</li>
+            <li>Link</li>
+            <li>Link</li>
+            <li>Link</li>
+          </ul>
+        </nav>
+
+    </div>
 
 
 
 
-    <section id="more-work">
+
+    <section id="more-work" class="flex justify-between">
     
     <div class="left">
         <a class="equalize" href="/yoga/" title="Previous Post: Yoga">
-            <div>
-                <h6> ← Previous Project </h6>
-            </div>
+           <h6>←</h6>
         </a>
     </div>
 
     
     <div class="right">
         <a class="equalize" href="/office/" title="next Post: Office">
-            <div>
-                <h6> Next Project →</h6>
-            </div>
+            <h6>→</h6>
         </a>
     </div>
 </section>

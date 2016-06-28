@@ -48,12 +48,8 @@
             }  
         }
 
-        $(function() {
-           $("body").mousewheel(function(event, delta) {
-              this.scrollLeft -= (delta);
-              event.preventDefault();
-           });
-        });
+        {% include_relative sitescript.html %}
+
 
       });
 

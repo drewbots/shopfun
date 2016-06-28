@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 27 Jun 2016 16:28:41 -0700</pubDate>
-    <lastBuildDate>Mon, 27 Jun 2016 16:28:41 -0700</lastBuildDate>
+    <pubDate>Tue, 28 Jun 2016 14:01:01 -0700</pubDate>
+    <lastBuildDate>Tue, 28 Jun 2016 14:01:01 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -61,11 +61,27 @@
             }  
         }
 
-        $(function() {
+                $(function() {
            $(&quot;body&quot;).mousewheel(function(event, delta) {
               this.scrollLeft -= (delta);
               event.preventDefault();
            });
+        });
+
+
+        /* A simple and scalable hamburger menu using css transitions. */
+        var isActive = false;
+
+        $(&#39;.js-menu&#39;).on(&#39;click&#39;, function() {
+          if (isActive) {
+            $(this).removeClass(&#39;active&#39;);
+            $(&#39;body&#39;).removeClass(&#39;menu-open&#39;);
+          } else {
+            $(this).addClass(&#39;active&#39;);
+            $(&#39;body&#39;).addClass(&#39;menu-open&#39;);
+          }
+
+          isActive = !isActive;
         });
 
       });
@@ -79,16 +95,18 @@
 &lt;!-- header start --&gt;
 
     &lt;div class=&quot;navbar header&quot;&gt;
-      &lt;div class=&quot;container flex justify-between align-center&quot;&gt;
+      &lt;div class=&quot;flex justify-between align-center&quot;&gt;
         &lt;a href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
-        &lt;div&gt;
-          &lt;input class=&quot;menu-btn&quot; type=&quot;checkbox&quot; id=&quot;menu-btn&quot; /&gt;
-          &lt;label class=&quot;menu-icon&quot; for=&quot;menu-btn&quot;&gt;&lt;span class=&quot;navicon&quot;&gt;&lt;/span&gt;&lt;/label&gt;
-          &lt;ul class=&quot;topbar-hide bar2&quot;&gt;
-            &lt;li&gt;arrow&lt;/li&gt;
-          &lt;/ul&gt;
-        &lt;/div&gt;
+        &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
       &lt;/div&gt;
+        &lt;nav&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Link&lt;/li&gt;
+            &lt;li&gt;Link&lt;/li&gt;
+            &lt;li&gt;Link&lt;/li&gt;
+            &lt;li&gt;Link&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/nav&gt;
     &lt;/div&gt;
 
 &lt;!-- header end --&gt;
@@ -112,6 +130,19 @@
       &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/04.jpg&quot;&gt;
       &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/05.jpg&quot;&gt;
       &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/06.jpg&quot;&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;bottom-text flex justify-between align-center&quot;&gt;
+        &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
+        &lt;nav&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Link&lt;/li&gt;
+            &lt;li&gt;Link&lt;/li&gt;
+            &lt;li&gt;Link&lt;/li&gt;
+            &lt;li&gt;Link&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/nav&gt;
+
     &lt;/div&gt;
 
 </description>
@@ -176,12 +207,29 @@
             }  
         }
 
-        $(function() {
+                $(function() {
            $(&quot;body&quot;).mousewheel(function(event, delta) {
               this.scrollLeft -= (delta);
               event.preventDefault();
            });
         });
+
+
+        /* A simple and scalable hamburger menu using css transitions. */
+        var isActive = false;
+
+        $(&#39;.js-menu&#39;).on(&#39;click&#39;, function() {
+          if (isActive) {
+            $(this).removeClass(&#39;active&#39;);
+            $(&#39;body&#39;).removeClass(&#39;menu-open&#39;);
+          } else {
+            $(this).addClass(&#39;active&#39;);
+            $(&#39;body&#39;).addClass(&#39;menu-open&#39;);
+          }
+
+          isActive = !isActive;
+        });
+
 
       });
 
@@ -194,16 +242,18 @@
 &lt;!-- header start --&gt;
 
     &lt;div class=&quot;navbar header&quot;&gt;
-      &lt;div class=&quot;container flex justify-between align-center&quot;&gt;
+      &lt;div class=&quot;flex justify-between align-center&quot;&gt;
         &lt;a href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
-        &lt;div&gt;
-          &lt;input class=&quot;menu-btn&quot; type=&quot;checkbox&quot; id=&quot;menu-btn&quot; /&gt;
-          &lt;label class=&quot;menu-icon&quot; for=&quot;menu-btn&quot;&gt;&lt;span class=&quot;navicon&quot;&gt;&lt;/span&gt;&lt;/label&gt;
-          &lt;ul class=&quot;topbar-hide bar2&quot;&gt;
-            &lt;li&gt;arrow&lt;/li&gt;
-          &lt;/ul&gt;
-        &lt;/div&gt;
+        &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
       &lt;/div&gt;
+        &lt;nav&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Link&lt;/li&gt;
+            &lt;li&gt;Link&lt;/li&gt;
+            &lt;li&gt;Link&lt;/li&gt;
+            &lt;li&gt;Link&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/nav&gt;
     &lt;/div&gt;
 
 &lt;!-- header end --&gt;
@@ -229,7 +279,9 @@
       &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/06.jpg&quot;&gt;
     &lt;/div&gt;
 
-</description>
+    &lt;div class=&quot;bottom-text flex justify-between align-center&quot;&gt;
+      &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
+    &lt;/div&gt;</description>
         <pubDate>Tue, 04 May 2010 00:00:00 -0700</pubDate>
         <link>/surfing/</link>
         <guid isPermaLink="true">/surfing/</guid>
@@ -291,11 +343,27 @@
             }  
         }
 
-        $(function() {
+                $(function() {
            $(&quot;body&quot;).mousewheel(function(event, delta) {
               this.scrollLeft -= (delta);
               event.preventDefault();
            });
+        });
+
+
+        /* A simple and scalable hamburger menu using css transitions. */
+        var isActive = false;
+
+        $(&#39;.js-menu&#39;).on(&#39;click&#39;, function() {
+          if (isActive) {
+            $(this).removeClass(&#39;active&#39;);
+            $(&#39;body&#39;).removeClass(&#39;menu-open&#39;);
+          } else {
+            $(this).addClass(&#39;active&#39;);
+            $(&#39;body&#39;).addClass(&#39;menu-open&#39;);
+          }
+
+          isActive = !isActive;
         });
 
       });
@@ -309,16 +377,18 @@
 &lt;!-- header start --&gt;
 
     &lt;div class=&quot;navbar header&quot;&gt;
-      &lt;div class=&quot;container flex justify-between align-center&quot;&gt;
+      &lt;div class=&quot;flex justify-between align-center&quot;&gt;
         &lt;a href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
-        &lt;div&gt;
-          &lt;input class=&quot;menu-btn&quot; type=&quot;checkbox&quot; id=&quot;menu-btn&quot; /&gt;
-          &lt;label class=&quot;menu-icon&quot; for=&quot;menu-btn&quot;&gt;&lt;span class=&quot;navicon&quot;&gt;&lt;/span&gt;&lt;/label&gt;
-          &lt;ul class=&quot;topbar-hide bar2&quot;&gt;
-            &lt;li&gt;arrow&lt;/li&gt;
-          &lt;/ul&gt;
-        &lt;/div&gt;
+        &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
       &lt;/div&gt;
+        &lt;nav&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Link&lt;/li&gt;
+            &lt;li&gt;Link&lt;/li&gt;
+            &lt;li&gt;Link&lt;/li&gt;
+            &lt;li&gt;Link&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/nav&gt;
     &lt;/div&gt;
 
 &lt;!-- header end --&gt;
@@ -344,7 +414,9 @@
       &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/06.jpg&quot;&gt;
     &lt;/div&gt;
 
-</description>
+    &lt;div class=&quot;bottom-text flex justify-between align-center&quot;&gt;
+      &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
+    &lt;/div&gt;</description>
         <pubDate>Mon, 03 May 2010 00:00:00 -0700</pubDate>
         <link>/office/</link>
         <guid isPermaLink="true">/office/</guid>

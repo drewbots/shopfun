@@ -1,4 +1,4 @@
-<section id="more-work">
+<section id="more-work" class="flex justify-between">
     {% if page.previous %}
         {% assign previous = page.previous %}
     {% else %}
@@ -6,9 +6,7 @@
     {% endif %}
     <div class="left">
         <a class="equalize" href="{{site.baseurl}}{{previous.url}}" title="Previous Post: {{previous.title}}">
-            <div>
-                <h6> ← Previous Project </h6>
-            </div>
+           <h6>←</h6>
         </a>
     </div>
 
@@ -24,9 +22,7 @@
     {% endif %}
     <div class="right">
         <a class="equalize" href="{{site.baseurl}}{{next.url}}" title="next Post: {{next.title}}">
-            <div>
-                <h6> Next Project →</h6>
-            </div>
+            <h6>→</h6>
         </a>
     </div>
 </section>
