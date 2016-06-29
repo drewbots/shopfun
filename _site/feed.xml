@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 29 Jun 2016 12:32:24 -0700</pubDate>
-    <lastBuildDate>Wed, 29 Jun 2016 12:32:24 -0700</lastBuildDate>
+    <pubDate>Wed, 29 Jun 2016 14:05:09 -0700</pubDate>
+    <lastBuildDate>Wed, 29 Jun 2016 14:05:09 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -64,7 +64,7 @@
 
         
 
-document.addEventListener(&#39;touchmove&#39;, function (e) { e.preventDefault(); }, false);
+      document.addEventListener(&#39;touchmove&#39;, function (e) { e.preventDefault(); }, false);
 
       $(document).ready(function(){
 
@@ -82,6 +82,19 @@ document.addEventListener(&#39;touchmove&#39;, function (e) { e.preventDefault()
 
           isActive = !isActive;
         });
+
+        $(&#39;.js-menu2&#39;).on(&#39;click&#39;, function() {
+          if (isActive) {
+            $(this).removeClass(&#39;active&#39;);
+            $(&#39;body&#39;).removeClass(&#39;bottom-open&#39;);
+          } else {
+            $(this).addClass(&#39;active&#39;);
+            $(&#39;body&#39;).addClass(&#39;bottom-open&#39;);
+          }
+
+          isActive = !isActive;
+        });
+
 
         });
 
@@ -107,14 +120,14 @@ function loaded () {
         &lt;a href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
         &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
       &lt;/div&gt;
-        &lt;nav&gt;
+        &lt;div class=&quot;sidemenu&quot;&gt;
           &lt;ul&gt;
             &lt;li&gt;Link&lt;/li&gt;
             &lt;li&gt;Link&lt;/li&gt;
             &lt;li&gt;Link&lt;/li&gt;
             &lt;li&gt;Link&lt;/li&gt;
           &lt;/ul&gt;
-        &lt;/nav&gt;
+        &lt;/div&gt;
     &lt;/div&gt;
 
 &lt;!-- header end --&gt;
@@ -143,15 +156,15 @@ function loaded () {
 
 
     &lt;div class=&quot;bottom-text&quot;&gt;
-        &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
-        &lt;nav&gt;
+        &lt;a class=&quot;js-menu2&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
+        &lt;div class=&quot;bottommenu&quot;&gt;
           &lt;ul&gt;
             &lt;li&gt;Link&lt;/li&gt;
             &lt;li&gt;Link&lt;/li&gt;
             &lt;li&gt;Link&lt;/li&gt;
             &lt;li&gt;Link&lt;/li&gt;
           &lt;/ul&gt;
-        &lt;/nav&gt;
+        &lt;/div&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -220,7 +233,7 @@ function loaded () {
 
         
 
-document.addEventListener(&#39;touchmove&#39;, function (e) { e.preventDefault(); }, false);
+      document.addEventListener(&#39;touchmove&#39;, function (e) { e.preventDefault(); }, false);
 
       $(document).ready(function(){
 
@@ -238,6 +251,19 @@ document.addEventListener(&#39;touchmove&#39;, function (e) { e.preventDefault()
 
           isActive = !isActive;
         });
+
+        $(&#39;.js-menu2&#39;).on(&#39;click&#39;, function() {
+          if (isActive) {
+            $(this).removeClass(&#39;active&#39;);
+            $(&#39;body&#39;).removeClass(&#39;bottom-open&#39;);
+          } else {
+            $(this).addClass(&#39;active&#39;);
+            $(&#39;body&#39;).addClass(&#39;bottom-open&#39;);
+          }
+
+          isActive = !isActive;
+        });
+
 
         });
 
@@ -263,14 +289,14 @@ function loaded () {
         &lt;a href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
         &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
       &lt;/div&gt;
-        &lt;nav&gt;
+        &lt;div class=&quot;sidemenu&quot;&gt;
           &lt;ul&gt;
             &lt;li&gt;Link&lt;/li&gt;
             &lt;li&gt;Link&lt;/li&gt;
             &lt;li&gt;Link&lt;/li&gt;
             &lt;li&gt;Link&lt;/li&gt;
           &lt;/ul&gt;
-        &lt;/nav&gt;
+        &lt;/div&gt;
     &lt;/div&gt;
 
 &lt;!-- header end --&gt;
@@ -302,15 +328,15 @@ function loaded () {
 
 
     &lt;div class=&quot;bottom-text&quot;&gt;
-        &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
-        &lt;nav&gt;
+        &lt;a class=&quot;js-menu2&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
+        &lt;div class=&quot;bottommenu&quot;&gt;
           &lt;ul&gt;
             &lt;li&gt;Link&lt;/li&gt;
             &lt;li&gt;Link&lt;/li&gt;
             &lt;li&gt;Link&lt;/li&gt;
             &lt;li&gt;Link&lt;/li&gt;
           &lt;/ul&gt;
-        &lt;/nav&gt;
+        &lt;/div&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -379,7 +405,7 @@ function loaded () {
 
         
 
-document.addEventListener(&#39;touchmove&#39;, function (e) { e.preventDefault(); }, false);
+      document.addEventListener(&#39;touchmove&#39;, function (e) { e.preventDefault(); }, false);
 
       $(document).ready(function(){
 
@@ -397,6 +423,19 @@ document.addEventListener(&#39;touchmove&#39;, function (e) { e.preventDefault()
 
           isActive = !isActive;
         });
+
+        $(&#39;.js-menu2&#39;).on(&#39;click&#39;, function() {
+          if (isActive) {
+            $(this).removeClass(&#39;active&#39;);
+            $(&#39;body&#39;).removeClass(&#39;bottom-open&#39;);
+          } else {
+            $(this).addClass(&#39;active&#39;);
+            $(&#39;body&#39;).addClass(&#39;bottom-open&#39;);
+          }
+
+          isActive = !isActive;
+        });
+
 
         });
 
@@ -421,14 +460,14 @@ function loaded () {
         &lt;a href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
         &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
       &lt;/div&gt;
-        &lt;nav&gt;
+        &lt;div class=&quot;sidemenu&quot;&gt;
           &lt;ul&gt;
             &lt;li&gt;Link&lt;/li&gt;
             &lt;li&gt;Link&lt;/li&gt;
             &lt;li&gt;Link&lt;/li&gt;
             &lt;li&gt;Link&lt;/li&gt;
           &lt;/ul&gt;
-        &lt;/nav&gt;
+        &lt;/div&gt;
     &lt;/div&gt;
 
 &lt;!-- header end --&gt;
@@ -458,15 +497,15 @@ function loaded () {
 
 
     &lt;div class=&quot;bottom-text&quot;&gt;
-        &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
-        &lt;nav&gt;
+        &lt;a class=&quot;js-menu2&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
+        &lt;div class=&quot;bottommenu&quot;&gt;
           &lt;ul&gt;
             &lt;li&gt;Link&lt;/li&gt;
             &lt;li&gt;Link&lt;/li&gt;
             &lt;li&gt;Link&lt;/li&gt;
             &lt;li&gt;Link&lt;/li&gt;
           &lt;/ul&gt;
-        &lt;/nav&gt;
+        &lt;/div&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;

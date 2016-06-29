@@ -14,6 +14,8 @@
   cursor: pointer;
   width: 60px;
   height: 60px;
+  position: relative;
+  z-index: 20;
 }
 
 .navbar .flex {
@@ -22,8 +24,29 @@
   position: relative;
 }
 
+.bottommenu {
+    width: 100%;
+    height: 200px;
+    background: rgba(47, 47, 47, 0.88);
+    position: fixed;
+    left: 0;
+    bottom: -400px;
+    top: auto;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
+  transition: -webkit-transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
+  transition: transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
+  transition: transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91), -webkit-transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
+  padding-top: 6.2rem;
+}
 
-nav {
+.bottom-open .bottommenu {
+  -webkit-transform: translateY(-400px);
+          transform: translateY(-400px);
+}
+
+.sidemenu {
   width: 250px;
   height: 100%;
   background: rgba(47, 47, 47, 0.88);
@@ -39,28 +62,28 @@ nav {
   padding-top: 6.2rem;
 }
 
-nav img {
+.sidemenu img {
   z-index: 5;
   position: relative;
 }
 
-.menu-open nav {
+.menu-open .sidemenu {
   -webkit-transform: translateX(-500px);
           transform: translateX(-500px);
 }
 
-nav ul {
+.sidemenu ul {
   margin: 0;
   list-style: none;
   padding: 0;
 }
 
-nav ul li {
+.sidemenu ul li {
   padding: 20px 5px;
   font-size: 2rem;
 }
 
-nav ul li:hover {
+.sidemenu ul li:hover {
   background: blue;
 }
 

@@ -1,6 +1,6 @@
 
 
-document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+      document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
 
       $(document).ready(function(){
 
@@ -18,5 +18,18 @@ document.addEventListener('touchmove', function (e) { e.preventDefault(); }, fal
 
           isActive = !isActive;
         });
+
+        $('.js-menu2').on('click', function() {
+          if (isActive) {
+            $(this).removeClass('active');
+            $('body').removeClass('bottom-open');
+          } else {
+            $(this).addClass('active');
+            $('body').addClass('bottom-open');
+          }
+
+          isActive = !isActive;
+        });
+
 
         });
