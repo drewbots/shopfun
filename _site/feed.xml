@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 28 Jun 2016 17:31:13 -0700</pubDate>
-    <lastBuildDate>Tue, 28 Jun 2016 17:31:13 -0700</lastBuildDate>
+    <pubDate>Tue, 28 Jun 2016 22:48:43 -0700</pubDate>
+    <lastBuildDate>Tue, 28 Jun 2016 22:48:43 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -61,12 +61,12 @@
             }  
         }
 
-                $(function() {
-          $(&quot;html, body&quot;).mousewheel(function(event, delta) {
-              this.scrollLeft -= (delta);
-              event.preventDefault();
-          });
+        $(function() {
+        $(&quot;html, body&quot;).mousewheel(function(event, delta) {
+            this.scrollLeft -= (delta * 10);
+            event.preventDefault();
         });
+    });
 
 
         /* A simple and scalable hamburger menu using css transitions. */
@@ -206,12 +206,12 @@
             }  
         }
 
-                $(function() {
-          $(&quot;html, body&quot;).mousewheel(function(event, delta) {
-              this.scrollLeft -= (delta);
-              event.preventDefault();
-          });
+        $(function() {
+        $(&quot;html, body&quot;).mousewheel(function(event, delta) {
+            this.scrollLeft -= (delta * 10);
+            event.preventDefault();
         });
+    });
 
 
         /* A simple and scalable hamburger menu using css transitions. */
@@ -350,12 +350,12 @@
             }  
         }
 
-                $(function() {
-          $(&quot;html, body&quot;).mousewheel(function(event, delta) {
-              this.scrollLeft -= (delta);
-              event.preventDefault();
-          });
+        $(function() {
+        $(&quot;html, body&quot;).mousewheel(function(event, delta) {
+            this.scrollLeft -= (delta * 10);
+            event.preventDefault();
         });
+    });
 
 
         /* A simple and scalable hamburger menu using css transitions. */

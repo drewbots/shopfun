@@ -1,9 +1,9 @@
-        $(function() {
-          $("html, body").mousewheel(function(event, delta) {
-              this.scrollLeft -= (delta);
-              event.preventDefault();
-          });
+$(function() {
+        $("html, body").mousewheel(function(event, delta) {
+            this.scrollLeft -= (delta * 10);
+            event.preventDefault();
         });
+    });
 
 
         /* A simple and scalable hamburger menu using css transitions. */
