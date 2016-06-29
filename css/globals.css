@@ -43,7 +43,7 @@ table {
 #scroller {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   height: 100%;
-  background-color: #a00;
+  background-color: #000000;
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
   -ms-transform: translateZ(0);
