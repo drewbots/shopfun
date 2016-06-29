@@ -44,13 +44,9 @@ input[type="button"]:focus {
   text-decoration: none;
   }
 
-th:first-child,
-td:first-child {
-  padding-left: 15px; }
-
-th:last-child,
-td:last-child {
-  padding-right: 15px; }
+th, td {
+  padding: 0;
+}
 
 tr:last-child td {
 	border-bottom: 0;

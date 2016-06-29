@@ -28,17 +28,21 @@
   /* color: #524656; */
   /* background:linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../images/surfing/01.jpg); */
   /* -webkit-background-size: cover; */
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  /*-moz-background-size: cover;*/
+  /*-o-background-size: cover;*/
   /* background-size: cover; */
   /* background-position: 0% 100%; */
   /* background-repeat: no-repeat; */
   height: 100%;
+  overflow-x: visible;
+  width: auto;
+  white-space: nowrap;
+  display: inline-flex;
 }
 
 .backdrop img {
   height: 100%;
-  display: block;
+  /*display: block;*/
 }
 
 .goods img {
