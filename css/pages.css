@@ -76,15 +76,22 @@
   margin-left: 106%;
 }
 
-#more-work {
+.equalize-left {
   position: fixed;
   top: 50%;
-  width: 100%;
+  left: 0;
+  z-index: 20;
+}
+
+.equalize-right {
+  position: fixed;
+  top: 50%;
+  right: 0;
   z-index: 20;
 }
 
 
-#more-work h6 {
+.equalize-left h6, .equalize-right h6 {
   font-size: 26px;
 }
 
