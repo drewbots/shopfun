@@ -78,14 +78,19 @@
 
 .equalize-left {
   left: 0;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding: 20px 6px 20px 3px;
 }
 
 .equalize-right {
   right: 0;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  padding: 20px 3px 20px 6px;
 }
 
 a.equalize-left, a.equalize-right {
-  padding: 4px;
   position: fixed;
   top: 50%;
   color: #ffffff;
@@ -93,13 +98,15 @@ a.equalize-left, a.equalize-right {
   border: 1px solid #000000;
   z-index: 20;
   transition:all 0.3s ease;
+  opacity: 1;
 }
 
 a.equalize-left:hover, a.equalize-right:hover {
-  color: #000000;
-  background-color: #aaaaaa;
-  border: 1px solid #aaaaaa;
-
+  opacity: 1;
+  color: #ffffff;
+  background-color: #313131;
+  border: 1px solid #313131;
+  transition:all 0.3s ease;
 }
 
 .equalize-left h6, .equalize-right h6 {

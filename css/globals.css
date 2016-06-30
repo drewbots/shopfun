@@ -72,14 +72,20 @@ table {
 
 a,
 a:focus {
-  color: #d95b5b;
   cursor: pointer;
   outline: none;
   text-decoration: none;
+  opacity: 1;
+  -moz-transition: opacity 200ms ease 0ms,color 200ms ease 0ms,background 200ms ease 0ms;
+  -o-transition: opacity 200ms ease 0ms,color 200ms ease 0ms,background 200ms ease 0ms;
+  -webkit-transition: opacity 200ms ease,color 200ms ease,background 200ms ease;
+  -webkit-transition-delay: 0ms,0ms,0ms;
+  transition: opacity 200ms ease 0ms,color 200ms ease 0ms,background 200ms ease 0ms;
 }
 
 a:hover {
   color: #8A3E3E;
+  opacity: .5;
 }
 
 /*
