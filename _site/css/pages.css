@@ -77,19 +77,30 @@
 }
 
 .equalize-left {
-  position: fixed;
-  top: 50%;
   left: 0;
-  z-index: 20;
 }
 
 .equalize-right {
-  position: fixed;
-  top: 50%;
   right: 0;
-  z-index: 20;
 }
 
+a.equalize-left, a.equalize-right {
+  padding: 4px;
+  position: fixed;
+  top: 50%;
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #000000;
+  z-index: 20;
+  transition:all 0.3s ease;
+}
+
+a.equalize-left:hover, a.equalize-right:hover {
+  color: #000000;
+  background-color: #aaaaaa;
+  border: 1px solid #aaaaaa;
+
+}
 
 .equalize-left h6, .equalize-right h6 {
   font-size: 26px;
