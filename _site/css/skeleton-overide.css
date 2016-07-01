@@ -1,3 +1,44 @@
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 30px;
+  padding: 0 30px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  outline: 0;
+  color: #fff;
+  -webkit-transform: scale(1.04);
+  transform: scale(1.04); }
+
+
 .button.button-primary,
 button.button-primary,
 input[type="submit"].button-primary,
@@ -54,4 +95,9 @@ tr:last-child td {
 
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0;
+  margin-bottom: 0;
+}
+
+pre, blockquote, dl, figure, table, p, ul, ol, form {
+  margin-bottom: 0;
 }

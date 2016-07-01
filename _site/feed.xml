@@ -3,10 +3,10 @@
   <channel>
     <title>Surf n Sol</title>
     <description></description>
-    <link>https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/</link>
-    <atom:link href="https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 30 Jun 2016 14:08:15 -0700</pubDate>
-    <lastBuildDate>Thu, 30 Jun 2016 14:08:15 -0700</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 01 Jul 2016 16:44:04 -0700</pubDate>
+    <lastBuildDate>Fri, 01 Jul 2016 16:44:04 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -66,6 +66,7 @@
 
       document.addEventListener(&#39;touchmove&#39;, function (e) { e.preventDefault(); }, false);
 
+
       $(document).ready(function(){
 
         /* A simple and scalable hamburger menu using css transitions. */
@@ -96,7 +97,92 @@
         });
 
 
+            $(&#39;.origin&#39;).tooltipster({
+                // we detach the element from the page and give it to Tooltipster to serve as content
+                content: $(&#39;#tooltip_content&#39;).detach(),
+                // if you use a single element as content for several tooltips, set this option to true
+                contentCloning: false,
+
+                animation: &#39;fade&#39;,
+                delay: 100,
+                    trigger: &#39;custom&#39;,
+
+                trackOrigin: &#39;20&#39;,
+                interactive: &#39;true&#39;,
+
+                triggerOpen: {
+                    click: true,
+                    mouseenter: true,
+                    touchstart: true,
+                    tap: true
+                },
+                triggerClose: {
+                    click: true,
+                    scroll: true,
+                    mouseleave: true,
+                    tap: true
+                }
+
+            });
+
+            $(&#39;.origin2&#39;).tooltipster({
+                // we detach the element from the page and give it to Tooltipster to serve as content
+                content: $(&#39;#tooltip_content2&#39;).detach(),
+                // if you use a single element as content for several tooltips, set this option to true
+                contentCloning: false,
+
+                animation: &#39;fade&#39;,
+                delay: 100,
+                    trigger: &#39;custom&#39;,
+
+                trackOrigin: &#39;20&#39;,
+                interactive: &#39;true&#39;,
+
+                triggerOpen: {
+                    click: true,
+                    mouseenter: true,
+                    touchstart: true,
+                    tap: true
+                },
+                triggerClose: {
+                    click: true,
+                    scroll: true,
+                    mouseleave: true,
+                    tap: true
+                }
+
+            });
+
+            $(&#39;.origin3&#39;).tooltipster({
+                // we detach the element from the page and give it to Tooltipster to serve as content
+                content: $(&#39;#tooltip_content3&#39;).detach(),
+                // if you use a single element as content for several tooltips, set this option to true
+                contentCloning: false,
+
+                animation: &#39;fade&#39;,
+                delay: 100,
+                    trigger: &#39;custom&#39;,
+
+                trackOrigin: &#39;20&#39;,
+                interactive: &#39;true&#39;,
+
+                triggerOpen: {
+                    click: true,
+                    mouseenter: true,
+                    touchstart: true,
+                    tap: true
+                },
+                triggerClose: {
+                    click: true,
+                    scroll: true,
+                    mouseleave: true,
+                    tap: true
+                }
+
+            });
+
         });
+
 
       });
 
@@ -115,10 +201,128 @@ function loaded () {
 
 &lt;div class=&quot;sidemenu&quot;&gt;
   &lt;ul&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-    &lt;li&gt;Link&lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
   &lt;/ul&gt;
 &lt;/div&gt;
 
@@ -138,30 +342,21 @@ function loaded () {
 &lt;/div&gt;
 
 &lt;div class=&quot;backdrop flex&quot;&gt;
-  &lt;img class=&quot;reel&quot; src=&quot;https://drewbots.github.io/shopfun/images/surfing/03.jpg&quot;&gt;
-  &lt;img class=&quot;reel&quot; src=&quot;https://drewbots.github.io/shopfun/images/surfing/02.jpg&quot;&gt;
-  &lt;img class=&quot;reel&quot; src=&quot;https://drewbots.github.io/shopfun/images/surfing/06.jpg&quot;&gt;
-  &lt;img class=&quot;reel&quot; src=&quot;https://drewbots.github.io/shopfun/images/surfing/04.jpg&quot;&gt;
+  &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/03.jpg&quot;&gt;
+  &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/02.jpg&quot;&gt;
+  &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/06.jpg&quot;&gt;
+  &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/04.jpg&quot;&gt;
 &lt;/div&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
 
-        &lt;a class=&quot;js-menu2&quot; &gt;
-          &lt;img class=&quot;logo&quot; src=&quot;https://drewbots.github.io/shopfun/images/infoico.png&quot;&gt;
-        &lt;/a&gt;
-
-&lt;div class=&quot;bottommenu&quot;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-  &lt;/ul&gt;
+&lt;div class=&quot;bottommenu flex align-center&quot;&gt;
+  &lt;p&gt;Get awesome surf gear for that ocean lover. We&#39;ve picked out the latest surfboard models as well as choice gifts, swag and must haves from Amazon.&lt;/p&gt;
 &lt;/div&gt;       </description>
         <pubDate>Wed, 05 May 2010 00:00:00 -0700</pubDate>
-        <link>https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/yoga/</link>
-        <guid isPermaLink="true">https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/yoga/</guid>
+        <link>/yoga/</link>
+        <guid isPermaLink="true">/yoga/</guid>
         
         
         <category>Sports</category>
@@ -184,11 +379,11 @@ function loaded () {
         target[4] = { x: 590, y: 188 };
 
         var pointer = new Array();
-        pointer[0] = $(&#39;#pointer0&#39;);
-        pointer[1] = $(&#39;#pointer1&#39;);
-        pointer[2] = $(&#39;#pointer2&#39;);
-        pointer[3] = $(&#39;#pointer3&#39;);
-        pointer[4] = $(&#39;#pointer4&#39;);
+        pointer[0] = $(&#39;#pointer&#39;);
+        pointer[1] = $(&#39;#pointer2&#39;);
+        pointer[2] = $(&#39;#pointer3&#39;);
+        pointer[3] = $(&#39;#pointer4&#39;);
+        pointer[4] = $(&#39;#pointer5&#39;);
 
         $(document).ready(updatePointer);
         $(window).resize(updatePointer);
@@ -225,6 +420,7 @@ function loaded () {
 
       document.addEventListener(&#39;touchmove&#39;, function (e) { e.preventDefault(); }, false);
 
+
       $(document).ready(function(){
 
         /* A simple and scalable hamburger menu using css transitions. */
@@ -255,7 +451,92 @@ function loaded () {
         });
 
 
+            $(&#39;.origin&#39;).tooltipster({
+                // we detach the element from the page and give it to Tooltipster to serve as content
+                content: $(&#39;#tooltip_content&#39;).detach(),
+                // if you use a single element as content for several tooltips, set this option to true
+                contentCloning: false,
+
+                animation: &#39;fade&#39;,
+                delay: 100,
+                    trigger: &#39;custom&#39;,
+
+                trackOrigin: &#39;20&#39;,
+                interactive: &#39;true&#39;,
+
+                triggerOpen: {
+                    click: true,
+                    mouseenter: true,
+                    touchstart: true,
+                    tap: true
+                },
+                triggerClose: {
+                    click: true,
+                    scroll: true,
+                    mouseleave: true,
+                    tap: true
+                }
+
+            });
+
+            $(&#39;.origin2&#39;).tooltipster({
+                // we detach the element from the page and give it to Tooltipster to serve as content
+                content: $(&#39;#tooltip_content2&#39;).detach(),
+                // if you use a single element as content for several tooltips, set this option to true
+                contentCloning: false,
+
+                animation: &#39;fade&#39;,
+                delay: 100,
+                    trigger: &#39;custom&#39;,
+
+                trackOrigin: &#39;20&#39;,
+                interactive: &#39;true&#39;,
+
+                triggerOpen: {
+                    click: true,
+                    mouseenter: true,
+                    touchstart: true,
+                    tap: true
+                },
+                triggerClose: {
+                    click: true,
+                    scroll: true,
+                    mouseleave: true,
+                    tap: true
+                }
+
+            });
+
+            $(&#39;.origin3&#39;).tooltipster({
+                // we detach the element from the page and give it to Tooltipster to serve as content
+                content: $(&#39;#tooltip_content3&#39;).detach(),
+                // if you use a single element as content for several tooltips, set this option to true
+                contentCloning: false,
+
+                animation: &#39;fade&#39;,
+                delay: 100,
+                    trigger: &#39;custom&#39;,
+
+                trackOrigin: &#39;20&#39;,
+                interactive: &#39;true&#39;,
+
+                triggerOpen: {
+                    click: true,
+                    mouseenter: true,
+                    touchstart: true,
+                    tap: true
+                },
+                triggerClose: {
+                    click: true,
+                    scroll: true,
+                    mouseleave: true,
+                    tap: true
+                }
+
+            });
+
         });
+
 
       });
 
@@ -274,10 +555,128 @@ function loaded () {
 
 &lt;div class=&quot;sidemenu&quot;&gt;
   &lt;ul&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-    &lt;li&gt;Link&lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
   &lt;/ul&gt;
 &lt;/div&gt;
 
@@ -289,42 +688,60 @@ function loaded () {
   &lt;div id=&quot;scroller&quot;&gt;
 
 &lt;div class=&quot;surfing&quot;&gt;
-  &lt;div id=&quot;pointer0&quot; class=&quot;pointer&quot;&gt;&lt;/div&gt;
-  &lt;div id=&quot;pointer1&quot; class=&quot;pointer&quot;&gt;&lt;/div&gt;
-  &lt;div id=&quot;pointer2&quot; class=&quot;pointer&quot;&gt;&lt;/div&gt;
-  &lt;div id=&quot;pointer3&quot; class=&quot;pointer&quot;&gt;&lt;/div&gt;
-  &lt;div id=&quot;pointer4&quot; class=&quot;pointer&quot;&gt;&lt;/div&gt;
+
+  &lt;a id=&quot;pointer&quot; class=&quot;pointer origin&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+
+  &lt;span id=&quot;tooltip_content&quot;&gt;
+    &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;img src=&quot;http://place-hold.it/300x100&quot; /&gt;
+    &lt;/div&gt;
+    &lt;h5&gt;$35&lt;/h5&gt;
+    &lt;a href=&quot;http://amazon.com&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+  &lt;/span&gt;
+
+  &lt;a id=&quot;pointer2&quot; class=&quot;pointer origin2&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+
+  &lt;span id=&quot;tooltip_content2&quot;&gt;
+    &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;img src=&quot;http://place-hold.it/300x500&quot; /&gt;
+    &lt;/div&gt;
+    &lt;h5&gt;$35&lt;/h5&gt;
+    &lt;a href=&quot;http://amazon.com&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+  &lt;/span&gt;
+
+  &lt;a id=&quot;pointer3&quot; class=&quot;pointer origin3&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+
+  &lt;span id=&quot;tooltip_content3&quot;&gt;
+    &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;img src=&quot;http://place-hold.it/300x700&quot; /&gt;
+    &lt;/div&gt;
+    &lt;h5&gt;$35&lt;/h5&gt;
+    &lt;a href=&quot;http://amazon.com&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+  &lt;/span&gt;
+
+
 &lt;/div&gt;
 
 &lt;div class=&quot;backdrop flex&quot;&gt;
-  &lt;img class=&quot;reel&quot; src=&quot;https://drewbots.github.io/shopfun/images/surfing/06.jpg&quot;&gt;
-  &lt;img class=&quot;reel&quot; src=&quot;https://drewbots.github.io/shopfun/images/surfing/02.jpg&quot;&gt;
-  &lt;img class=&quot;reel&quot; src=&quot;https://drewbots.github.io/shopfun/images/surfing/03.jpg&quot;&gt;
-  &lt;img class=&quot;reel&quot; src=&quot;https://drewbots.github.io/shopfun/images/surfing/04.jpg&quot;&gt;
-  &lt;img class=&quot;reel&quot; src=&quot;https://drewbots.github.io/shopfun/images/surfing/05.jpg&quot;&gt;
-  &lt;img class=&quot;reel&quot; src=&quot;https://drewbots.github.io/shopfun/images/surfing/06.jpg&quot;&gt;
+  &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/06.jpg&quot;&gt;
+  &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/02.jpg&quot;&gt;
+  &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/03.jpg&quot;&gt;
+  &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/04.jpg&quot;&gt;
+  &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/05.jpg&quot;&gt;
+  &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/06.jpg&quot;&gt;
 &lt;/div&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
 
-        &lt;a class=&quot;js-menu2&quot; &gt;
-          &lt;img class=&quot;logo&quot; src=&quot;https://drewbots.github.io/shopfun/images/infoico.png&quot;&gt;
-        &lt;/a&gt;
-
-&lt;div class=&quot;bottommenu&quot;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-  &lt;/ul&gt;
+&lt;div class=&quot;bottommenu flex align-center&quot;&gt;
+  &lt;p&gt;Get awesome surf gear.&lt;br&gt;We&#39;ve picked out the latest surfboard models as well as choice gifts, swag and must haves from Amazon.&lt;/p&gt;
 &lt;/div&gt;
 
 </description>
         <pubDate>Tue, 04 May 2010 00:00:00 -0700</pubDate>
-        <link>https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/surfing/</link>
-        <guid isPermaLink="true">https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/surfing/</guid>
+        <link>/surfing/</link>
+        <guid isPermaLink="true">/surfing/</guid>
         
         
         <category>Sports</category>
@@ -388,6 +805,7 @@ function loaded () {
 
       document.addEventListener(&#39;touchmove&#39;, function (e) { e.preventDefault(); }, false);
 
+
       $(document).ready(function(){
 
         /* A simple and scalable hamburger menu using css transitions. */
@@ -418,7 +836,92 @@ function loaded () {
         });
 
 
+            $(&#39;.origin&#39;).tooltipster({
+                // we detach the element from the page and give it to Tooltipster to serve as content
+                content: $(&#39;#tooltip_content&#39;).detach(),
+                // if you use a single element as content for several tooltips, set this option to true
+                contentCloning: false,
+
+                animation: &#39;fade&#39;,
+                delay: 100,
+                    trigger: &#39;custom&#39;,
+
+                trackOrigin: &#39;20&#39;,
+                interactive: &#39;true&#39;,
+
+                triggerOpen: {
+                    click: true,
+                    mouseenter: true,
+                    touchstart: true,
+                    tap: true
+                },
+                triggerClose: {
+                    click: true,
+                    scroll: true,
+                    mouseleave: true,
+                    tap: true
+                }
+
+            });
+
+            $(&#39;.origin2&#39;).tooltipster({
+                // we detach the element from the page and give it to Tooltipster to serve as content
+                content: $(&#39;#tooltip_content2&#39;).detach(),
+                // if you use a single element as content for several tooltips, set this option to true
+                contentCloning: false,
+
+                animation: &#39;fade&#39;,
+                delay: 100,
+                    trigger: &#39;custom&#39;,
+
+                trackOrigin: &#39;20&#39;,
+                interactive: &#39;true&#39;,
+
+                triggerOpen: {
+                    click: true,
+                    mouseenter: true,
+                    touchstart: true,
+                    tap: true
+                },
+                triggerClose: {
+                    click: true,
+                    scroll: true,
+                    mouseleave: true,
+                    tap: true
+                }
+
+            });
+
+            $(&#39;.origin3&#39;).tooltipster({
+                // we detach the element from the page and give it to Tooltipster to serve as content
+                content: $(&#39;#tooltip_content3&#39;).detach(),
+                // if you use a single element as content for several tooltips, set this option to true
+                contentCloning: false,
+
+                animation: &#39;fade&#39;,
+                delay: 100,
+                    trigger: &#39;custom&#39;,
+
+                trackOrigin: &#39;20&#39;,
+                interactive: &#39;true&#39;,
+
+                triggerOpen: {
+                    click: true,
+                    mouseenter: true,
+                    touchstart: true,
+                    tap: true
+                },
+                triggerClose: {
+                    click: true,
+                    scroll: true,
+                    mouseleave: true,
+                    tap: true
+                }
+
+            });
+
         });
+
 
       });
 
@@ -436,10 +939,128 @@ function loaded () {
 
 &lt;div class=&quot;sidemenu&quot;&gt;
   &lt;ul&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-    &lt;li&gt;Link&lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup&quot;&gt;
+        &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
+        &lt;p&gt;$34.99&lt;/p&gt;
+        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+
   &lt;/ul&gt;
 &lt;/div&gt;
 
@@ -459,32 +1080,23 @@ function loaded () {
 &lt;/div&gt;
 
 &lt;div class=&quot;backdrop flex&quot;&gt;
-  &lt;img class=&quot;reel&quot; src=&quot;https://drewbots.github.io/shopfun/images/surfing/04.jpg&quot;&gt;
-  &lt;img class=&quot;reel&quot; src=&quot;https://drewbots.github.io/shopfun/images/surfing/03.jpg&quot;&gt;
-  &lt;img class=&quot;reel&quot; src=&quot;https://drewbots.github.io/shopfun/images/surfing/02.jpg&quot;&gt;
-  &lt;img class=&quot;reel&quot; src=&quot;https://drewbots.github.io/shopfun/images/surfing/05.jpg&quot;&gt;
+  &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/04.jpg&quot;&gt;
+  &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/03.jpg&quot;&gt;
+  &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/02.jpg&quot;&gt;
+  &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/05.jpg&quot;&gt;
 &lt;/div&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
 
-        &lt;a class=&quot;js-menu2&quot; &gt;
-          &lt;img class=&quot;logo&quot; src=&quot;https://drewbots.github.io/shopfun/images/infoico.png&quot;&gt;
-        &lt;/a&gt;
-
-&lt;div class=&quot;bottommenu&quot;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-    &lt;li&gt;Link&lt;/li&gt;
-  &lt;/ul&gt;
+&lt;div class=&quot;bottommenu flex align-center&quot;&gt;
+  &lt;p&gt;Get awesome surf gear for that ocean lover. We&#39;ve picked out the latest surfboard models as well as choice gifts, swag and must haves from Amazon.&lt;/p&gt;
 &lt;/div&gt;
 
         </description>
         <pubDate>Mon, 03 May 2010 00:00:00 -0700</pubDate>
-        <link>https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/office/</link>
-        <guid isPermaLink="true">https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/office/</guid>
+        <link>/office/</link>
+        <guid isPermaLink="true">/office/</guid>
         
         
         <category>Food</category>

@@ -1,0 +1,87 @@
+.sidemenu {
+  width: 250px;
+  height: 100%;
+  background: rgba(47, 47, 47, 0.88);
+  position: fixed;
+  top: 0;
+  z-index: 19;
+  right: -500px;
+  -webkit-transform: translateX(-250px);
+          transform: translateX(-250px);
+  -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
+  transition: -webkit-transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
+  transition: transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
+  transition: transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91), -webkit-transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
+}
+
+.sidemenu img {
+  z-index: 5;
+  position: relative;
+}
+
+.menu-open .sidemenu {
+  -webkit-transform: translateX(-500px);
+          transform: translateX(-500px);
+}
+
+.sidemenu ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  overflow-y: scroll;
+  padding-top: 112px;
+  height: 100%;
+}
+
+.sidemenu ul::-webkit-scrollbar { 
+    display: none; 
+}
+
+.sidemenu ul li {
+  padding: 15px 15px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.sidemenu ul li:hover {
+  background: #313131;
+}
+
+.squaredup {
+
+    overflow: hidden;
+}
+
+.squaredup img {
+
+    width: 100%;
+}
+
+.prodnames {
+  padding: 0 10px;
+  min-width:0;
+}
+
+.prodnames h6 {
+  font-size: 1.4rem;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 3px;
+}
+
+.prodnames p {
+  font-size: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 12px;
+}
+
+.prodnames .button {
+  margin-bottom: 0;
+}
+
+
+

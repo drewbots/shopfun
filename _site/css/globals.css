@@ -3,14 +3,20 @@
  */
 
 html {
-  height: 100%; 
-  font-size: 0;
+  height: 100%;
 }
 
 body {
   height: 100%;
   -webkit-user-select:none;
   -webkit-text-size-adjust:none;
+  
+}
+
+p {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.4;
 }
 
 /**:not(html) {
