@@ -76,11 +76,11 @@
         target[4] = { x: 490, y: 188 };
 
         var pointer = new Array();
-        pointer[0] = $('#pointer0');
-        pointer[1] = $('#pointer1');
-        pointer[2] = $('#pointer2');
-        pointer[3] = $('#pointer3');
-        pointer[4] = $('#pointer4');
+        pointer[0] = $('#pointer');
+        pointer[1] = $('#pointer2');
+        pointer[2] = $('#pointer3');
+        pointer[3] = $('#pointer4');
+        pointer[4] = $('#pointer5');
 
         $(document).ready(updatePointer);
         $(window).resize(updatePointer);
@@ -385,11 +385,38 @@ function loaded () {
   <div id="scroller">
 
 <div class="surfing">
-  <div id="pointer0" class="pointer"></div>
-  <div id="pointer1" class="pointer"></div>
-  <div id="pointer2" class="pointer"></div>
-  <div id="pointer3" class="pointer"></div>
-  <div id="pointer4" class="pointer"></div>
+
+  <a id="pointer" class="pointer origin" title="This is my image's tooltip message!"></a>
+
+  <span id="tooltip_content">
+    <div class="squaredup">
+      <img src="http://place-hold.it/300x100" />
+    </div>
+    <h5>$35</h5>
+    <a href="http://amazon.com" class="button" target="_blank">See Details</a>
+  </span>
+
+  <a id="pointer2" class="pointer origin2" title="This is my image's tooltip message!"></a>
+
+  <span id="tooltip_content2">
+    <div class="squaredup">
+      <img src="http://place-hold.it/300x500" />
+    </div>
+    <h5>$35</h5>
+    <a href="http://amazon.com" class="button" target="_blank">See Details</a>
+  </span>
+
+  <a id="pointer3" class="pointer origin3" title="This is my image's tooltip message!"></a>
+
+  <span id="tooltip_content3">
+    <div class="squaredup">
+      <img src="http://place-hold.it/300x700" />
+    </div>
+    <h5>$35</h5>
+    <a href="http://amazon.com" class="button" target="_blank">See Details</a>
+  </span>
+
+
 </div>
 
 <div class="backdrop flex">
@@ -407,8 +434,8 @@ function loaded () {
 </div>       
 
 
-    
-        <a class="js-menu2" >
+
+        <a class="js-menu2">
           <img class="logo" src="/images/infoico.png">
         </a>
 
