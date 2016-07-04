@@ -2,6 +2,11 @@
 
       $(document).ready(function(){
 
+        // #1
+        // This adds/positions the black and white points with product pop-ups
+        // the updatePointer bit positions it to scale responsivly with the background images
+        // Values are different for each post, they need to match the html
+
         var image = { width: 6997, height: 200 };
 
         var target = new Array();
@@ -50,14 +55,11 @@
         }
 
 
-        
-
-      document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
-
-
       $(document).ready(function(){
 
-        /* This makes the two animated menus work (info and product menus)*/
+        // #2
+        // This makes the two animated menus work (the bottom and right sidebar menus)
+        // Same code used for each post. This should probably be added to a seperate template file with #4
 
         var isActive = false;
 
@@ -86,9 +88,13 @@
         });
 
 
-        /* This adds the animated menu to each of the points (the black and white dots with product links)*/
+        // #3
+        // This adds the animated menu to each of the points (the black and white dots with product links). Uses tooltipster.bundle.js
 
-        /*************** Please somehow make this so that we can just add the class names and the code is only written once**************/
+        // Each post will need to have a tooltip for each point that is specified in the html
+        // Can the creation of each tooltip in the js be "automated"? as in, we only need to specify classes in html and they automatically created here.
+        // Should class 'origin' somehow be combined with id 'pointer' from #1? 
+
 
             $('.origin').tooltipster({
                 // we detach the element from the page and give it to Tooltipster to serve as content
@@ -177,12 +183,15 @@
         });
 
 
-
       });
 
 
-    /* This makes the page scroll left/right horizantally uses iScroll.js*/
+      // #4
+      // This makes the page scroll left/right horizantally. Uses iScroll.js
+      // Same code used for each post. This should probably be added to a seperate template file with #2
 
+
+      document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
 
       var myScroll;
 
