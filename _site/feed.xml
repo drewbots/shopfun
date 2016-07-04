@@ -5,8 +5,8 @@
     <description></description>
     <link>https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/</link>
     <atom:link href="https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 04 Jul 2016 13:37:44 -0700</pubDate>
-    <lastBuildDate>Mon, 04 Jul 2016 13:37:44 -0700</lastBuildDate>
+    <pubDate>Mon, 04 Jul 2016 13:48:07 -0700</pubDate>
+    <lastBuildDate>Mon, 04 Jul 2016 13:48:07 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -16,9 +16,10 @@
       $(document).ready(function(){
 
         // #1
-        // This adds/positions the black and white points with product pop-ups
+        // This adds/positions the black and white points with their product pop-ups
         // the updatePointer bit positions it to scale responsivly with the background images
-        // Values are different for each post, they need to match the html
+        // Position values are different for each post. 
+
 
         var image = { width: 6997, height: 200 };
 
@@ -102,11 +103,11 @@
 
 
         // #3
-        // This adds the animated menu to each of the points (the black and white dots with product links). Uses tooltipster.bundle.js
+        // This adds the tooltips to each of the points. Uses tooltipster.bundle.js
 
-        // Each post will need to have a tooltip for each point that is specified in the html
-        // Can the creation of each tooltip in the js be &quot;automated&quot;? as in, we only need to specify classes in html and they automatically created here.
-        // Should class &#39;origin&#39; somehow be combined with id &#39;pointer&#39; from #1? 
+        // Each post will need to have a tooltip for each point
+        // Idea: It seems like this could be automated. If a point is in the html then the js tooltip code is generated.
+        // Or, should class &#39;origin&#39; somehow be combined with id &#39;pointer&#39; from #1? 
 
 
             $(&#39;.origin&#39;).tooltipster({
@@ -427,9 +428,10 @@
       $(document).ready(function(){
 
         // #1
-        // This adds/positions the black and white points with product pop-ups
+        // This adds/positions the black and white points with their product pop-ups
         // the updatePointer bit positions it to scale responsivly with the background images
-        // Values are different for each post, they need to match the html
+        // Position values are different for each post. 
+
 
         var image = { width: 6997, height: 200 };
 
@@ -513,11 +515,11 @@
 
 
         // #3
-        // This adds the animated menu to each of the points (the black and white dots with product links). Uses tooltipster.bundle.js
+        // This adds the tooltips to each of the points. Uses tooltipster.bundle.js
 
-        // Each post will need to have a tooltip for each point that is specified in the html
-        // Can the creation of each tooltip in the js be &quot;automated&quot;? as in, we only need to specify classes in html and they automatically created here.
-        // Should class &#39;origin&#39; somehow be combined with id &#39;pointer&#39; from #1? 
+        // Each post will need to have a tooltip for each point
+        // Idea: It seems like this could be automated. If a point is in the html then the js tooltip code is generated.
+        // Or, should class &#39;origin&#39; somehow be combined with id &#39;pointer&#39; from #1? 
 
 
             $(&#39;.origin&#39;).tooltipster({
@@ -686,83 +688,6 @@
       &lt;/div&gt;
     &lt;/li&gt;
 
-    &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;img src=&quot;https://drewbots.github.io/shopfun/images/surfing/06.jpg&quot;&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;prodnames&quot;&gt;
-        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
-        &lt;p&gt;$34.99&lt;/p&gt;
-        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
-      &lt;/div&gt;
-    &lt;/li&gt;
-
-    &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;img src=&quot;https://drewbots.github.io/shopfun/images/surfing/06.jpg&quot;&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;prodnames&quot;&gt;
-        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
-        &lt;p&gt;$34.99&lt;/p&gt;
-        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
-      &lt;/div&gt;
-    &lt;/li&gt;
-
-    &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;img src=&quot;https://drewbots.github.io/shopfun/images/surfing/06.jpg&quot;&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;prodnames&quot;&gt;
-        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
-        &lt;p&gt;$34.99&lt;/p&gt;
-        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
-      &lt;/div&gt;
-    &lt;/li&gt;
-
-    &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;img src=&quot;https://drewbots.github.io/shopfun/images/surfing/06.jpg&quot;&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;prodnames&quot;&gt;
-        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
-        &lt;p&gt;$34.99&lt;/p&gt;
-        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
-      &lt;/div&gt;
-    &lt;/li&gt;
-
-    &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;img src=&quot;https://drewbots.github.io/shopfun/images/surfing/06.jpg&quot;&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;prodnames&quot;&gt;
-        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
-        &lt;p&gt;$34.99&lt;/p&gt;
-        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
-      &lt;/div&gt;
-    &lt;/li&gt;
-
-    &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;img src=&quot;https://drewbots.github.io/shopfun/images/surfing/06.jpg&quot;&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;prodnames&quot;&gt;
-        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
-        &lt;p&gt;$34.99&lt;/p&gt;
-        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
-      &lt;/div&gt;
-    &lt;/li&gt;
-
-    &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;img src=&quot;https://drewbots.github.io/shopfun/images/surfing/06.jpg&quot;&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;prodnames&quot;&gt;
-        &lt;h6&gt;Product name hello hell&lt;/h6&gt;
-        &lt;p&gt;$34.99&lt;/p&gt;
-        &lt;a href=&quot;http://amazon.com&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
-      &lt;/div&gt;
-    &lt;/li&gt;
-
   &lt;/ul&gt;
 &lt;/div&gt;
 
@@ -839,9 +764,10 @@
       $(document).ready(function(){
 
         // #1
-        // This adds/positions the black and white points with product pop-ups
+        // This adds/positions the black and white points with their product pop-ups
         // the updatePointer bit positions it to scale responsivly with the background images
-        // Values are different for each post, they need to match the html
+        // Position values are different for each post. 
+
 
         var image = { width: 6997, height: 200 };
 
@@ -925,11 +851,11 @@
 
 
         // #3
-        // This adds the animated menu to each of the points (the black and white dots with product links). Uses tooltipster.bundle.js
+        // This adds the tooltips to each of the points. Uses tooltipster.bundle.js
 
-        // Each post will need to have a tooltip for each point that is specified in the html
-        // Can the creation of each tooltip in the js be &quot;automated&quot;? as in, we only need to specify classes in html and they automatically created here.
-        // Should class &#39;origin&#39; somehow be combined with id &#39;pointer&#39; from #1? 
+        // Each post will need to have a tooltip for each point
+        // Idea: It seems like this could be automated. If a point is in the html then the js tooltip code is generated.
+        // Or, should class &#39;origin&#39; somehow be combined with id &#39;pointer&#39; from #1? 
 
 
             $(&#39;.origin&#39;).tooltipster({

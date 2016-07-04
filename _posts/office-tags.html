@@ -3,9 +3,10 @@
       $(document).ready(function(){
 
         // #1
-        // This adds/positions the black and white points with product pop-ups
+        // This adds/positions the black and white points with their product pop-ups
         // the updatePointer bit positions it to scale responsivly with the background images
-        // Values are different for each post, they need to match the html
+        // Position values are different for each post. 
+
 
         var image = { width: 6997, height: 200 };
 
@@ -89,11 +90,11 @@
 
 
         // #3
-        // This adds the animated menu to each of the points (the black and white dots with product links). Uses tooltipster.bundle.js
+        // This adds the tooltips to each of the points. Uses tooltipster.bundle.js
 
-        // Each post will need to have a tooltip for each point that is specified in the html
-        // Can the creation of each tooltip in the js be "automated"? as in, we only need to specify classes in html and they automatically created here.
-        // Should class 'origin' somehow be combined with id 'pointer' from #1? 
+        // Each post will need to have a tooltip for each point
+        // Idea: It seems like this could be automated. If a point is in the html then the js tooltip code is generated.
+        // Or, should class 'origin' somehow be combined with id 'pointer' from #1? 
 
 
             $('.origin').tooltipster({
