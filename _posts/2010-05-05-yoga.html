@@ -2,7 +2,7 @@
 id: 2
 title: Yoga
 author: drew
-layout: post
+layout: default
 permalink: /yoga/
 categories:
   - Sports
@@ -12,11 +12,15 @@ categories:
 
 </head>
 
+<body onload="loaded()">
+
+{% include_relative header.html %}
+
 <div class="sidemenu">
   <ul>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="{{site.baseurl}}/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -27,7 +31,7 @@ categories:
     </li>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="{{site.baseurl}}/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -38,7 +42,7 @@ categories:
     </li>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="{{site.baseurl}}/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -49,7 +53,7 @@ categories:
     </li>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="{{site.baseurl}}/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -60,7 +64,7 @@ categories:
     </li>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="{{site.baseurl}}/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -71,7 +75,7 @@ categories:
     </li>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="{{site.baseurl}}/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -82,7 +86,7 @@ categories:
     </li>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="{{site.baseurl}}/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -93,7 +97,7 @@ categories:
     </li>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="{{site.baseurl}}/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -104,7 +108,7 @@ categories:
     </li>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="{{site.baseurl}}/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -115,7 +119,7 @@ categories:
     </li>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="{{site.baseurl}}/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -126,7 +130,7 @@ categories:
     </li>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="{{site.baseurl}}/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -139,7 +143,8 @@ categories:
   </ul>
 </div>
 
-{% include_relative content-start.html %}
+<div id="wrapper">
+<div id="scroller">
 
 <div class="surfing">
 
@@ -183,8 +188,13 @@ categories:
   <img class="reel" src="{{site.baseurl}}/images/surfing/04.jpg">
 </div>
 
-{% include_relative header-copy.html %}
-
 <div class="bottommenu flex align-center">
   <p>Get awesome surf gear for that ocean lover. We've picked out the latest surfboard models as well as choice gifts, swag and must haves from Amazon.</p>
-</div>       
+</div>
+
+<a class="js-menu2">
+  <img class="logo" src="{{site.baseurl}}/images/infoico.png">
+</a>
+
+</div>
+</div>

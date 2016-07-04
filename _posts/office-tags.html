@@ -5,11 +5,11 @@
         var image = { width: 6997, height: 200 };
 
         var target = new Array();
-        target[0] = { x: 290, y: 114 };
+        target[0] = { x: 90, y: 114 };
         target[1] = { x: 200, y: 94 };
-        target[2] = { x: 180, y: 172 };
-        target[3] = { x: 190, y: 188 };
-        target[4] = { x: 190, y: 188 };
+        target[2] = { x: 80, y: 172 };
+        target[3] = { x: 390, y: 188 };
+        target[4] = { x: 590, y: 188 };
 
         var pointer = new Array();
         pointer[0] = $('#pointer');
@@ -49,12 +49,146 @@
             }  
         }
 
-        {% include_relative sitescript.html %}
+
+        
+
+      document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+
+
+      $(document).ready(function(){
+
+        /* This makes the two animated menus work (info and product menus)*/
+
+        var isActive = false;
+
+        $('.js-menu').on('click', function() {
+          if (isActive) {
+            $(this).removeClass('active');
+            $('body').removeClass('menu-open');
+          } else {
+            $(this).addClass('active');
+            $('body').addClass('menu-open');
+          }
+
+          isActive = !isActive;
+        });
+
+        $('.js-menu2').on('click', function() {
+          if (isActive) {
+            $(this).removeClass('active');
+            $('body').removeClass('bottom-open');
+          } else {
+            $(this).addClass('active');
+            $('body').addClass('bottom-open');
+          }
+
+          isActive = !isActive;
+        });
+
+
+        /* This adds the animated menu to each of the points (the black and white dots with product links)*/
+
+
+            $('.origin').tooltipster({
+                // we detach the element from the page and give it to Tooltipster to serve as content
+                content: $('#tooltip_content').detach(),
+                // if you use a single element as content for several tooltips, set this option to true
+                contentCloning: false,
+
+                animation: 'fade',
+                delay: 100,
+                    trigger: 'custom',
+
+                trackOrigin: '20',
+                interactive: 'true',
+
+                triggerOpen: {
+                    click: true,
+                    mouseenter: true,
+                    touchstart: true,
+                    tap: true
+                },
+                triggerClose: {
+                    click: true,
+                    scroll: true,
+                    mouseleave: true,
+                    tap: true
+                }
+
+            });
+
+            $('.origin2').tooltipster({
+                // we detach the element from the page and give it to Tooltipster to serve as content
+                content: $('#tooltip_content2').detach(),
+                // if you use a single element as content for several tooltips, set this option to true
+                contentCloning: false,
+
+                animation: 'fade',
+                delay: 100,
+                    trigger: 'custom',
+
+                trackOrigin: '20',
+                interactive: 'true',
+
+                triggerOpen: {
+                    click: true,
+                    mouseenter: true,
+                    touchstart: true,
+                    tap: true
+                },
+                triggerClose: {
+                    click: true,
+                    scroll: true,
+                    mouseleave: true,
+                    tap: true
+                }
+
+            });
+
+            $('.origin3').tooltipster({
+                // we detach the element from the page and give it to Tooltipster to serve as content
+                content: $('#tooltip_content3').detach(),
+                // if you use a single element as content for several tooltips, set this option to true
+                contentCloning: false,
+
+                animation: 'fade',
+                delay: 100,
+                    trigger: 'custom',
+
+                trackOrigin: '20',
+                interactive: 'true',
+
+                triggerOpen: {
+                    click: true,
+                    mouseenter: true,
+                    touchstart: true,
+                    tap: true
+                },
+                triggerClose: {
+                    click: true,
+                    scroll: true,
+                    mouseleave: true,
+                    tap: true
+                }
+
+            });
+
+        });
+
+
 
       });
 
 
-      {% include_relative scroll.html %}
+    /* This makes the page scroll left/right horizantally uses iScroll.js*/
+
+
+      var myScroll;
+
+      function loaded () {
+        myScroll = new IScroll('#wrapper', { scrollX: true, scrollY: false, mouseWheel: true });
+      }
+
 
 </script>
 

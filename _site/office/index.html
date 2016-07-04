@@ -5,9 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 
     <title>Office</title>
     <meta name="description" content="" />
@@ -46,20 +45,10 @@
     <link href="/css/bootstrap-grid.css" rel="stylesheet">
     <link href="/css/animate.css" rel="stylesheet">
 
-
-
     <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <script src="/js/iscroll.js" type="text/javascript"></script>
     <script src="/js/tooltipster.bundle.js" type="text/javascript"></script>
 
-
-
-<!-- header start -->
-
-        <a class="logowrap" href="/"><img class="logo" src="/images/logo.png"></a>
-        <a class="js-menu" ><img class="logo" src="/images/productico.png"></a>
-
-<!-- header end -->
 
     <script type="text/javascript">
 
@@ -68,11 +57,11 @@
         var image = { width: 6997, height: 200 };
 
         var target = new Array();
-        target[0] = { x: 290, y: 114 };
+        target[0] = { x: 90, y: 114 };
         target[1] = { x: 200, y: 94 };
-        target[2] = { x: 180, y: 172 };
-        target[3] = { x: 190, y: 188 };
-        target[4] = { x: 190, y: 188 };
+        target[2] = { x: 80, y: 172 };
+        target[3] = { x: 390, y: 188 };
+        target[4] = { x: 590, y: 188 };
 
         var pointer = new Array();
         pointer[0] = $('#pointer');
@@ -112,6 +101,7 @@
             }  
         }
 
+
         
 
       document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
@@ -119,7 +109,8 @@
 
       $(document).ready(function(){
 
-        /* A simple and scalable hamburger menu using css transitions. */
+        /* This makes the two animated menus work (info and product menus)*/
+
         var isActive = false;
 
         $('.js-menu').on('click', function() {
@@ -145,6 +136,9 @@
 
           isActive = !isActive;
         });
+
+
+        /* This adds the animated menu to each of the points (the black and white dots with product links)*/
 
 
             $('.origin').tooltipster({
@@ -234,14 +228,19 @@
         });
 
 
+
       });
+
+
+    /* This makes the page scroll left/right horizantally uses iScroll.js*/
 
 
       var myScroll;
 
-function loaded () {
-  myScroll = new IScroll('#wrapper', { scrollX: true, scrollY: false, mouseWheel: true });
-}
+      function loaded () {
+        myScroll = new IScroll('#wrapper', { scrollX: true, scrollY: false, mouseWheel: true });
+      }
+
 
 </script>
 
@@ -249,11 +248,20 @@ function loaded () {
 
 </head>
 
+<body onload="loaded()">
+
+    <!-- header start -->
+
+    <a class="logowrap" href="/"><img class="logo" src="/images/logo.png"></a>
+    <a class="js-menu" ><img class="logo" src="/images/productico.png"></a>
+
+    <!-- header end -->
+
 <div class="sidemenu">
   <ul>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -264,7 +272,7 @@ function loaded () {
     </li>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -275,7 +283,7 @@ function loaded () {
     </li>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -286,7 +294,7 @@ function loaded () {
     </li>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -297,7 +305,7 @@ function loaded () {
     </li>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -308,7 +316,7 @@ function loaded () {
     </li>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -319,7 +327,7 @@ function loaded () {
     </li>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -330,7 +338,7 @@ function loaded () {
     </li>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -341,7 +349,7 @@ function loaded () {
     </li>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -352,7 +360,7 @@ function loaded () {
     </li>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -363,7 +371,7 @@ function loaded () {
     </li>
 
     <li class="flex">
-      <div class="squaredup">
+      <div class="squaredup half-flex-child">
         <img src="/images/surfing/06.jpg">
       </div>
       <div class="prodnames">
@@ -376,12 +384,8 @@ function loaded () {
   </ul>
 </div>
 
-<!-- content start -->
-
-<body onload="loaded()">
-
 <div id="wrapper">
-  <div id="scroller">
+<div id="scroller">
 
 <div class="surfing">
 
@@ -425,38 +429,30 @@ function loaded () {
   <img class="reel" src="/images/surfing/05.jpg">
 </div>
 
-  </div>
-</div>
-
 <div class="bottommenu flex align-center">
   <p>Get awesome surf gear for that ocean lover. We've picked out the latest surfboard models as well as choice gifts, swag and must haves from Amazon.</p>
 </div>
 
+<a class="js-menu2">
+  <img class="logo" src="/images/infoico.png">
+</a>
+
+</div>
+</div>
+
         
 
-        <a class="js-menu2">
-          <img class="logo" src="/images/infoico.png">
-        </a>
-
     
     
-        <a class="equalize-left" href="/yoga/" title="Previous Post: Yoga">
+        <a class="equalize-left flex flex-col justify-center" href="/yoga/" title="Previous Post: Yoga">
            <h6><i class="icon ion-ios-arrow-left"></i></h6>
         </a>
 
     
-        <a class="equalize-right" href="/surfing/" title="next Post: Surfing">
+        <a class="equalize-right flex flex-col justify-center" href="/surfing/" title="next Post: Surfing">
             <h6><i class="icon ion-ios-arrow-right"></i></h6>
         </a>
 
-
-        <!-- SCRIPTS HERE -->
-
-    <script src="/js/bootstrap.js" type="text/javascript"></script>
-
-    <!-- Facebook Pixel Code -->
-    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=109871069411898&ev=PageView&noscript=1" /></noscript>
-    <!-- End Facebook Pixel Code -->
 
   </body>
 

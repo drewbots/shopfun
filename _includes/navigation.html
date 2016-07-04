@@ -4,7 +4,7 @@
     {% else %}
         {% assign previous = site.posts[0] %}
     {% endif %}
-        <a class="equalize-left" href="{{site.baseurl}}{{previous.url}}" title="Previous Post: {{previous.title}}">
+        <a class="equalize-left flex flex-col justify-center" href="{{site.baseurl}}{{previous.url}}" title="Previous Post: {{previous.title}}">
            <h6><i class="icon ion-ios-arrow-left"></i></h6>
         </a>
 
@@ -18,6 +18,6 @@
         {% assign last lastPostIndex = site.posts | size | minus: 1 %}
         {% assign next = site.posts[lastPostIndex] %}
     {% endif %}
-        <a class="equalize-right" href="{{site.baseurl}}{{next.url}}" title="next Post: {{next.title}}">
+        <a class="equalize-right flex flex-col justify-center" href="{{site.baseurl}}{{next.url}}" title="next Post: {{next.title}}">
             <h6><i class="icon ion-ios-arrow-right"></i></h6>
         </a>

@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 02 Jul 2016 20:03:54 -0700</pubDate>
-    <lastBuildDate>Sat, 02 Jul 2016 20:03:54 -0700</lastBuildDate>
+    <pubDate>Mon, 04 Jul 2016 13:08:51 -0700</pubDate>
+    <lastBuildDate>Mon, 04 Jul 2016 13:08:51 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -18,11 +18,11 @@
         var image = { width: 6997, height: 200 };
 
         var target = new Array();
-        target[0] = { x: 490, y: 114 };
-        target[1] = { x: 400, y: 94 };
-        target[2] = { x: 480, y: 172 };
-        target[3] = { x: 490, y: 188 };
-        target[4] = { x: 490, y: 188 };
+        target[0] = { x: 90, y: 114 };
+        target[1] = { x: 200, y: 94 };
+        target[2] = { x: 80, y: 172 };
+        target[3] = { x: 390, y: 188 };
+        target[4] = { x: 590, y: 188 };
 
         var pointer = new Array();
         pointer[0] = $(&#39;#pointer&#39;);
@@ -62,6 +62,7 @@
             }  
         }
 
+
         
 
       document.addEventListener(&#39;touchmove&#39;, function (e) { e.preventDefault(); }, false);
@@ -69,7 +70,8 @@
 
       $(document).ready(function(){
 
-        /* A simple and scalable hamburger menu using css transitions. */
+        /* This makes the two animated menus work (info and product menus)*/
+
         var isActive = false;
 
         $(&#39;.js-menu&#39;).on(&#39;click&#39;, function() {
@@ -95,6 +97,9 @@
 
           isActive = !isActive;
         });
+
+
+        /* This adds the animated menu to each of the points (the black and white dots with product links)*/
 
 
             $(&#39;.origin&#39;).tooltipster({
@@ -184,14 +189,19 @@
         });
 
 
+
       });
+
+
+    /* This makes the page scroll left/right horizantally uses iScroll.js*/
 
 
       var myScroll;
 
-function loaded () {
-  myScroll = new IScroll(&#39;#wrapper&#39;, { scrollX: true, scrollY: false, mouseWheel: true });
-}
+      function loaded () {
+        myScroll = new IScroll(&#39;#wrapper&#39;, { scrollX: true, scrollY: false, mouseWheel: true });
+      }
+
 
 &lt;/script&gt;
 
@@ -199,11 +209,20 @@ function loaded () {
 
 &lt;/head&gt;
 
+&lt;body onload=&quot;loaded()&quot;&gt;
+
+    &lt;!-- header start --&gt;
+
+    &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/productico.png&quot;&gt;&lt;/a&gt;
+
+    &lt;!-- header end --&gt;
+
 &lt;div class=&quot;sidemenu&quot;&gt;
   &lt;ul&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -214,7 +233,7 @@ function loaded () {
     &lt;/li&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -225,7 +244,7 @@ function loaded () {
     &lt;/li&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -236,7 +255,7 @@ function loaded () {
     &lt;/li&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -247,7 +266,7 @@ function loaded () {
     &lt;/li&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -258,7 +277,7 @@ function loaded () {
     &lt;/li&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -269,7 +288,7 @@ function loaded () {
     &lt;/li&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -280,7 +299,7 @@ function loaded () {
     &lt;/li&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -291,7 +310,7 @@ function loaded () {
     &lt;/li&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -302,7 +321,7 @@ function loaded () {
     &lt;/li&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -313,7 +332,7 @@ function loaded () {
     &lt;/li&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -326,12 +345,8 @@ function loaded () {
   &lt;/ul&gt;
 &lt;/div&gt;
 
-&lt;!-- content start --&gt;
-
-&lt;body onload=&quot;loaded()&quot;&gt;
-
 &lt;div id=&quot;wrapper&quot;&gt;
-  &lt;div id=&quot;scroller&quot;&gt;
+&lt;div id=&quot;scroller&quot;&gt;
 
 &lt;div class=&quot;surfing&quot;&gt;
 
@@ -375,12 +390,17 @@ function loaded () {
   &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/04.jpg&quot;&gt;
 &lt;/div&gt;
 
-  &lt;/div&gt;
-&lt;/div&gt;
-
 &lt;div class=&quot;bottommenu flex align-center&quot;&gt;
   &lt;p&gt;Get awesome surf gear for that ocean lover. We&#39;ve picked out the latest surfboard models as well as choice gifts, swag and must haves from Amazon.&lt;/p&gt;
-&lt;/div&gt;       </description>
+&lt;/div&gt;
+
+&lt;a class=&quot;js-menu2&quot;&gt;
+  &lt;img class=&quot;logo&quot; src=&quot;/images/infoico.png&quot;&gt;
+&lt;/a&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
         <pubDate>Wed, 05 May 2010 00:00:00 -0700</pubDate>
         <link>/yoga/</link>
         <guid isPermaLink="true">/yoga/</guid>
@@ -443,6 +463,7 @@ function loaded () {
             }  
         }
 
+
         
 
       document.addEventListener(&#39;touchmove&#39;, function (e) { e.preventDefault(); }, false);
@@ -450,7 +471,8 @@ function loaded () {
 
       $(document).ready(function(){
 
-        /* A simple and scalable hamburger menu using css transitions. */
+        /* This makes the two animated menus work (info and product menus)*/
+
         var isActive = false;
 
         $(&#39;.js-menu&#39;).on(&#39;click&#39;, function() {
@@ -477,6 +499,10 @@ function loaded () {
           isActive = !isActive;
         });
 
+
+        /* This adds the animated menu to each of the points (the black and white dots with product links)*/
+
+        /*************** Please somehow make this so that we can just add the class names and the code is only written once**************/
 
             $(&#39;.origin&#39;).tooltipster({
                 // we detach the element from the page and give it to Tooltipster to serve as content
@@ -565,20 +591,34 @@ function loaded () {
         });
 
 
+
       });
+
+
+    /* This makes the page scroll left/right horizantally uses iScroll.js*/
 
 
       var myScroll;
 
-function loaded () {
-  myScroll = new IScroll(&#39;#wrapper&#39;, { scrollX: true, scrollY: false, mouseWheel: true });
-}
+      function loaded () {
+        myScroll = new IScroll(&#39;#wrapper&#39;, { scrollX: true, scrollY: false, mouseWheel: true });
+      }
+
 
 &lt;/script&gt;
 
 
 
 &lt;/head&gt;
+
+&lt;body onload=&quot;loaded()&quot;&gt;
+
+    &lt;!-- header start --&gt;
+
+    &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/productico.png&quot;&gt;&lt;/a&gt;
+
+    &lt;!-- header end --&gt;
 
 &lt;div class=&quot;sidemenu&quot;&gt;
   &lt;ul&gt;
@@ -707,16 +747,12 @@ function loaded () {
   &lt;/ul&gt;
 &lt;/div&gt;
 
-&lt;!-- content start --&gt;
-
-&lt;body onload=&quot;loaded()&quot;&gt;
-
 &lt;div id=&quot;wrapper&quot;&gt;
-  &lt;div id=&quot;scroller&quot;&gt;
+&lt;div id=&quot;scroller&quot;&gt;
 
 &lt;div class=&quot;surfing&quot;&gt;
 
-  &lt;a id=&quot;pointer&quot; class=&quot;pointer origin&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+  &lt;a id=&quot;pointer&quot; class=&quot;lazy pointer origin&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
   &lt;span id=&quot;tooltip_content&quot;&gt;
     &lt;div class=&quot;squaredup&quot;&gt;
@@ -726,7 +762,7 @@ function loaded () {
     &lt;a href=&quot;http://amazon.com&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
   &lt;/span&gt;
 
-  &lt;a id=&quot;pointer2&quot; class=&quot;pointer origin2&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+  &lt;a id=&quot;pointer2&quot; class=&quot;lazy pointer origin2&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
   &lt;span id=&quot;tooltip_content2&quot;&gt;
     &lt;div class=&quot;squaredup&quot;&gt;
@@ -736,7 +772,7 @@ function loaded () {
     &lt;a href=&quot;http://amazon.com&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
   &lt;/span&gt;
 
-  &lt;a id=&quot;pointer3&quot; class=&quot;pointer origin3&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+  &lt;a id=&quot;pointer3&quot; class=&quot;lazy pointer origin3&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
   &lt;span id=&quot;tooltip_content3&quot;&gt;
     &lt;div class=&quot;squaredup&quot;&gt;
@@ -745,7 +781,6 @@ function loaded () {
     &lt;h5&gt;$35&lt;/h5&gt;
     &lt;a href=&quot;http://amazon.com&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
   &lt;/span&gt;
-
 
 &lt;/div&gt;
 
@@ -758,14 +793,17 @@ function loaded () {
   &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/06.jpg&quot;&gt;
 &lt;/div&gt;
 
-  &lt;/div&gt;
-&lt;/div&gt;
 
 &lt;div class=&quot;bottommenu flex align-center&quot;&gt;
   &lt;p&gt;Get awesome surf gear.&lt;br&gt;We&#39;ve picked out the latest surfboard models as well as choice gifts, swag and must haves from Amazon.&lt;/p&gt;
 &lt;/div&gt;
 
-</description>
+&lt;a class=&quot;js-menu2&quot;&gt;
+  &lt;img class=&quot;logo&quot; src=&quot;/images/infoico.png&quot;&gt;
+&lt;/a&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;</description>
         <pubDate>Tue, 04 May 2010 00:00:00 -0700</pubDate>
         <link>/surfing/</link>
         <guid isPermaLink="true">/surfing/</guid>
@@ -784,11 +822,11 @@ function loaded () {
         var image = { width: 6997, height: 200 };
 
         var target = new Array();
-        target[0] = { x: 290, y: 114 };
+        target[0] = { x: 90, y: 114 };
         target[1] = { x: 200, y: 94 };
-        target[2] = { x: 180, y: 172 };
-        target[3] = { x: 190, y: 188 };
-        target[4] = { x: 190, y: 188 };
+        target[2] = { x: 80, y: 172 };
+        target[3] = { x: 390, y: 188 };
+        target[4] = { x: 590, y: 188 };
 
         var pointer = new Array();
         pointer[0] = $(&#39;#pointer&#39;);
@@ -828,6 +866,7 @@ function loaded () {
             }  
         }
 
+
         
 
       document.addEventListener(&#39;touchmove&#39;, function (e) { e.preventDefault(); }, false);
@@ -835,7 +874,8 @@ function loaded () {
 
       $(document).ready(function(){
 
-        /* A simple and scalable hamburger menu using css transitions. */
+        /* This makes the two animated menus work (info and product menus)*/
+
         var isActive = false;
 
         $(&#39;.js-menu&#39;).on(&#39;click&#39;, function() {
@@ -861,6 +901,9 @@ function loaded () {
 
           isActive = !isActive;
         });
+
+
+        /* This adds the animated menu to each of the points (the black and white dots with product links)*/
 
 
             $(&#39;.origin&#39;).tooltipster({
@@ -950,14 +993,19 @@ function loaded () {
         });
 
 
+
       });
+
+
+    /* This makes the page scroll left/right horizantally uses iScroll.js*/
 
 
       var myScroll;
 
-function loaded () {
-  myScroll = new IScroll(&#39;#wrapper&#39;, { scrollX: true, scrollY: false, mouseWheel: true });
-}
+      function loaded () {
+        myScroll = new IScroll(&#39;#wrapper&#39;, { scrollX: true, scrollY: false, mouseWheel: true });
+      }
+
 
 &lt;/script&gt;
 
@@ -965,11 +1013,20 @@ function loaded () {
 
 &lt;/head&gt;
 
+&lt;body onload=&quot;loaded()&quot;&gt;
+
+    &lt;!-- header start --&gt;
+
+    &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/productico.png&quot;&gt;&lt;/a&gt;
+
+    &lt;!-- header end --&gt;
+
 &lt;div class=&quot;sidemenu&quot;&gt;
   &lt;ul&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -980,7 +1037,7 @@ function loaded () {
     &lt;/li&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -991,7 +1048,7 @@ function loaded () {
     &lt;/li&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -1002,7 +1059,7 @@ function loaded () {
     &lt;/li&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -1013,7 +1070,7 @@ function loaded () {
     &lt;/li&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -1024,7 +1081,7 @@ function loaded () {
     &lt;/li&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -1035,7 +1092,7 @@ function loaded () {
     &lt;/li&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -1046,7 +1103,7 @@ function loaded () {
     &lt;/li&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -1057,7 +1114,7 @@ function loaded () {
     &lt;/li&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -1068,7 +1125,7 @@ function loaded () {
     &lt;/li&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -1079,7 +1136,7 @@ function loaded () {
     &lt;/li&gt;
 
     &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
         &lt;img src=&quot;/images/surfing/06.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
@@ -1092,12 +1149,8 @@ function loaded () {
   &lt;/ul&gt;
 &lt;/div&gt;
 
-&lt;!-- content start --&gt;
-
-&lt;body onload=&quot;loaded()&quot;&gt;
-
 &lt;div id=&quot;wrapper&quot;&gt;
-  &lt;div id=&quot;scroller&quot;&gt;
+&lt;div id=&quot;scroller&quot;&gt;
 
 &lt;div class=&quot;surfing&quot;&gt;
 
@@ -1141,11 +1194,15 @@ function loaded () {
   &lt;img class=&quot;reel&quot; src=&quot;/images/surfing/05.jpg&quot;&gt;
 &lt;/div&gt;
 
-  &lt;/div&gt;
-&lt;/div&gt;
-
 &lt;div class=&quot;bottommenu flex align-center&quot;&gt;
   &lt;p&gt;Get awesome surf gear for that ocean lover. We&#39;ve picked out the latest surfboard models as well as choice gifts, swag and must haves from Amazon.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;a class=&quot;js-menu2&quot;&gt;
+  &lt;img class=&quot;logo&quot; src=&quot;/images/infoico.png&quot;&gt;
+&lt;/a&gt;
+
+&lt;/div&gt;
 &lt;/div&gt;
 
         </description>
