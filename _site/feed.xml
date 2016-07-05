@@ -5,8 +5,8 @@
     <description></description>
     <link>https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/</link>
     <atom:link href="https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 05 Jul 2016 10:05:42 -0700</pubDate>
-    <lastBuildDate>Tue, 05 Jul 2016 10:05:42 -0700</lastBuildDate>
+    <pubDate>Tue, 05 Jul 2016 10:23:45 -0700</pubDate>
+    <lastBuildDate>Tue, 05 Jul 2016 10:23:45 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -26,8 +26,8 @@
              // pointers and their targets
              targets: [
                  {
-                    x: 20, // these are
-                    y: 20, // target values
+                    x: 100, // these are
+                    y: 100, // target values
                     elem: &quot;#pointer&quot; //this is pointer element id for this target
                  },
                  {
@@ -53,7 +53,7 @@
              ]
          };
      &lt;/script&gt;
-     
+
     &lt;!-- header start --&gt;
 
     &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;https://drewbots.github.io/shopfun/images/logo.png&quot;&gt;&lt;/a&gt;
@@ -126,7 +126,7 @@
     &lt;a href=&quot;http://amazon.com&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
   &lt;/span&gt;
 
-  &lt;a id=&quot;pointer2&quot; class=&quot;lazy pointer origin2&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+  &lt;a id=&quot;pointer2&quot; class=&quot;lazy pointer origin2 tooltip&quot; data-content=&quot;#tooltip_content2&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
   &lt;span id=&quot;tooltip_content2&quot;&gt;
     &lt;div class=&quot;squaredup&quot;&gt;
@@ -136,7 +136,7 @@
     &lt;a href=&quot;http://amazon.com&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
   &lt;/span&gt;
 
-  &lt;a id=&quot;pointer3&quot; class=&quot;lazy pointer origin3&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+  &lt;a id=&quot;pointer3&quot; class=&quot;lazy pointer origin3 tooltip&quot; data-content=&quot;#tooltip_content3&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
   &lt;span id=&quot;tooltip_content3&quot;&gt;
     &lt;div class=&quot;squaredup&quot;&gt;

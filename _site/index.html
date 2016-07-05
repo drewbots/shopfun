@@ -69,8 +69,8 @@
              // pointers and their targets
              targets: [
                  {
-                    x: 20, // these are
-                    y: 20, // target values
+                    x: 100, // these are
+                    y: 100, // target values
                     elem: "#pointer" //this is pointer element id for this target
                  },
                  {
@@ -96,7 +96,7 @@
              ]
          };
      </script>
-     
+
     <!-- header start -->
 
     <a class="logowrap" href="/"><img class="logo" src="https://drewbots.github.io/shopfun/images/logo.png"></a>
@@ -169,7 +169,7 @@
     <a href="http://amazon.com" class="button" target="_blank">See Details</a>
   </span>
 
-  <a id="pointer2" class="lazy pointer origin2" title="This is my image's tooltip message!"></a>
+  <a id="pointer2" class="lazy pointer origin2 tooltip" data-content="#tooltip_content2" title="This is my image's tooltip message!"></a>
 
   <span id="tooltip_content2">
     <div class="squaredup">
@@ -179,7 +179,7 @@
     <a href="http://amazon.com" class="button" target="_blank">See Details</a>
   </span>
 
-  <a id="pointer3" class="lazy pointer origin3" title="This is my image's tooltip message!"></a>
+  <a id="pointer3" class="lazy pointer origin3 tooltip" data-content="#tooltip_content3" title="This is my image's tooltip message!"></a>
 
   <span id="tooltip_content3">
     <div class="squaredup">

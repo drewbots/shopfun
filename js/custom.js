@@ -109,7 +109,7 @@ jQuery(function ($) {
             xOffset = (windowWidth - (image.width * scale)) / 2;
         }
 
-        var arrayLength = _page_conf.pointers.length;
+        var arrayLength = _page_conf.targets.length;
         for (var i = 0; i < arrayLength; i++) {
             $(_page_conf.targets[i].elem).css({
                 top: (_page_conf.targets[i].y) * scale + yOffset,
