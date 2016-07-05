@@ -8,7 +8,46 @@ categories:
   - Sports
 ---
 
-{% include_relative surfing-js.html %}
+
+
+     <script>
+         var _page_conf = {
+             // image width and height
+             image: {
+                width: 6997,
+                height: 200
+             },
+
+             // pointers and their targets
+             targets: [
+                 {
+                    x: 20, // these are
+                    y: 20, // target values
+                    elem: "#pointer" //this is pointer element id for this target
+                 },
+                 {
+                    x: 200,
+                    y: 94,
+                    elem: "#pointer2"
+                 },
+                 {
+                    x: 80,
+                    y: 172,
+                    elem: "#pointer3"
+                 },
+                 {
+                    x: 390,
+                    y: 188,
+                    elem: "#pointer4"
+                 },
+                 {
+                    x: 590,
+                    y: 188,
+                    elem: "#pointer5"
+                 }
+             ]
+         };
+     </script>
 
 </head>
 
@@ -71,11 +110,11 @@ categories:
 
 <div class="surfing">
 
-  <a id="pointer" class="lazy pointer origin" title="This is my image's tooltip message!"></a>
+  <a id="pointer" class="lazy pointer origin tooltip" data-content="#tooltip_content" title="This is my image's tooltip message!"></a>
 
   <span id="tooltip_content">
     <div class="squaredup">
-      <img src="http://place-hold.it/300x100" />
+      <img src="http://place-hold.it/600x400" />
     </div>
     <h5>$35</h5>
     <a href="http://amazon.com" class="button" target="_blank">See Details</a>
@@ -85,7 +124,7 @@ categories:
 
   <span id="tooltip_content2">
     <div class="squaredup">
-      <img src="http://place-hold.it/300x500" />
+      <img src="http://place-hold.it/300x300" />
     </div>
     <h5>$35</h5>
     <a href="http://amazon.com" class="button" target="_blank">See Details</a>
@@ -95,7 +134,7 @@ categories:
 
   <span id="tooltip_content3">
     <div class="squaredup">
-      <img src="http://place-hold.it/300x700" />
+      <img src="http://place-hold.it/400x300" />
     </div>
     <h5>$35</h5>
     <a href="http://amazon.com" class="button" target="_blank">See Details</a>

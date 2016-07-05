@@ -48,216 +48,49 @@
     <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <script src="https://drewbots.github.io/shopfun/js/iscroll.js" type="text/javascript"></script>
     <script src="https://drewbots.github.io/shopfun/js/tooltipster.bundle.js" type="text/javascript"></script>
+    <script src="https://drewbots.github.io/shopfun/js/custom.js" type="text/javascript"></script>
 
 
 
 
-    <script type="text/javascript">
+         <script>
+         var _page_conf = {
+             // image width and height
+             image: {
+                width: 6997,
+                height: 200
+             },
 
-      $(document).ready(function(){
-
-        // #1
-        // This adds/positions the black and white points with their product pop-ups
-        // the updatePointer bit positions it to scale responsivly with the background images
-        // Position values are different for each post. 
-
-
-        var image = { width: 6997, height: 200 };
-
-        var target = new Array();
-        target[0] = { x: 90, y: 114 };
-        target[1] = { x: 200, y: 94 };
-        target[2] = { x: 80, y: 172 };
-        target[3] = { x: 390, y: 188 };
-        target[4] = { x: 590, y: 188 };
-
-        var pointer = new Array();
-        pointer[0] = $('#pointer');
-        pointer[1] = $('#pointer2');
-        pointer[2] = $('#pointer3');
-        pointer[3] = $('#pointer4');
-        pointer[4] = $('#pointer5');
-
-        $(document).ready(updatePointer);
-        $(window).resize(updatePointer);
-
-        function updatePointer() {
-            var windowWidth = $(window).width();
-            var windowHeight = $(window).height();
-            
-            // Get largest dimension increase
-            var xScale = windowWidth / image.width;
-            var yScale = windowHeight / image.height;
-            var scale;
-            var yOffset = 0;
-            var xOffset = 0;
-            
-            if (xScale > yScale) {
-                // The image fits perfectly in x axis, stretched in y
-                scale = xScale;
-                yOffset = (windowHeight - (image.height * scale)) / 2;
-            } else {
-                // The image fits perfectly in y axis, stretched in x
-                scale = yScale;
-                xOffset = (windowWidth - (image.width * scale)) / 2;
-            }
-            
-            var arrayLength = target.length;
-            for (var i = 0; i < arrayLength; i++) {
-                pointer[i].css('top', (target[i].y) * scale + yOffset);
-                pointer[i].css('left', (target[i].x) * scale);
-            }  
-        }
-
-
-      $(document).ready(function(){
-
-        // #2
-        // This makes the two animated menus work (the bottom and right sidebar menus)
-        // Same code used for each post. This should probably be added to a seperate template file with #4
-
-        var isActive = false;
-
-        $('.js-menu').on('click', function() {
-          if (isActive) {
-            $(this).removeClass('active');
-            $('body').removeClass('menu-open');
-          } else {
-            $(this).addClass('active');
-            $('body').addClass('menu-open');
-          }
-
-          isActive = !isActive;
-        });
-
-        $('.js-menu2').on('click', function() {
-          if (isActive) {
-            $(this).removeClass('active');
-            $('body').removeClass('bottom-open');
-          } else {
-            $(this).addClass('active');
-            $('body').addClass('bottom-open');
-          }
-
-          isActive = !isActive;
-        });
-
-
-        // #3
-        // This adds the tooltips to each of the points. Uses tooltipster.bundle.js
-
-        // Each post will need to have a tooltip for each point
-        // Idea: It seems like this could be automated. If a point is in the html then the js tooltip code is generated.
-        // Or, should class 'origin' somehow be combined with id 'pointer' from #1? 
-
-
-            $('.origin').tooltipster({
-                // we detach the element from the page and give it to Tooltipster to serve as content
-                content: $('#tooltip_content').detach(),
-                // if you use a single element as content for several tooltips, set this option to true
-                contentCloning: false,
-
-                animation: 'fade',
-                delay: 100,
-                    trigger: 'custom',
-
-                trackOrigin: '20',
-                interactive: 'true',
-
-                triggerOpen: {
-                    click: true,
-                    mouseenter: true,
-                    touchstart: true,
-                    tap: true
-                },
-                triggerClose: {
-                    click: false,
-                    scroll: true,
-                    mouseleave: true,
-                    tap: true
-                }
-
-            });
-
-            $('.origin2').tooltipster({
-                // we detach the element from the page and give it to Tooltipster to serve as content
-                content: $('#tooltip_content2').detach(),
-                // if you use a single element as content for several tooltips, set this option to true
-                contentCloning: false,
-
-                animation: 'fade',
-                delay: 100,
-                    trigger: 'custom',
-
-                trackOrigin: '20',
-                interactive: 'true',
-
-                triggerOpen: {
-                    click: true,
-                    mouseenter: true,
-                    touchstart: true,
-                    tap: true
-                },
-                triggerClose: {
-                    click: false,
-                    scroll: true,
-                    mouseleave: true,
-                    tap: true
-                }
-
-            });
-
-            $('.origin3').tooltipster({
-                // we detach the element from the page and give it to Tooltipster to serve as content
-                content: $('#tooltip_content3').detach(),
-                // if you use a single element as content for several tooltips, set this option to true
-                contentCloning: false,
-
-                animation: 'fade',
-                delay: 100,
-                    trigger: 'custom',
-
-                trackOrigin: '20',
-                interactive: 'true',
-
-                triggerOpen: {
-                    click: true,
-                    mouseenter: true,
-                    touchstart: true,
-                    tap: true
-                },
-                triggerClose: {
-                    click: false,
-                    scroll: true,
-                    mouseleave: true,
-                    tap: true
-                }
-
-            });
-
-        });
-
-
-      });
-
-
-      // #4
-      // This makes the page scroll left/right horizantally. Uses iScroll.js
-      // Same code used for each post. This should probably be added to a seperate template file with #2
-
-
-      document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
-
-      var myScroll;
-
-      function loaded () {
-        myScroll = new IScroll('#wrapper', { scrollX: true, scrollY: false, mouseWheel: true });
-      }
-
-
-</script>
-
-
+             // pointers and their targets
+             targets: [
+                 {
+                    x: 20, // these are
+                    y: 20, // target values
+                    elem: "#pointer" //this is pointer element id for this target
+                 },
+                 {
+                    x: 200,
+                    y: 94,
+                    elem: "#pointer2"
+                 },
+                 {
+                    x: 80,
+                    y: 172,
+                    elem: "#pointer3"
+                 },
+                 {
+                    x: 390,
+                    y: 188,
+                    elem: "#pointer4"
+                 },
+                 {
+                    x: 590,
+                    y: 188,
+                    elem: "#pointer5"
+                 }
+             ]
+         };
+     </script>
 
 </head>
 
@@ -325,11 +158,11 @@
 
 <div class="surfing">
 
-  <a id="pointer" class="lazy pointer origin" title="This is my image's tooltip message!"></a>
+  <a id="pointer" class="lazy pointer origin tooltip" data-content="#tooltip_content" title="This is my image's tooltip message!"></a>
 
   <span id="tooltip_content">
     <div class="squaredup">
-      <img src="http://place-hold.it/300x100" />
+      <img src="http://place-hold.it/600x400" />
     </div>
     <h5>$35</h5>
     <a href="http://amazon.com" class="button" target="_blank">See Details</a>
@@ -339,7 +172,7 @@
 
   <span id="tooltip_content2">
     <div class="squaredup">
-      <img src="http://place-hold.it/300x500" />
+      <img src="http://place-hold.it/300x300" />
     </div>
     <h5>$35</h5>
     <a href="http://amazon.com" class="button" target="_blank">See Details</a>
@@ -349,7 +182,7 @@
 
   <span id="tooltip_content3">
     <div class="squaredup">
-      <img src="http://place-hold.it/300x700" />
+      <img src="http://place-hold.it/400x300" />
     </div>
     <h5>$35</h5>
     <a href="http://amazon.com" class="button" target="_blank">See Details</a>

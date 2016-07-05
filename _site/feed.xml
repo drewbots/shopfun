@@ -5,8 +5,8 @@
     <description></description>
     <link>https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/</link>
     <atom:link href="https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 04 Jul 2016 14:17:36 -0700</pubDate>
-    <lastBuildDate>Mon, 04 Jul 2016 14:17:36 -0700</lastBuildDate>
+    <pubDate>Tue, 05 Jul 2016 09:56:49 -0700</pubDate>
+    <lastBuildDate>Tue, 05 Jul 2016 09:56:49 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -365,7 +365,7 @@
 
   &lt;span id=&quot;tooltip_content&quot;&gt;
     &lt;div class=&quot;squaredup&quot;&gt;
-      &lt;img src=&quot;http://place-hold.it/300x100&quot; /&gt;
+      &lt;img src=&quot;http://place-hold.it/300x300&quot; /&gt;
     &lt;/div&gt;
     &lt;h5&gt;$35&lt;/h5&gt;
     &lt;a href=&quot;http://amazon.com&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
@@ -375,7 +375,7 @@
 
   &lt;span id=&quot;tooltip_content2&quot;&gt;
     &lt;div class=&quot;squaredup&quot;&gt;
-      &lt;img src=&quot;http://place-hold.it/300x500&quot; /&gt;
+      &lt;img src=&quot;http://place-hold.it/300x300&quot; /&gt;
     &lt;/div&gt;
     &lt;h5&gt;$35&lt;/h5&gt;
     &lt;a href=&quot;http://amazon.com&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
@@ -385,7 +385,7 @@
 
   &lt;span id=&quot;tooltip_content3&quot;&gt;
     &lt;div class=&quot;squaredup&quot;&gt;
-      &lt;img src=&quot;http://place-hold.it/300x700&quot; /&gt;
+      &lt;img src=&quot;http://place-hold.it/300x300&quot; /&gt;
     &lt;/div&gt;
     &lt;h5&gt;$35&lt;/h5&gt;
     &lt;a href=&quot;http://amazon.com&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
@@ -423,212 +423,44 @@
     
       <item>
         <title>Surfing</title>
-        <description>&lt;script type=&quot;text/javascript&quot;&gt;
+        <description>     &lt;script&gt;
+         var _page_conf = {
+             // image width and height
+             image: {
+                width: 6997,
+                height: 200
+             },
 
-      $(document).ready(function(){
-
-        // #1
-        // This adds/positions the black and white points with their product pop-ups
-        // the updatePointer bit positions it to scale responsivly with the background images
-        // Position values are different for each post. 
-
-
-        var image = { width: 6997, height: 200 };
-
-        var target = new Array();
-        target[0] = { x: 90, y: 114 };
-        target[1] = { x: 200, y: 94 };
-        target[2] = { x: 80, y: 172 };
-        target[3] = { x: 390, y: 188 };
-        target[4] = { x: 590, y: 188 };
-
-        var pointer = new Array();
-        pointer[0] = $(&#39;#pointer&#39;);
-        pointer[1] = $(&#39;#pointer2&#39;);
-        pointer[2] = $(&#39;#pointer3&#39;);
-        pointer[3] = $(&#39;#pointer4&#39;);
-        pointer[4] = $(&#39;#pointer5&#39;);
-
-        $(document).ready(updatePointer);
-        $(window).resize(updatePointer);
-
-        function updatePointer() {
-            var windowWidth = $(window).width();
-            var windowHeight = $(window).height();
-            
-            // Get largest dimension increase
-            var xScale = windowWidth / image.width;
-            var yScale = windowHeight / image.height;
-            var scale;
-            var yOffset = 0;
-            var xOffset = 0;
-            
-            if (xScale &gt; yScale) {
-                // The image fits perfectly in x axis, stretched in y
-                scale = xScale;
-                yOffset = (windowHeight - (image.height * scale)) / 2;
-            } else {
-                // The image fits perfectly in y axis, stretched in x
-                scale = yScale;
-                xOffset = (windowWidth - (image.width * scale)) / 2;
-            }
-            
-            var arrayLength = target.length;
-            for (var i = 0; i &lt; arrayLength; i++) {
-                pointer[i].css(&#39;top&#39;, (target[i].y) * scale + yOffset);
-                pointer[i].css(&#39;left&#39;, (target[i].x) * scale);
-            }  
-        }
-
-
-      $(document).ready(function(){
-
-        // #2
-        // This makes the two animated menus work (the bottom and right sidebar menus)
-        // Same code used for each post. This should probably be added to a seperate template file with #4
-
-        var isActive = false;
-
-        $(&#39;.js-menu&#39;).on(&#39;click&#39;, function() {
-          if (isActive) {
-            $(this).removeClass(&#39;active&#39;);
-            $(&#39;body&#39;).removeClass(&#39;menu-open&#39;);
-          } else {
-            $(this).addClass(&#39;active&#39;);
-            $(&#39;body&#39;).addClass(&#39;menu-open&#39;);
-          }
-
-          isActive = !isActive;
-        });
-
-        $(&#39;.js-menu2&#39;).on(&#39;click&#39;, function() {
-          if (isActive) {
-            $(this).removeClass(&#39;active&#39;);
-            $(&#39;body&#39;).removeClass(&#39;bottom-open&#39;);
-          } else {
-            $(this).addClass(&#39;active&#39;);
-            $(&#39;body&#39;).addClass(&#39;bottom-open&#39;);
-          }
-
-          isActive = !isActive;
-        });
-
-
-        // #3
-        // This adds the tooltips to each of the points. Uses tooltipster.bundle.js
-
-        // Each post will need to have a tooltip for each point
-        // Idea: It seems like this could be automated. If a point is in the html then the js tooltip code is generated.
-        // Or, should class &#39;origin&#39; somehow be combined with id &#39;pointer&#39; from #1? 
-
-
-            $(&#39;.origin&#39;).tooltipster({
-                // we detach the element from the page and give it to Tooltipster to serve as content
-                content: $(&#39;#tooltip_content&#39;).detach(),
-                // if you use a single element as content for several tooltips, set this option to true
-                contentCloning: false,
-
-                animation: &#39;fade&#39;,
-                delay: 100,
-                    trigger: &#39;custom&#39;,
-
-                trackOrigin: &#39;20&#39;,
-                interactive: &#39;true&#39;,
-
-                triggerOpen: {
-                    click: true,
-                    mouseenter: true,
-                    touchstart: true,
-                    tap: true
-                },
-                triggerClose: {
-                    click: false,
-                    scroll: true,
-                    mouseleave: true,
-                    tap: true
-                }
-
-            });
-
-            $(&#39;.origin2&#39;).tooltipster({
-                // we detach the element from the page and give it to Tooltipster to serve as content
-                content: $(&#39;#tooltip_content2&#39;).detach(),
-                // if you use a single element as content for several tooltips, set this option to true
-                contentCloning: false,
-
-                animation: &#39;fade&#39;,
-                delay: 100,
-                    trigger: &#39;custom&#39;,
-
-                trackOrigin: &#39;20&#39;,
-                interactive: &#39;true&#39;,
-
-                triggerOpen: {
-                    click: true,
-                    mouseenter: true,
-                    touchstart: true,
-                    tap: true
-                },
-                triggerClose: {
-                    click: false,
-                    scroll: true,
-                    mouseleave: true,
-                    tap: true
-                }
-
-            });
-
-            $(&#39;.origin3&#39;).tooltipster({
-                // we detach the element from the page and give it to Tooltipster to serve as content
-                content: $(&#39;#tooltip_content3&#39;).detach(),
-                // if you use a single element as content for several tooltips, set this option to true
-                contentCloning: false,
-
-                animation: &#39;fade&#39;,
-                delay: 100,
-                    trigger: &#39;custom&#39;,
-
-                trackOrigin: &#39;20&#39;,
-                interactive: &#39;true&#39;,
-
-                triggerOpen: {
-                    click: true,
-                    mouseenter: true,
-                    touchstart: true,
-                    tap: true
-                },
-                triggerClose: {
-                    click: false,
-                    scroll: true,
-                    mouseleave: true,
-                    tap: true
-                }
-
-            });
-
-        });
-
-
-      });
-
-
-      // #4
-      // This makes the page scroll left/right horizantally. Uses iScroll.js
-      // Same code used for each post. This should probably be added to a seperate template file with #2
-
-
-      document.addEventListener(&#39;touchmove&#39;, function (e) { e.preventDefault(); }, false);
-
-      var myScroll;
-
-      function loaded () {
-        myScroll = new IScroll(&#39;#wrapper&#39;, { scrollX: true, scrollY: false, mouseWheel: true });
-      }
-
-
-&lt;/script&gt;
-
-
+             // pointers and their targets
+             targets: [
+                 {
+                    x: 20, // these are
+                    y: 20, // target values
+                    elem: &quot;#pointer&quot; //this is pointer element id for this target
+                 },
+                 {
+                    x: 200,
+                    y: 94,
+                    elem: &quot;#pointer2&quot;
+                 },
+                 {
+                    x: 80,
+                    y: 172,
+                    elem: &quot;#pointer3&quot;
+                 },
+                 {
+                    x: 390,
+                    y: 188,
+                    elem: &quot;#pointer4&quot;
+                 },
+                 {
+                    x: 590,
+                    y: 188,
+                    elem: &quot;#pointer5&quot;
+                 }
+             ]
+         };
+     &lt;/script&gt;
 
 &lt;/head&gt;
 
@@ -696,11 +528,11 @@
 
 &lt;div class=&quot;surfing&quot;&gt;
 
-  &lt;a id=&quot;pointer&quot; class=&quot;lazy pointer origin&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+  &lt;a id=&quot;pointer&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
   &lt;span id=&quot;tooltip_content&quot;&gt;
     &lt;div class=&quot;squaredup&quot;&gt;
-      &lt;img src=&quot;http://place-hold.it/300x100&quot; /&gt;
+      &lt;img src=&quot;http://place-hold.it/600x400&quot; /&gt;
     &lt;/div&gt;
     &lt;h5&gt;$35&lt;/h5&gt;
     &lt;a href=&quot;http://amazon.com&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
@@ -710,7 +542,7 @@
 
   &lt;span id=&quot;tooltip_content2&quot;&gt;
     &lt;div class=&quot;squaredup&quot;&gt;
-      &lt;img src=&quot;http://place-hold.it/300x500&quot; /&gt;
+      &lt;img src=&quot;http://place-hold.it/300x300&quot; /&gt;
     &lt;/div&gt;
     &lt;h5&gt;$35&lt;/h5&gt;
     &lt;a href=&quot;http://amazon.com&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
@@ -720,7 +552,7 @@
 
   &lt;span id=&quot;tooltip_content3&quot;&gt;
     &lt;div class=&quot;squaredup&quot;&gt;
-      &lt;img src=&quot;http://place-hold.it/300x700&quot; /&gt;
+      &lt;img src=&quot;http://place-hold.it/400x300&quot; /&gt;
     &lt;/div&gt;
     &lt;h5&gt;$35&lt;/h5&gt;
     &lt;a href=&quot;http://amazon.com&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
@@ -1113,7 +945,7 @@
 
   &lt;span id=&quot;tooltip_content&quot;&gt;
     &lt;div class=&quot;squaredup&quot;&gt;
-      &lt;img src=&quot;http://place-hold.it/300x100&quot; /&gt;
+      &lt;img src=&quot;http://place-hold.it/400x300&quot; /&gt;
     &lt;/div&gt;
     &lt;h5&gt;$35&lt;/h5&gt;
     &lt;a href=&quot;http://amazon.com&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
@@ -1123,7 +955,7 @@
 
   &lt;span id=&quot;tooltip_content2&quot;&gt;
     &lt;div class=&quot;squaredup&quot;&gt;
-      &lt;img src=&quot;http://place-hold.it/300x500&quot; /&gt;
+      &lt;img src=&quot;http://place-hold.it/500x350&quot; /&gt;
     &lt;/div&gt;
     &lt;h5&gt;$35&lt;/h5&gt;
     &lt;a href=&quot;http://amazon.com&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
@@ -1133,7 +965,7 @@
 
   &lt;span id=&quot;tooltip_content3&quot;&gt;
     &lt;div class=&quot;squaredup&quot;&gt;
-      &lt;img src=&quot;http://place-hold.it/300x700&quot; /&gt;
+      &lt;img src=&quot;http://place-hold.it/400x300&quot; /&gt;
     &lt;/div&gt;
     &lt;h5&gt;$35&lt;/h5&gt;
     &lt;a href=&quot;http://amazon.com&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
