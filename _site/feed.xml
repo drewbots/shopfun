@@ -5,17 +5,13 @@
     <description></description>
     <link>https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/</link>
     <atom:link href="https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 05 Jul 2016 10:23:45 -0700</pubDate>
-    <lastBuildDate>Tue, 05 Jul 2016 10:23:45 -0700</lastBuildDate>
+    <pubDate>Tue, 05 Jul 2016 10:57:56 -0700</pubDate>
+    <lastBuildDate>Tue, 05 Jul 2016 10:57:56 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Surfing</title>
-        <description>&lt;/head&gt;
-
-&lt;body onload=&quot;loaded()&quot;&gt;
-
-     &lt;script&gt;
+        <description>&lt;script&gt;
          var _page_conf = {
              // image width and height
              image: {
@@ -53,6 +49,10 @@
              ]
          };
      &lt;/script&gt;
+
+&lt;/head&gt;
+
+&lt;body onload=&quot;loaded()&quot;&gt;
 
     &lt;!-- header start --&gt;
 
