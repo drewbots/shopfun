@@ -12,37 +12,23 @@ categories:
          var _page_conf = {
              // image width and height
              image: {
-                width: 6997,
+                width: 6112,
                 height: 200
              },
 
              // pointers and their targets
              targets: [
+                 
+                 {% for loc in site.data.surfing %}
+
                  {
-                    x: 100, // these are
-                    y: 100, // target values
-                    elem: "#pointer" //this is pointer element id for this target
+                    x: {{ loc.xpt }}, // these are
+                    y: {{ loc.ypt }}, // target values
+                    elem: "#pointer{{ loc.num }}" //this is pointer element id for this target
                  },
-                 {
-                    x: 200,
-                    y: 94,
-                    elem: "#pointer2"
-                 },
-                 {
-                    x: 80,
-                    y: 172,
-                    elem: "#pointer3"
-                 },
-                 {
-                    x: 390,
-                    y: 188,
-                    elem: "#pointer4"
-                 },
-                 {
-                    x: 590,
-                    y: 188,
-                    elem: "#pointer5"
-                 }
+
+                 {% endfor %}
+
              ]
          };
      </script>
@@ -51,7 +37,41 @@ categories:
 
 <body onload="loaded()">
 
+
 {% include_relative header.html %}
+
+<div id="wrapper">
+<div id="scroller">
+
+
+
+<div>
+
+{% for page in site.data.surfing %}
+
+  <a id="pointer{{ page.num }}" class="lazy pointer origin tooltip" data-content="#tooltip_content{{ page.num }}" title="This is my image's tooltip message!"></a>
+
+  <span id="tooltip_content{{ page.num }}">
+    <h6>{{ page.product }}</h6>
+    <div>
+      <img src="{{ site.baseurl }}/images/products/surfing/{{ page.filename }}" alt="{{ page.alttag }}" />
+    </div>
+    <h5>${{ page.price }}</h5>
+    <a href="{{ page.link }}" class="button" target="_blank">See Details</a>
+  </span>
+
+{% endfor %}
+
+</div>
+
+<div class="backdrop flex">
+  {% for pic in site.data.images %}
+    <img class="reel" src="{{ site.baseurl }}/images/surfing/0{{ pic.images }}.jpg">
+  {% endfor %}
+</div>
+
+</div>
+</div>
 
 <div class="sidemenu">
   <ul>
@@ -103,60 +123,11 @@ categories:
   </ul>
 </div>
 
-<div id="wrapper">
-<div id="scroller">
-
-<div class="surfing">
-
-  <a id="pointer" class="lazy pointer origin tooltip" data-content="#tooltip_content" title="This is my image's tooltip message!"></a>
-
-  <span id="tooltip_content">
-    <div class="squaredup">
-      <img src="http://place-hold.it/600x400" />
-    </div>
-    <h5>$35</h5>
-    <a href="http://amazon.com" class="button" target="_blank">See Details</a>
-  </span>
-
-  <a id="pointer2" class="lazy pointer origin2 tooltip" data-content="#tooltip_content2" title="This is my image's tooltip message!"></a>
-
-  <span id="tooltip_content2">
-    <div class="squaredup">
-      <img src="http://place-hold.it/300x300" />
-    </div>
-    <h5>$35</h5>
-    <a href="http://amazon.com" class="button" target="_blank">See Details</a>
-  </span>
-
-  <a id="pointer3" class="lazy pointer origin3 tooltip" data-content="#tooltip_content3" title="This is my image's tooltip message!"></a>
-
-  <span id="tooltip_content3">
-    <div class="squaredup">
-      <img src="http://place-hold.it/400x300" />
-    </div>
-    <h5>$35</h5>
-    <a href="http://amazon.com" class="button" target="_blank">See Details</a>
-  </span>
-
-</div>
-
-<div class="backdrop flex">
-  <img class="reel" src="{{site.baseurl}}/images/surfing/06.jpg">
-  <img class="reel" src="{{site.baseurl}}/images/surfing/02.jpg">
-  <img class="reel" src="{{site.baseurl}}/images/surfing/03.jpg">
-  <img class="reel" src="{{site.baseurl}}/images/surfing/04.jpg">
-  <img class="reel" src="{{site.baseurl}}/images/surfing/05.jpg">
-  <img class="reel" src="{{site.baseurl}}/images/surfing/06.jpg">
-</div>
-
+<a class="js-menu2">
+  <img class="logo" src="{{site.baseurl}}/images/infoico.png">
+</a>
 
 <div class="bottommenu flex align-center">
   <p>Get awesome surf gear.<br>We've picked out the latest surfboard models as well as choice gifts, swag and must haves from Amazon.</p>
 </div>
 
-<a class="js-menu2">
-  <img class="logo" src="{{site.baseurl}}/images/infoico.png">
-</a>
-
-</div>
-</div>

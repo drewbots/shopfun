@@ -156,9 +156,9 @@ jQuery(function ($) {
             },
             triggerClose: {
                 click: false,
-                scroll: true,
-                mouseleave: true,
-                tap: true
+                scroll: false,
+                mouseleave: false,
+                tap: false
             }
 
         });

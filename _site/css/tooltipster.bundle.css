@@ -3,18 +3,15 @@
 
 
 .tooltipster-content img {
-  max-width: 600px;
-  padding: 0px;
-  margin: 0px;
-  width: 100%;
+
 }
 
-.tooltipster-sidetip .tooltipster-box{background:#000;border:none;border-radius:4px;height:auto;width:auto}
+.tooltipster-sidetip .tooltipster-box{height:auto;width:auto}
 .tooltipster-sidetip.tooltipster-bottom .tooltipster-box{margin-top:8px}
 .tooltipster-sidetip.tooltipster-left .tooltipster-box{margin-right:8px}
 .tooltipster-sidetip.tooltipster-right .tooltipster-box{margin-left:8px}
 .tooltipster-sidetip.tooltipster-top .tooltipster-box{margin-bottom:8px}
-.tooltipster-sidetip .tooltipster-content{color:#fff;padding:10px;}
+.tooltipster-sidetip .tooltipster-content{background:#000;border:none;border-radius:4px;color:#fff;padding:10px;}
 .tooltipster-sidetip .tooltipster-content p{color:#fff;}
 .tooltipster-sidetip .tooltipster-arrow{overflow:hidden;position:absolute}
 .tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow{height:10px;margin-left:-10px;top:0;width:20px}

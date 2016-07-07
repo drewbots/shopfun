@@ -11,10 +11,10 @@ paginate_path: "page:num"
 
 permalink: /:title/
 relative_permalinks: false
-url: https://drewbots.github.io/shopfun
+#url: https://drewbots.github.io/shopfun
 #url: http://localhost:2106
 #port: 2106
-baseurl: https://drewbots.github.io/shopfun
+#baseurl: https://drewbots.github.io/shopfun
 name: SurfnSol
 
 # Themes are encouraged to use these universal variables 
@@ -23,7 +23,6 @@ title : Surf n Sol
 tagline: Hawaii Vacations
 author : Christine
 name : SurfnSol
-
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
