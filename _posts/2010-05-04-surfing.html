@@ -41,44 +41,41 @@ categories:
 {% include_relative header.html %}
 
 <div id="wrapper">
-<div id="scroller">
+  <div id="scroller">
 
-
-
-<div>
-
-{% for page in site.data.surfing %}
-
-  <a id="pointer{{ page.num }}" class="lazy pointer origin tooltip" data-content="#tooltip_content{{ page.num }}" title="This is my image's tooltip message!"></a>
-
-  <span id="tooltip_content{{ page.num }}">
-    <h6>{{ page.product }}</h6>
     <div>
-      <img src="{{ site.baseurl }}/images/products/surfing/{{ page.filename }}" alt="{{ page.alttag }}" />
+
+    {% for page in site.data.surfing %}
+      <a id="pointer{{ page.num }}" class="lazy pointer origin tooltip" data-content="#tooltip_content{{ page.num }}" title="This is my image's tooltip message!"></a>
+
+      <span id="tooltip_content{{ page.num }}">
+        <h6>{{ page.product }}</h6>
+        <div>
+          <img src="{{ site.baseurl }}/images/surfing/prod/{{ page.filename }}" alt="{{ page.alttag }}" />
+        </div>
+        <h5>${{ page.price }}</h5>
+        <a href="{{ page.link }}" class="button" target="_blank">See Details</a>
+      </span>
+    {% endfor %}
+
     </div>
-    <h5>${{ page.price }}</h5>
-    <a href="{{ page.link }}" class="button" target="_blank">See Details</a>
-  </span>
 
-{% endfor %}
+    <div class="backdrop flex">
+      {% for pic in site.data.surfing %}
+        {{ pic.backimages }}
+      {% endfor %}
+    </div>
 
-</div>
-
-<div class="backdrop flex">
-  {% for pic in site.data.images %}
-    <img class="reel" src="{{ site.baseurl }}/images/surfing/0{{ pic.images }}.jpg">
-  {% endfor %}
-</div>
-
-</div>
+  </div>
 </div>
 
 <div class="sidemenu">
   <ul>
 
+    {% for page in site.data.surfing %}
     <li class="flex">
       <div class="squaredup half-flex-child">
-        <img src="{{site.baseurl}}/images/surfing/06.jpg">
+        <img src="{{ site.baseurl }}/images/surfing/prod/{{ page.filename }}">
       </div>
       <div class="prodnames">
         <h6>Product name hello hell</h6>
@@ -86,39 +83,7 @@ categories:
         <a href="http://amazon.com" target="_blank" ><div class="button">Buy</div></a>
       </div>
     </li>
-
-    <li class="flex">
-      <div class="squaredup half-flex-child">
-        <img src="{{site.baseurl}}/images/surfing/06.jpg">
-      </div>
-      <div class="prodnames">
-        <h6>Product name hello hell</h6>
-        <p>$34.99</p>
-        <a href="http://amazon.com" target="_blank" ><div class="button">Buy</div></a>
-      </div>
-    </li>
-
-    <li class="flex">
-      <div class="squaredup half-flex-child">
-        <img src="{{site.baseurl}}/images/surfing/06.jpg">
-      </div>
-      <div class="prodnames">
-        <h6>Product name hello hell</h6>
-        <p>$34.99</p>
-        <a href="http://amazon.com" target="_blank" ><div class="button">Buy</div></a>
-      </div>
-    </li>
-
-    <li class="flex">
-      <div class="squaredup half-flex-child">
-        <img src="{{site.baseurl}}/images/surfing/06.jpg">
-      </div>
-      <div class="prodnames">
-        <h6>Product name hello hell</h6>
-        <p>$34.99</p>
-        <a href="http://amazon.com" target="_blank" ><div class="button">Buy</div></a>
-      </div>
-    </li>
+    {% endfor %}
 
   </ul>
 </div>

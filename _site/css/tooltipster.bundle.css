@@ -3,7 +3,10 @@
 
 
 .tooltipster-content img {
-
+  max-width: 400px;
+  max-height: 400px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .tooltipster-sidetip .tooltipster-box{height:auto;width:auto}
