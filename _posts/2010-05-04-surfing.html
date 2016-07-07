@@ -49,9 +49,9 @@ categories:
       <a id="pointer{{ page.num }}" class="lazy pointer origin tooltip" data-content="#tooltip_content{{ page.num }}" title="This is my image's tooltip message!"></a>
 
       <span id="tooltip_content{{ page.num }}">
-        <h6>{{ page.product }}</h6>
+        <a href="{{ page.link }}" target="_blank"><h6>{{ page.product }}</h6></a>
         <div>
-          <img src="{{ site.baseurl }}/images/surfing/prod/{{ page.filename }}" alt="{{ page.alttag }}" />
+          <a href="{{ page.link }}" target="_blank"><img src="{{ site.baseurl }}/images/surfing/prod/{{ page.filename }}" alt="{{ page.alttag }}" /></a>
         </div>
         <h5>${{ page.price }}</h5>
         <a href="{{ page.link }}" class="button" target="_blank">See Details</a>
@@ -72,15 +72,15 @@ categories:
 <div class="sidemenu">
   <ul>
 
-    {% for page in site.data.surfing %}
+    {% for sidebar in site.data.surfing %}
     <li class="flex">
       <div class="squaredup half-flex-child">
-        <img src="{{ site.baseurl }}/images/surfing/prod/{{ page.filename }}">
+        <a href="{{ sidebar.link }}" target="_blank"><img src="{{ site.baseurl }}/images/surfing/prod/{{ sidebar.filename }}"></a>
       </div>
       <div class="prodnames">
-        <h6>Product name hello hell</h6>
-        <p>$34.99</p>
-        <a href="http://amazon.com" target="_blank" ><div class="button">Buy</div></a>
+        <a href="{{ page.link }}" target="_blank"><h6>{{ sidebar.product }}</h6></a>
+        <p>${{ sidebar.price }}</p>
+        <a href="{{ sidebar.link }}" target="_blank" ><div class="button">Buy</div></a>
       </div>
     </li>
     {% endfor %}
