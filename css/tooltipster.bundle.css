@@ -28,7 +28,7 @@
 }
 
 .close {
-    position: relative;
+    position: absolute;
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -64,7 +64,7 @@
     top: 50%;
     left: 0;
     margin-top: -1px;
-    background: #000;
+    background: #fff;
 }
 
 
