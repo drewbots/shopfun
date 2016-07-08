@@ -150,12 +150,12 @@ jQuery(function ($) {
 
             triggerOpen: {
                 click: true,
-                mouseenter: true,
-                touchstart: true,
+                mouseenter: false,
+                touchstart: false,
                 tap: true
             },
             triggerClose: {
-                click: false,
+                click: true,
                 scroll: true,
                 mouseleave: true,
                 tap: true

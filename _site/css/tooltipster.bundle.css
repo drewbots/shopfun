@@ -1,3 +1,71 @@
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog > div {
+    width: 82%;
+    max-width: 500px;
+    position: relative;
+    margin: 2% auto;
+}
+.modalimage {
+  width: 100%;
+}
+
+.close {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.close.pointy::Before, .close.pointy::after {
+    width: 200%;
+    left: -50%;
+}
+
+.close::before {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.close::after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.close::before, .close::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    margin-top: -1px;
+    background: #000;
+}
 
 
 
@@ -267,4 +335,22 @@
 
 .tooltipster-update-scale {
 	animation: tooltipster-scaling 600ms;
+}
+
+
+
+
+@media (max-width: 1000px) , and (max-height: 700px) {
+
+  .tooltipster-fade.tooltipster-show {
+      opacity: 0;
+      display: none;
+  }
+
+}
+
+@media (min-width: 1001px) , and (min-height: 700px) {
+  .modalDialog {
+    display: none;
+  }
 }

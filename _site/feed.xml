@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 07 Jul 2016 14:10:02 -0700</pubDate>
-    <lastBuildDate>Thu, 07 Jul 2016 14:10:02 -0700</lastBuildDate>
+    <pubDate>Thu, 07 Jul 2016 17:38:21 -0700</pubDate>
+    <lastBuildDate>Thu, 07 Jul 2016 17:38:21 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -254,7 +254,7 @@
     &lt;div&gt;
 
     
-      &lt;a id=&quot;pointer&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#dakine-leash&quot; id=&quot;pointer&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Dakine Kainui Pro Comp Leash&lt;/h6&gt;&lt;/a&gt;
@@ -265,7 +265,7 @@
         &lt;a href=&quot;http://amzn.to/29kDo9j&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer2&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content2&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#oneil-wetsuit&quot; id=&quot;pointer2&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content2&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content2&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Oneil Wetsuit&lt;/h6&gt;&lt;/a&gt;
@@ -276,7 +276,7 @@
         &lt;a href=&quot;http://amzn.to/29jt8PM&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer3&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content3&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#day-glow-wax&quot; id=&quot;pointer3&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content3&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content3&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29fC1Xx&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Day Glow Wax by Sticky Bumps&lt;/h6&gt;&lt;/a&gt;
@@ -287,7 +287,7 @@
         &lt;a href=&quot;http://amzn.to/29fC1Xx&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer4&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content4&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#catchsurf-beater&quot; id=&quot;pointer4&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content4&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content4&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29LZu3d&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf Beater Pro Model Kalani Robb 54&quot; Twinfin&lt;/h6&gt;&lt;/a&gt;
@@ -298,7 +298,7 @@
         &lt;a href=&quot;http://amzn.to/29LZu3d&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer5&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content5&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#dakine-duffel&quot; id=&quot;pointer5&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content5&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content5&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29jLhPk&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Hipster Duffel&lt;/h6&gt;&lt;/a&gt;
@@ -309,7 +309,7 @@
         &lt;a href=&quot;http://amzn.to/29jLhPk&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer6&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content6&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#dakine-backpack&quot; id=&quot;pointer6&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content6&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content6&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29lpXr3&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Dakine Backpack&lt;/h6&gt;&lt;/a&gt;
@@ -320,7 +320,7 @@
         &lt;a href=&quot;http://amzn.to/29lpXr3&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer7&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content7&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#surfrack-simple&quot; id=&quot;pointer7&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content7&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content7&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29Jk2JF&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Minimalist Surfboard Wall Rack&lt;/h6&gt;&lt;/a&gt;
@@ -331,7 +331,7 @@
         &lt;a href=&quot;http://amzn.to/29Jk2JF&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer8&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content8&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#surfrack-wooden&quot; id=&quot;pointer8&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content8&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content8&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29ohCCd&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Wooden Surfboard Rack&lt;/h6&gt;&lt;/a&gt;
@@ -342,7 +342,7 @@
         &lt;a href=&quot;http://amzn.to/29ohCCd&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer9&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content9&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#indo-board&quot; id=&quot;pointer9&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content9&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content9&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29woLQ9&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Indo Board&lt;/h6&gt;&lt;/a&gt;
@@ -353,7 +353,7 @@
         &lt;a href=&quot;http://amzn.to/29woLQ9&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer10&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content10&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#waxpickle&quot; id=&quot;pointer10&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content10&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content10&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29LOVNC&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Wax Pickle&lt;/h6&gt;&lt;/a&gt;
@@ -364,7 +364,7 @@
         &lt;a href=&quot;http://amzn.to/29LOVNC&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer11&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content11&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#surf-craft-book&quot; id=&quot;pointer11&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content11&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content11&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29erjnW&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Surf Craft: Design and the Culture of Board Riding&lt;/h6&gt;&lt;/a&gt;
@@ -375,10 +375,10 @@
         &lt;a href=&quot;http://amzn.to/29erjnW&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer12&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content12&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#tailgate-board-pad&quot; id=&quot;pointer12&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content12&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content12&quot;&gt;
-        &lt;a href=&quot;http://amzn.to/29iR0So&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Tailgate Surf Pad by Dakine&lt;/h6&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29iR0So&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Tailgate Surfboard Pad by Dakine&lt;/h6&gt;&lt;/a&gt;
         &lt;div&gt;
           &lt;a href=&quot;http://amzn.to/29iR0So&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/surfing/prod/dakine-tail-gate-surf-pad.jpg&quot; alt=&quot;dakine tail gate surf pad&quot; /&gt;&lt;/a&gt;
         &lt;/div&gt;
@@ -386,7 +386,7 @@
         &lt;a href=&quot;http://amzn.to/29iR0So&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer13&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content13&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#surfboard-straps&quot; id=&quot;pointer13&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content13&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content13&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29d5Oii&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Tie Down Straps by Dakine&lt;/h6&gt;&lt;/a&gt;
@@ -397,7 +397,7 @@
         &lt;a href=&quot;http://amzn.to/29d5Oii&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer14&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content14&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#roxy-shortsuit&quot; id=&quot;pointer14&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content14&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content14&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29mbcSo&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Roxy Womens Springsuit Wetsuit&lt;/h6&gt;&lt;/a&gt;
@@ -408,7 +408,7 @@
         &lt;a href=&quot;http://amzn.to/29mbcSo&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer15&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content15&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#traction-pad&quot; id=&quot;pointer15&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content15&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content15&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29jSJdi&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Trimable Traction Pad&lt;/h6&gt;&lt;/a&gt;
@@ -419,7 +419,7 @@
         &lt;a href=&quot;http://amzn.to/29jSJdi&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer16&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content16&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#leash-string&quot; id=&quot;pointer16&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content16&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content16&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29i8Urz&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Leash String&lt;/h6&gt;&lt;/a&gt;
@@ -430,7 +430,7 @@
         &lt;a href=&quot;http://amzn.to/29i8Urz&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer17&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content17&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#surf-wax&quot; id=&quot;pointer17&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content17&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content17&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29i7KMs&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Double Barrel Surf Wax&lt;/h6&gt;&lt;/a&gt;
@@ -441,7 +441,7 @@
         &lt;a href=&quot;http://amzn.to/29i7KMs&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer18&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content18&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#fin-wallet&quot; id=&quot;pointer18&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content18&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content18&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29jTzXf&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Fin Wallet by FCS&lt;/h6&gt;&lt;/a&gt;
@@ -452,7 +452,7 @@
         &lt;a href=&quot;http://amzn.to/29jTzXf&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer19&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content19&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#john-john-surf-flick&quot; id=&quot;pointer19&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content19&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content19&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29odnGJ&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;View From A Blue Moon&lt;/h6&gt;&lt;/a&gt;
@@ -463,7 +463,7 @@
         &lt;a href=&quot;http://amzn.to/29odnGJ&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer20&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content20&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#surf-boots&quot; id=&quot;pointer20&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content20&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content20&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29LQrzd&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Xcel Infiniti 3mm Boots&lt;/h6&gt;&lt;/a&gt;
@@ -474,7 +474,7 @@
         &lt;a href=&quot;http://amzn.to/29LQrzd&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer21&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content21&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#surf-tool&quot; id=&quot;pointer21&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content21&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content21&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29kHkH6&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Surfers Multi Tool&lt;/h6&gt;&lt;/a&gt;
@@ -485,7 +485,7 @@
         &lt;a href=&quot;http://amzn.to/29kHkH6&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer22&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content22&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#catchsurf-finless-kit&quot; id=&quot;pointer22&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content22&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content22&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29LU34n&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf Finless Kit&lt;/h6&gt;&lt;/a&gt;
@@ -496,7 +496,7 @@
         &lt;a href=&quot;http://amzn.to/29LU34n&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer23&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content23&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#body-surfing-fins&quot; id=&quot;pointer23&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content23&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content23&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29g3kjx&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Churchill Makapuu Pro Bodyboard Swim Fins&lt;/h6&gt;&lt;/a&gt;
@@ -507,7 +507,7 @@
         &lt;a href=&quot;http://amzn.to/29g3kjx&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer24&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content24&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#catchsurf-womper&quot; id=&quot;pointer24&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content24&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content24&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29ltAgK&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf The Womper Handboard&lt;/h6&gt;&lt;/a&gt;
@@ -518,7 +518,7 @@
         &lt;a href=&quot;http://amzn.to/29ltAgK&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer25&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content25&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#catchsurf-beater2&quot; id=&quot;pointer25&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content25&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content25&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29wo1uh&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf Beater&lt;/h6&gt;&lt;/a&gt;
@@ -529,7 +529,7 @@
         &lt;a href=&quot;http://amzn.to/29wo1uh&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
     
-      &lt;a id=&quot;pointer26&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content26&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#fin-keys&quot; id=&quot;pointer26&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content26&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
 
       &lt;span id=&quot;tooltip_content26&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29md4KC&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;FCS Fin Keys &amp; Screws&lt;/h6&gt;&lt;/a&gt;
@@ -732,7 +732,7 @@
         &lt;a href=&quot;http://amzn.to/29iR0So&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/surfing/prod/dakine-tail-gate-surf-pad.jpg&quot;&gt;&lt;/a&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
-        &lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Tailgate Surf Pad by Dakine&lt;/h6&gt;&lt;/a&gt;
+        &lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Tailgate Surfboard Pad by Dakine&lt;/h6&gt;&lt;/a&gt;
         &lt;p&gt;$35&lt;/p&gt;
         &lt;a href=&quot;http://amzn.to/29iR0So&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
       &lt;/div&gt;
@@ -903,6 +903,320 @@
 &lt;div class=&quot;bottommenu flex align-center&quot;&gt;
   &lt;p&gt;Get awesome surf gear.&lt;br&gt;We&#39;ve picked out the latest surfboard models as well as choice gifts, swag and must haves from Amazon.&lt;/p&gt;
 &lt;/div&gt;
+
+
+&lt;div id=&quot;dakine-leash&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Dakine Kainui Pro Comp Leash&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/dakine-pro-comp-leash.jpg&quot; alt=&quot;dakine kainui pro comp leash&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$21&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29kDo9j&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;oneil-wetsuit&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Oneil Wetsuit&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/oneil-wetsuit.jpg&quot; alt=&quot;wetsuit&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$100&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29jt8PM&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;day-glow-wax&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29fC1Xx&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Day Glow Wax by Sticky Bumps&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29fC1Xx&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/day-glow-surf-wax.jpg&quot; alt=&quot;day glow surf wax&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$20&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29fC1Xx&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;catchsurf-beater&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29LZu3d&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf Beater Pro Model Kalani Robb 54&quot; Twinfin&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29LZu3d&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/catch-surf-beater-kalani-rob.jpg&quot; alt=&quot;catch surf beater kalani rob camo&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$230&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29LZu3d&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;dakine-duffel&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29jLhPk&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Hipster Duffel&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29jLhPk&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/hipster-duffel-bag.jpg&quot; alt=&quot;hipster duffel bag dakine hunter print&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$50&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29jLhPk&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;dakine-backpack&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29lpXr3&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Dakine Backpack&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29lpXr3&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/dakine-backpack.jpg&quot; alt=&quot;dakine camo backpack&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$40&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29lpXr3&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;surfrack-simple&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29Jk2JF&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Minimalist Surfboard Wall Rack&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29Jk2JF&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/surfboard-rack.jpg&quot; alt=&quot;surfboard wall rack&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$25&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29Jk2JF&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;surfrack-wooden&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29ohCCd&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Wooden Surfboard Rack&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29ohCCd&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/wooden-surfboard-rack.jpg&quot; alt=&quot;wooden board rack&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$30&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29ohCCd&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;indo-board&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29woLQ9&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Indo Board&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29woLQ9&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/indo-board.jpg&quot; alt=&quot;indo balance board&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$190&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29woLQ9&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;waxpickle&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29LOVNC&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Wax Pickle&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29LOVNC&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/pickle-wax-remover.jpg&quot; alt=&quot;pickle wax remover surfing&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$10&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29LOVNC&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;surf-craft-book&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29erjnW&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Surf Craft: Design and the Culture of Board Riding&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29erjnW&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/rick-kenvin-surf-craft.jpg&quot; alt=&quot;surf craft book&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$21&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29erjnW&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;tailgate-board-pad&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29iR0So&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Tailgate Surfboard Pad by Dakine&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29iR0So&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/dakine-tail-gate-surf-pad.jpg&quot; alt=&quot;dakine tail gate surf pad&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$35&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29iR0So&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;surfboard-straps&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29d5Oii&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Tie Down Straps by Dakine&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29d5Oii&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/tie-down-surfboard.jpg&quot; alt=&quot;tie down surfboard&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$20&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29d5Oii&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;roxy-shortsuit&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29mbcSo&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Roxy Womens Springsuit Wetsuit&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29mbcSo&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/roxy-womens-springsuit.jpg&quot; alt=&quot;roxy womens shortsuit&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$105&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29mbcSo&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;traction-pad&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29jSJdi&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Trimable Traction Pad&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29jSJdi&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/traction-pad.jpg&quot; alt=&quot;traction deck pad&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$33&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29jSJdi&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;leash-string&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29i8Urz&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Leash String&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29i8Urz&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/leash-string.jpg&quot; alt=&quot;leash string cord surfing&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$7.50&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29i8Urz&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;surf-wax&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29i7KMs&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Double Barrel Surf Wax&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29i7KMs&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/double-barrel-surf-wax.jpg&quot; alt=&quot;souble barrel surf wax&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$12.50&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29i7KMs&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;fin-wallet&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29jTzXf&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Fin Wallet by FCS&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29jTzXf&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/fins-wallet.jpg&quot; alt=&quot;fin wallet&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$45&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29jTzXf&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;john-john-surf-flick&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29odnGJ&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;View From A Blue Moon&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29odnGJ&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/view-from-a-blue-moon.jpg&quot; alt=&quot;john john florence blue from a blue moon&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$13&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29odnGJ&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;surf-boots&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29LQrzd&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Xcel Infiniti 3mm Boots&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29LQrzd&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/xcel-infiniti-3mm-boots.jpg&quot; alt=&quot;xcel infiniti 3mm booties&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$60&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29LQrzd&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;surf-tool&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29kHkH6&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Surfers Multi Tool&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29kHkH6&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/surfing-tool.jpg&quot; alt=&quot;surfers tool&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$15.50&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29kHkH6&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;catchsurf-finless-kit&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29LU34n&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf Finless Kit&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29LU34n&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/catch-surf-finless.jpg&quot; alt=&quot;catch surf finless kit&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$12&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29LU34n&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;body-surfing-fins&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29g3kjx&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Churchill Makapuu Pro Bodyboard Swim Fins&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29g3kjx&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/churchill-fins.jpg&quot; alt=&quot;churchill fins&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$70&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29g3kjx&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;catchsurf-womper&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29ltAgK&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf The Womper Handboard&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29ltAgK&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/catch-surf-the-womper.jpg&quot; alt=&quot;catch surf the womper&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$36&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29ltAgK&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;catchsurf-beater2&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29wo1uh&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf Beater&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29wo1uh&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/catch-surf-beater.jpg&quot; alt=&quot;catch surf beater&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$240&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29wo1uh&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;fin-keys&quot; class=&quot;modalDialog&quot;&gt;
+    &lt;div&gt; 
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29md4KC&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;FCS Fin Keys &amp; Screws&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29md4KC&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;/images/surfing/prod/fin-keys-and-screws.jpg&quot; alt=&quot;fins keys and fcs screws&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$10&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29md4KC&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
 
 </description>
         <pubDate>Tue, 04 May 2010 00:00:00 -0700</pubDate>
