@@ -1,9 +1,9 @@
 ---
 id: 1
-title: Surfing
+title: Neon Surf Gear
 author: drew
 layout: default
-permalink: /surfing/
+permalink: /neon-surf-gear/
 categories:
   - Sports
 ---
@@ -13,7 +13,7 @@ categories:
          var _page_conf = {
              // image width and height
              image: {
-                {% for page in site.data.surfer %}
+                {% for page in site.data.postdata %}
                 {% if page.main == "surfermain" %}
                 width: {{ page.xsize }},
                 height: {{ page.ysize }}
@@ -24,7 +24,7 @@ categories:
              // pointers and their targets
              targets: [
                  
-              {% for page in site.data.surfer %}
+              {% for page in site.data.postdata %}
                 {% if page.shortname == "surfer" %}
 
                  {
@@ -48,7 +48,7 @@ categories:
 
 <style>
   .backdrop {
-    background-image: url(/shopfun/images/surfer/surfer.jpg);
+    background-image: url(/images/surfer/surfer.jpg);
   }
 </style>
 
@@ -59,7 +59,7 @@ categories:
 
     <div>
 
-    {% for page in site.data.surfer %}
+    {% for page in site.data.postdata %}
     {% if page.shortname == "surfer" %}
     
       <a href="#{{ page.shortname }}" id="pointer{{ page.num }}" class="lazy pointer origin tooltip" data-content="#tooltip_content{{ page.num }}" title="This is my image's tooltip message!"></a>
@@ -79,7 +79,7 @@ categories:
     </div>
 
     <div class="backdrop flex">
-<!--     {% for page in site.data.surfer %}
+<!--     {% for page in site.data.postdata %}
     {% if page.shortname == "surfer" %}
         {{ page.backimages }}
     {% endif %}
@@ -92,7 +92,7 @@ categories:
 <div class="sidemenu">
   <ul>
 
-    {% for page in site.data.surfer %}
+    {% for page in site.data.postdata %}
     {% if page.shortname == "surfer" %}
     <li class="flex">
       <div class="squaredup half-flex-child">
@@ -118,7 +118,7 @@ categories:
   <p>Get awesome surf gear.<br>We've picked out the latest surfboard models as well as choice gifts, swag and must haves from Amazon.</p>
 </div>
 
-    {% for page in site.data.surfer %}
+    {% for page in site.data.postdata %}
     {% if page.shortname == "surfer" %}
 <div id="{{ page.shortname }}" class="modalDialog">
     <div> 

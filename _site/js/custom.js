@@ -152,13 +152,13 @@ jQuery(function ($) {
                 click: true,
                 mouseenter: true,
                 touchstart: false,
-                tap: true
+                tap: false
             },
             triggerClose: {
-                click: false,
-                scroll: false,
-                mouseleave: false,
-                tap: false
+                click: true,
+                scroll: true,
+                mouseleave: true,
+                tap: true
             }
 
         });
