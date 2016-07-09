@@ -120,6 +120,23 @@ categories:
 
 {% for page in site.data.postdata %}
 {% if page.shortname == "surfer" %}
+
+ 
+<!-- Modal -->
+<div class="modal" id="modal-one" aria-hidden="true">
+  <div class="modal-dialog">
+        <a href="#close" title="Close" class="close"></a>
+        <a href="{{ page.link }}" target="_blank"><h6>{{ page.product }}</h6></a>
+        <div class="flex justify-center">
+          <a href="{{ page.link }}" target="_blank"><img class="modalimage" src="{{ site.baseurl }}/images/surfer/{{ page.filename }}" alt="{{ page.alttag }}" /></a>
+        </div>
+        <h5>${{ page.price }}</h5>
+        <a href="{{ page.link }}" class="button" target="_blank">See Details</a>
+  </div>
+</div>
+<!-- /Modal -->
+
+
 <div id="{{ page.shortname }}{{ page.num }}" class="modalDialog">
     <div> 
         <a href="#close" title="Close" class="close"></a>
@@ -133,5 +150,4 @@ categories:
 </div>
 {% endif %}
 {% endfor %}
-
 

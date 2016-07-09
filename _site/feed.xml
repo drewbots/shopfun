@@ -5,175 +5,9 @@
     <description></description>
     <link>https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/</link>
     <atom:link href="https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 09 Jul 2016 13:41:22 -0700</pubDate>
-    <lastBuildDate>Sat, 09 Jul 2016 13:41:22 -0700</lastBuildDate>
+    <pubDate>Sat, 09 Jul 2016 14:44:42 -0700</pubDate>
+    <lastBuildDate>Sat, 09 Jul 2016 14:44:42 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
-    
-      <item>
-        <title>Leave The City</title>
-        <description>&lt;script&gt;
-         var _page_conf = {
-             // image width and height
-             image: {
-                
-                
-                
-                
-                
-                
-                width: 1235,
-                height: 822
-                
-                
-             },
-
-             // pointers and their targets
-             targets: [
-                 
-              
-                
-                
-                
-                
-                
-
-                 {
-                    x: 500, // these are
-                    y: 300, // target values
-                    elem: &quot;#pointer3&quot; //this is pointer element id for this target
-                 },
-
-
-                
-                
-
-
-             ]
-         };
-     &lt;/script&gt;
-
-&lt;/head&gt;
-
-&lt;body onload=&quot;loaded()&quot;&gt;
-
-&lt;style&gt;
-  .backdrop {
-    background-image: url(&#39;https://drewbots.github.io/shopfun/images/leavethecity/leave-the-city.jpeg&#39;);
-  }
-&lt;/style&gt;
-
-    &lt;!-- header start --&gt;
-
-    &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;https://drewbots.github.io/shopfun/images/logo.png&quot;&gt;&lt;/a&gt;
-    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;https://drewbots.github.io/shopfun/images/productico.png&quot;&gt;&lt;/a&gt;
-
-    &lt;!-- header end --&gt;
-
-&lt;div id=&quot;wrapper&quot;&gt;
-  &lt;div id=&quot;scroller&quot;&gt;
-
-    &lt;div&gt;
-
-    
-    
-    
-    
-    
-    
-    
-      &lt;a href=&quot;#leavethecity&quot; id=&quot;pointer3&quot; class=&quot;lazy pointer origin tooltip&quot; data-content=&quot;#tooltip_content3&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
-
-      &lt;span id=&quot;tooltip_content3&quot;&gt;
-        &lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Lyft Deal&lt;/h6&gt;&lt;/a&gt;
-        &lt;div&gt;
-          &lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://drewbots.github.io/shopfun/images/leavethecity/leave-the-city.jpeg&quot; alt=&quot;leave the city&quot; /&gt;&lt;/a&gt;
-        &lt;/div&gt;
-        &lt;h5&gt;$50 Free Credit&lt;/h5&gt;
-        &lt;a href=&quot;&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
-      &lt;/span&gt;
-
-    
-    
-
-    &lt;/div&gt;
-
-    &lt;div class=&quot;backdrop flex&quot;&gt;
-&lt;!--     
-    
-    
-    
-    
-    
-        
-    
-     --&gt;
-    &lt;/div&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;sidemenu&quot;&gt;
-  &lt;ul&gt;
-
-    
-    
-    
-    
-    
-    
-    &lt;li class=&quot;flex&quot;&gt;
-      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://drewbots.github.io/shopfun/images/leavethecity/leave-the-city.jpeg&quot;&gt;&lt;/a&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;prodnames&quot;&gt;
-        &lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Lyft Deal&lt;/h6&gt;&lt;/a&gt;
-        &lt;p&gt;$50 Free Credit&lt;/p&gt;
-        &lt;a href=&quot;&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
-      &lt;/div&gt;
-    &lt;/li&gt;
-    
-    
-
-  &lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;a class=&quot;js-menu2&quot;&gt;
-  &lt;img class=&quot;logo&quot; src=&quot;https://drewbots.github.io/shopfun/images/infoico.png&quot;&gt;
-&lt;/a&gt;
-
-&lt;div class=&quot;bottommenu flex align-center&quot;&gt;
-  &lt;p&gt;Get awesome surf gear.&lt;br&gt;We&#39;ve picked out the latest surfboard models as well as choice gifts, swag and must haves from Amazon.&lt;/p&gt;
-&lt;/div&gt;
-
-    
-    
-    
-    
-    
-    
-&lt;div id=&quot;leavethecity&quot; class=&quot;modalDialog&quot;&gt;
-    &lt;div&gt; 
-        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
-        &lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Lyft Deal&lt;/h6&gt;&lt;/a&gt;
-        &lt;div class=&quot;flex justify-center&quot;&gt;
-          &lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;https://drewbots.github.io/shopfun/images/leavethecity/leave-the-city.jpeg&quot; alt=&quot;leave the city&quot; /&gt;&lt;/a&gt;
-        &lt;/div&gt;
-        &lt;h5&gt;$50 Free Credit&lt;/h5&gt;
-        &lt;a href=&quot;&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-    
-    
-
-</description>
-        <pubDate>Tue, 21 Jun 2016 00:00:00 -0700</pubDate>
-        <link>https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/leave-the-city/</link>
-        <guid isPermaLink="true">https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/leave-the-city/</guid>
-        
-        
-        <category>Travel</category>
-        
-      </item>
     
       <item>
         <title>Neon Surf Gear</title>
@@ -348,6 +182,23 @@
 
 
 
+
+ 
+&lt;!-- Modal --&gt;
+&lt;div class=&quot;modal&quot; id=&quot;modal-one&quot; aria-hidden=&quot;true&quot;&gt;
+  &lt;div class=&quot;modal-dialog&quot;&gt;
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Dakine Kainui Pro Comp Leash&lt;/h6&gt;&lt;/a&gt;
+        &lt;div class=&quot;flex justify-center&quot;&gt;
+          &lt;a href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;https://drewbots.github.io/shopfun/images/surfer/dakine-pro-comp-leash.jpg&quot; alt=&quot;dakine kainui pro comp leash&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$21&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29kDo9j&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- /Modal --&gt;
+
+
 &lt;div id=&quot;surfer1&quot; class=&quot;modalDialog&quot;&gt;
     &lt;div&gt; 
         &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
@@ -362,6 +213,23 @@
 
 
 
+
+ 
+&lt;!-- Modal --&gt;
+&lt;div class=&quot;modal&quot; id=&quot;modal-one&quot; aria-hidden=&quot;true&quot;&gt;
+  &lt;div class=&quot;modal-dialog&quot;&gt;
+        &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Oneil Wetsuit&lt;/h6&gt;&lt;/a&gt;
+        &lt;div class=&quot;flex justify-center&quot;&gt;
+          &lt;a href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;modalimage&quot; src=&quot;https://drewbots.github.io/shopfun/images/surfer/oneil-wetsuit.jpg&quot; alt=&quot;wetsuit&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$100&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29jt8PM&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- /Modal --&gt;
+
+
 &lt;div id=&quot;surfer2&quot; class=&quot;modalDialog&quot;&gt;
     &lt;div&gt; 
         &lt;a href=&quot;#close&quot; title=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/a&gt;
@@ -373,7 +241,6 @@
         &lt;a href=&quot;http://amzn.to/29jt8PM&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
-
 
 
 
