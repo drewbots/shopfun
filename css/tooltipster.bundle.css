@@ -90,6 +90,9 @@
     background: #fff;
 }
 
+.modal {
+  position: relative;
+}
 .modal:before {
   content: "";
   display: none;
