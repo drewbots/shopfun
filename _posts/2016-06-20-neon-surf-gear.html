@@ -62,7 +62,7 @@ categories:
     {% for page in site.data.postdata %}
     {% if page.shortname == "surfer" %}
     
-      <a href="#{{ page.shortname }}" id="pointer{{ page.num }}" class="lazy pointer origin tooltip" data-content="#tooltip_content{{ page.num }}" title="This is my image's tooltip message!"></a>
+      <a href="#{{ page.shortname }}{{ page.num }}" id="pointer{{ page.num }}" class="lazy pointer origin tooltip" data-content="#tooltip_content{{ page.num }}" title="This is my image's tooltip message!"></a>
 
       <span id="tooltip_content{{ page.num }}">
         <a href="{{ page.link }}" target="_blank"><h6>{{ page.product }}</h6></a>
@@ -118,9 +118,9 @@ categories:
   <p>Get awesome surf gear.<br>We've picked out the latest surfboard models as well as choice gifts, swag and must haves from Amazon.</p>
 </div>
 
-    {% for page in site.data.postdata %}
-    {% if page.shortname == "surfer" %}
-<div id="{{ page.shortname }}" class="modalDialog">
+{% for page in site.data.postdata %}
+{% if page.shortname == "surfer" %}
+<div id="{{ page.shortname }}{{ page.num }}" class="modalDialog">
     <div> 
         <a href="#close" title="Close" class="close"></a>
         <a href="{{ page.link }}" target="_blank"><h6>{{ page.product }}</h6></a>
@@ -131,6 +131,6 @@ categories:
         <a href="{{ page.link }}" class="button" target="_blank">See Details</a>
     </div>
 </div>
-    {% endif %}
-    {% endfor %}
+{% endif %}
+{% endfor %}
 
