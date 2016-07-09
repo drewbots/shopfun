@@ -152,7 +152,7 @@ jQuery(function ($) {
                 click: true,
                 mouseenter: true,
                 touchstart: false,
-                tap: false
+                tap: true
             },
             triggerClose: {
                 click: true,
