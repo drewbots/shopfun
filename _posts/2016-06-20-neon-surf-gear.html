@@ -62,16 +62,16 @@ categories:
     {% for page in site.data.postdata %}
     {% if page.shortname == "surfer" %}
     
-      <a href="" id="" class="lazy pointer origin tooltip" data-content="" data-toggle="modal" data-target="#myModal" title="This is my image's tooltip message!"></a>
+      <a href="#{{ page.shortname }}{{ page.num }}" id="pointer{{ page.num }}" class="lazy pointer origin tooltip" data-content="" data-toggle="modal" data-target="#myModal" title="This is my image's tooltip message!"></a>
 
-      <span id="tooltip_content{{ page.num }}">
+<!--       <span id="tooltip_content{{ page.num }}">
         <a href="{{ page.link }}" target="_blank"><h6>{{ page.product }}</h6></a>
         <div>
           <a href="{{ page.link }}" target="_blank"><img src="{{ site.baseurl }}/images/surfer/{{ page.filename }}" alt="{{ page.alttag }}" /></a>
         </div>
         <h5>${{ page.price }}</h5>
         <a href="{{ page.link }}" class="button" target="_blank">See Details</a>
-      </span>
+      </span> -->
 
     {% endif %}
     {% endfor %}
