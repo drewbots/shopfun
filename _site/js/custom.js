@@ -113,7 +113,7 @@ jQuery(function ($) {
         for (var i = 0; i < arrayLength; i++) {
             $(_page_conf.targets[i].elem).css({
                 top: (_page_conf.targets[i].y) * scale + yOffset,
-                left: (_page_conf.targets[i].x) * scale
+                left: (_page_conf.targets[i].x) * scale + xOffset
             });
         }
     };
@@ -150,15 +150,15 @@ jQuery(function ($) {
 
             triggerOpen: {
                 click: true,
-                mouseenter: false,
+                mouseenter: true,
                 touchstart: false,
                 tap: true
             },
             triggerClose: {
-                click: true,
-                scroll: true,
-                mouseleave: true,
-                tap: true
+                click: false,
+                scroll: false,
+                mouseleave: false,
+                tap: false
             }
 
         });

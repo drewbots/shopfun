@@ -8,26 +8,35 @@ categories:
   - Sports
 ---
 
+                
 <script>
          var _page_conf = {
              // image width and height
              image: {
-                width: 6112,
-                height: 200
+                {% for page in site.data.surfer %}
+                {% if page.main == "surfermain" %}
+                width: {{ page.xsize }},
+                height: {{ page.ysize }}
+                {% endif %}
+                {% endfor %}
              },
 
              // pointers and their targets
              targets: [
                  
-                 {% for loc in site.data.surfing %}
+              {% for page in site.data.surfer %}
+                {% if page.shortname == "surfer" %}
 
                  {
-                    x: {{ loc.xpt }}, // these are
-                    y: {{ loc.ypt }}, // target values
-                    elem: "#pointer{{ loc.num }}" //this is pointer element id for this target
+                    x: {{ page.xpt }}, // these are
+                    y: {{ page.ypt }}, // target values
+                    elem: "#pointer{{ page.num }}" //this is pointer element id for this target
                  },
 
-                 {% endfor %}
+
+                {% endif %}
+                {% endfor %}
+
 
              ]
          };
@@ -37,6 +46,11 @@ categories:
 
 <body onload="loaded()">
 
+<style>
+  .backdrop {
+    background-image: url(/images/surfer/surfer.jpg);
+  }
+</style>
 
 {% include_relative header.html %}
 
@@ -45,26 +59,31 @@ categories:
 
     <div>
 
-    {% for page in site.data.surfing %}
+    {% for page in site.data.surfer %}
+    {% if page.shortname == "surfer" %}
     
       <a href="#{{ page.shortname }}" id="pointer{{ page.num }}" class="lazy pointer origin tooltip" data-content="#tooltip_content{{ page.num }}" title="This is my image's tooltip message!"></a>
 
       <span id="tooltip_content{{ page.num }}">
         <a href="{{ page.link }}" target="_blank"><h6>{{ page.product }}</h6></a>
         <div>
-          <a href="{{ page.link }}" target="_blank"><img src="{{ site.baseurl }}/images/surfing/prod/{{ page.filename }}" alt="{{ page.alttag }}" /></a>
+          <a href="{{ page.link }}" target="_blank"><img src="{{ site.baseurl }}/images/surfer/{{ page.filename }}" alt="{{ page.alttag }}" /></a>
         </div>
         <h5>${{ page.price }}</h5>
         <a href="{{ page.link }}" class="button" target="_blank">See Details</a>
       </span>
+
+    {% endif %}
     {% endfor %}
 
     </div>
 
     <div class="backdrop flex">
-      {% for pic in site.data.surfing %}
-        {{ pic.backimages }}
-      {% endfor %}
+<!--     {% for page in site.data.surfer %}
+    {% if page.shortname == "surfer" %}
+        {{ page.backimages }}
+    {% endif %}
+    {% endfor %} -->
     </div>
 
   </div>
@@ -73,17 +92,19 @@ categories:
 <div class="sidemenu">
   <ul>
 
-    {% for sidebar in site.data.surfing %}
+    {% for page in site.data.surfer %}
+    {% if page.shortname == "surfer" %}
     <li class="flex">
       <div class="squaredup half-flex-child">
-        <a href="{{ sidebar.link }}" target="_blank"><img src="{{ site.baseurl }}/images/surfing/prod/{{ sidebar.filename }}"></a>
+        <a href="{{ page.link }}" target="_blank"><img src="{{ site.baseurl }}/images/surfer/{{ page.filename }}"></a>
       </div>
       <div class="prodnames">
-        <a href="{{ page.link }}" target="_blank"><h6>{{ sidebar.product }}</h6></a>
-        <p>${{ sidebar.price }}</p>
-        <a href="{{ sidebar.link }}" target="_blank" ><div class="button">Buy</div></a>
+        <a href="{{ page.link }}" target="_blank"><h6>{{ page.product }}</h6></a>
+        <p>${{ page.price }}</p>
+        <a href="{{ page.link }}" target="_blank" ><div class="button">Buy</div></a>
       </div>
     </li>
+    {% endif %}
     {% endfor %}
 
   </ul>
@@ -97,17 +118,19 @@ categories:
   <p>Get awesome surf gear.<br>We've picked out the latest surfboard models as well as choice gifts, swag and must haves from Amazon.</p>
 </div>
 
-{% for page in site.data.surfing %}
+    {% for page in site.data.surfer %}
+    {% if page.shortname == "surfer" %}
 <div id="{{ page.shortname }}" class="modalDialog">
     <div> 
         <a href="#close" title="Close" class="close"></a>
         <a href="{{ page.link }}" target="_blank"><h6>{{ page.product }}</h6></a>
         <div class="flex justify-center">
-          <a href="{{ page.link }}" target="_blank"><img class="modalimage" src="{{ site.baseurl }}/images/surfing/prod/{{ page.filename }}" alt="{{ page.alttag }}" /></a>
+          <a href="{{ page.link }}" target="_blank"><img class="modalimage" src="{{ site.baseurl }}/images/surfer/{{ page.filename }}" alt="{{ page.alttag }}" /></a>
         </div>
         <h5>${{ page.price }}</h5>
         <a href="{{ page.link }}" class="button" target="_blank">See Details</a>
     </div>
 </div>
-{% endfor %}
+    {% endif %}
+    {% endfor %}
 
