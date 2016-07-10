@@ -62,9 +62,10 @@ categories:
     {% for page in site.data.postdata %}
     {% if page.shortname == "surfer" %}
      
-      <button onClick="" href="" class="modalhide pointer pointer{{ page.num }}" data-toggle="modal" data-target="#myModal"></button>
-
+      
       <button href="" class="tooltiphide pointer tooltip pointer{{ page.num }}" data-content="#tooltip_content{{ page.num }}" title="This is my image's tooltip message!"></button>
+      
+      <button onClick="" href="" class="modalhide pointer pointer{{ page.num }}" data-toggle="modal" data-target="#myModal"></button>
 
       <span id="tooltip_content{{ page.num }}">
         <a href="{{ page.link }}" target="_blank"><h6>{{ page.product }}</h6></a>
