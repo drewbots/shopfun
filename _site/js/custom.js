@@ -134,7 +134,35 @@ jQuery(function ($) {
         }
     });
 
+    $('.tooltip').each(function(i, elem){
+        $(elem).tooltipster({
+            // we detach the element from the page and give it to Tooltipster to serve as content
+            content: $($(elem).attr('data-content')).detach(),
+            // if you use a single element as content for several tooltips, set this option to true
+            contentCloning: false,
 
+            animation: 'fade',
+            delay: 100,
+            trigger: 'custom',
+
+            trackOrigin: '20',
+            interactive: 'true',
+
+            triggerOpen: {
+                click: true,
+                mouseenter: true,
+                touchstart: true,
+                tap: true
+            },
+            triggerClose: {
+                click: true,
+                scroll: false,
+                mouseleave: false,
+                tap: false
+            }
+
+        });
+    });
 
 
     $(window).smartresize(updatePointer);
