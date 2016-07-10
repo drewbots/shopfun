@@ -5,8 +5,8 @@
     <description></description>
     <link>https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/</link>
     <atom:link href="https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 09 Jul 2016 19:33:20 -0700</pubDate>
-    <lastBuildDate>Sat, 09 Jul 2016 19:33:20 -0700</lastBuildDate>
+    <pubDate>Sat, 09 Jul 2016 19:39:46 -0700</pubDate>
+    <lastBuildDate>Sat, 09 Jul 2016 19:39:46 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -81,9 +81,9 @@
     
     
      
-      &lt;a href=&quot;#&quot; class=&quot;modalhide pointer pointer1&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#&quot; class=&quot;modalhide pointer&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/a&gt;
 
-      &lt;a href=&quot;#&quot; class=&quot;tooltiphide pointer tooltip pointer1&quot; data-content=&quot;#tooltip_content1&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      
 
       
 
@@ -100,9 +100,9 @@
     
     
      
-      &lt;a href=&quot;#&quot; class=&quot;modalhide pointer pointer2&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#&quot; class=&quot;modalhide pointer&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/a&gt;
 
-      &lt;a href=&quot;#&quot; class=&quot;tooltiphide pointer tooltip pointer2&quot; data-content=&quot;#tooltip_content2&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      
 
       
 
