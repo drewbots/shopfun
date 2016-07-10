@@ -341,7 +341,7 @@
 
 @media (max-width: 1000px) , and (max-height: 700px) {
 
-  .tooltipster-fade.tooltipster-show {
+  .tooltiphide {
       opacity: 0;
       display: none;
       width: 0px !important;
@@ -354,7 +354,7 @@
 }
 
 @media (min-width: 1001px) , and (min-height: 700px) {
-  .modalDialog {
+  .modalhide {
     display: none;
   }
 }

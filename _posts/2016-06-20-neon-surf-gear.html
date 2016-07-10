@@ -30,7 +30,7 @@ categories:
                  {
                     x: {{ page.xpt }}, // these are
                     y: {{ page.ypt }}, // target values
-                    elem: "#pointer{{ page.num }}" //this is pointer element id for this target
+                    elem: ".pointer{{ page.num }}" //this is pointer element id for this target
                  },
 
 
@@ -62,9 +62,11 @@ categories:
     {% for page in site.data.postdata %}
     {% if page.shortname == "surfer" %}
      
-      <a href="#" data-toggle="modal" data-target="#myModal" id="pointer{{ page.num }}" class="pointer"></a>
+      <a href="#" class="modalhide pointer pointer{{ page.num }}" data-toggle="modal" data-target="#myModal"></a>
 
-      <a href="#{{ page.shortname }}{{ page.num }}" id="pointer{{ page.num }}" class="lazy pointer tooltip" data-content="#tooltip_content{{ page.num }}" title="This is my image's tooltip message!"></a>
+      <a href="#" class="tooltiphide pointer tooltip pointer{{ page.num }}" data-content="#tooltip_content{{ page.num }}" title="This is my image's tooltip message!"></a>
+
+      
 
       <span id="tooltip_content{{ page.num }}">
         <a href="{{ page.link }}" target="_blank"><h6>{{ page.product }}</h6></a>
