@@ -24,6 +24,9 @@ button.close {
   background: transparent;
   border: 0;
 }
+
+
+
 .modal-open {
   overflow: hidden;
 }
@@ -93,7 +96,6 @@ button.close {
   opacity: .5;
 }
 .modal-header {
-  min-height: 16.42857143px;
   padding: 15px;
   border-bottom: 1px solid #e5e5e5;
 }
