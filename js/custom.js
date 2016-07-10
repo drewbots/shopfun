@@ -155,10 +155,10 @@ jQuery(function ($) {
                 tap: true
             },
             triggerClose: {
-                click: true,
-                scroll: false,
-                mouseleave: false,
-                tap: false
+                click: false,
+                scroll: true,
+                mouseleave: true,
+                tap: true
             }
 
         });
