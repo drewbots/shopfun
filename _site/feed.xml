@@ -3,10 +3,10 @@
   <channel>
     <title>Surf n Sol</title>
     <description></description>
-    <link>https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/</link>
-    <atom:link href="https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 09 Jul 2016 19:43:07 -0700</pubDate>
-    <lastBuildDate>Sat, 09 Jul 2016 19:43:07 -0700</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 09 Jul 2016 19:56:59 -0700</pubDate>
+    <lastBuildDate>Sat, 09 Jul 2016 19:56:59 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -67,7 +67,7 @@
 
 &lt;style&gt;
   .backdrop {
-    background-image: url(&#39;https://drewbots.github.io/shopfun/images/surfer/surfer.jpg&#39;);
+    background-image: url(&#39;/images/surfer/surfer.jpg&#39;);
   }
 &lt;/style&gt;
 
@@ -81,13 +81,13 @@
     
     
      
-      &lt;a href=&quot;#&quot; class=&quot;modalhide pointer pointer1&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/a&gt;
+      &lt;button href=&quot;#&quot; class=&quot;modalhide pointer pointer1&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;h&lt;/button&gt;
 
     
     
     
      
-      &lt;a href=&quot;#&quot; class=&quot;modalhide pointer pointer2&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/a&gt;
+      &lt;button href=&quot;#&quot; class=&quot;modalhide pointer pointer2&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;h&lt;/button&gt;
 
     
     
@@ -120,7 +120,7 @@
     
     &lt;li class=&quot;flex&quot;&gt;
       &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;a href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://drewbots.github.io/shopfun/images/surfer/dakine-pro-comp-leash.jpg&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/surfer/dakine-pro-comp-leash.jpg&quot;&gt;&lt;/a&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Dakine Kainui Pro Comp Leash&lt;/h6&gt;&lt;/a&gt;
@@ -133,7 +133,7 @@
     
     &lt;li class=&quot;flex&quot;&gt;
       &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;a href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://drewbots.github.io/shopfun/images/surfer/oneil-wetsuit.jpg&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/surfer/oneil-wetsuit.jpg&quot;&gt;&lt;/a&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Oneil Wetsuit&lt;/h6&gt;&lt;/a&gt;
@@ -150,7 +150,7 @@
 &lt;/div&gt;
 
 &lt;a class=&quot;js-menu2&quot;&gt;
-  &lt;img class=&quot;logo&quot; src=&quot;https://drewbots.github.io/shopfun/images/infoico.png&quot;&gt;
+  &lt;img class=&quot;logo&quot; src=&quot;/images/infoico.png&quot;&gt;
 &lt;/a&gt;
 
 &lt;div class=&quot;bottommenu flex align-center&quot;&gt;
@@ -181,8 +181,8 @@
 
 </description>
         <pubDate>Mon, 20 Jun 2016 00:00:00 -0700</pubDate>
-        <link>https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/neon-surf-gear/</link>
-        <guid isPermaLink="true">https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/neon-surf-gear/</guid>
+        <link>/neon-surf-gear/</link>
+        <guid isPermaLink="true">/neon-surf-gear/</guid>
         
         
         <category>Sports</category>
