@@ -5,8 +5,8 @@
     <description></description>
     <link>https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/</link>
     <atom:link href="https://drewbots.github.io/shopfunhttps://drewbots.github.io/shopfun/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 10 Jul 2016 16:44:03 -0700</pubDate>
-    <lastBuildDate>Sun, 10 Jul 2016 16:44:03 -0700</lastBuildDate>
+    <pubDate>Sun, 10 Jul 2016 16:48:01 -0700</pubDate>
+    <lastBuildDate>Sun, 10 Jul 2016 16:48:01 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -86,9 +86,9 @@
     
     
      
-      &lt;button onClick=&quot;&quot; href=&quot;#&quot; class=&quot;modalhide pointer pointer1&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/button&gt;
+      &lt;button onClick=&quot;&quot; href=&quot;&quot; class=&quot;modalhide pointer pointer1&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/button&gt;
 
-      &lt;a href=&quot;#&quot; class=&quot;tooltiphide pointer tooltip pointer1&quot; data-content=&quot;#tooltip_content1&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;button href=&quot;&quot; class=&quot;tooltiphide pointer tooltip pointer1&quot; data-content=&quot;#tooltip_content1&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/button&gt;
 
       &lt;span id=&quot;tooltip_content1&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Dakine Kainui Pro Comp Leash&lt;/h6&gt;&lt;/a&gt;
@@ -99,14 +99,13 @@
         &lt;a href=&quot;http://amzn.to/29kDo9j&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
 
-
     
     
     
      
-      &lt;button onClick=&quot;&quot; href=&quot;#&quot; class=&quot;modalhide pointer pointer2&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/button&gt;
+      &lt;button onClick=&quot;&quot; href=&quot;&quot; class=&quot;modalhide pointer pointer2&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/button&gt;
 
-      &lt;a href=&quot;#&quot; class=&quot;tooltiphide pointer tooltip pointer2&quot; data-content=&quot;#tooltip_content2&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/a&gt;
+      &lt;button href=&quot;&quot; class=&quot;tooltiphide pointer tooltip pointer2&quot; data-content=&quot;#tooltip_content2&quot; title=&quot;This is my image&#39;s tooltip message!&quot;&gt;&lt;/button&gt;
 
       &lt;span id=&quot;tooltip_content2&quot;&gt;
         &lt;a href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Oneil Wetsuit&lt;/h6&gt;&lt;/a&gt;
@@ -116,7 +115,6 @@
         &lt;h5&gt;$100&lt;/h5&gt;
         &lt;a href=&quot;http://amzn.to/29jt8PM&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
-
 
     
     
