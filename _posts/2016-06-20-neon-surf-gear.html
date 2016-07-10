@@ -52,7 +52,7 @@ categories:
   }
 </style>
 
-
+<!-- {% include_relative header.html %} -->
 
 <div id="wrapper">
   <div id="scroller">
@@ -62,7 +62,7 @@ categories:
     {% for page in site.data.postdata %}
     {% if page.shortname == "surfer" %}
     
-      <a href="#{{ page.shortname }}{{ page.num }}" id="pointer{{ page.num }}" class="lazy pointer origin clickable" data-content="" data-toggle="modal" data-target="#myModal" title="This is my image's tooltip message!">h</a>
+      <a href="#{{ page.shortname }}{{ page.num }}" id="pointer{{ page.num }}" class="lazy pointer origin clickable" data-content="" data-toggle="modal" data-target="#myModal" title="This is my image's tooltip message!"></a>
 
 <!--       <span id="tooltip_content{{ page.num }}">
         <a href="{{ page.link }}" target="_blank"><h6>{{ page.product }}</h6></a>
