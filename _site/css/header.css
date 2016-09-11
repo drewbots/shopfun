@@ -20,8 +20,8 @@
 }
 
 .logo:hover {
-  -webkit-transform: scale(1.06);
-  transform: scale(1.06);
+/*  -webkit-transform: scale(1.06);
+  transform: scale(1.06);*/
 }
 
 .js-menu {
