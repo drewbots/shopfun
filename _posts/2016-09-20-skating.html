@@ -1,0 +1,145 @@
+---
+id: 1
+title: Neon Surf Gear
+author: drew
+layout: default
+permalink: /neon-surf-gear/
+categories:
+  - Sports
+---
+
+                
+<script>
+         var _page_conf = {
+             // image width and height
+             image: {
+                {% for page in site.data.postdata %}
+                {% if page.main == "surfermain" %}
+                width: {{ page.xsize }},
+                height: {{ page.ysize }}
+                {% endif %}
+                {% endfor %}
+             },
+
+             // pointers and their targets
+             targets: [
+                 
+              {% for page in site.data.postdata %}
+                {% if page.shortname == "surfer" %}
+
+                 {
+                    x: {{ page.xpt }}, // these are
+                    y: {{ page.ypt }}, // target values
+                    elem: ".pointer{{ page.num }}" //this is pointer element id for this target
+                 },
+
+
+                {% endif %}
+                {% endfor %}
+
+
+             ]
+         };
+     </script>
+
+</head>
+
+<body onload="loaded()">
+
+<style>
+  .backdrop {
+    background-image: url('{{ site.baseurl }}/images/skating/skate.jpg');
+  }
+</style>
+
+{% include_relative header.html %}
+
+<div id="wrapper">
+  <div id="scroller">
+
+    <div>
+
+    {% for page in site.data.postdata %}
+    {% if page.shortname == "surfer" %}
+     
+      
+      <a href="#" class="tooltiphide pointer tooltip pointer{{ page.num }}" data-content="#tooltip_content{{ page.num }}" title="This is my image's tooltip message!"></a>
+      
+      <button type="button" href="#" class="modalhide pointer pointer{{ page.num }}" data-toggle="modal" data-target="#myModal"></button>
+
+      <span id="tooltip_content{{ page.num }}">
+        <a href="{{ page.link }}" target="_blank"><h6>{{ page.product }}</h6></a>
+        <div>
+          <a href="{{ page.link }}" target="_blank"><img src="{{ site.baseurl }}/images/surfer/{{ page.filename }}" alt="{{ page.alttag }}" /></a>
+        </div>
+        <h5>${{ page.price }}</h5>
+        <a href="{{ page.link }}" class="button" target="_blank">See Details</a>
+      </span>
+
+    {% endif %}
+    {% endfor %}
+
+    </div>
+
+    <div class="backdrop flex">
+<!--     {% for page in site.data.postdata %}
+    {% if page.shortname == "surfer" %}
+        {{ page.backimages }}
+    {% endif %}
+    {% endfor %} -->
+    </div>
+
+  </div>
+</div>
+
+<div class="sidemenu">
+  <ul>
+
+    {% for page in site.data.postdata %}
+    {% if page.shortname == "surfer" %}
+    <li class="flex">
+      <div class="squaredup half-flex-child">
+        <a href="{{ page.link }}" target="_blank"><img src="{{ site.baseurl }}/images/surfer/{{ page.filename }}"></a>
+      </div>
+      <div class="prodnames">
+        <a href="{{ page.link }}" target="_blank"><h6>{{ page.product }}</h6></a>
+        <p>${{ page.price }}</p>
+        <a href="{{ page.link }}" target="_blank" ><div class="button">Buy</div></a>
+      </div>
+    </li>
+    {% endif %}
+    {% endfor %}
+
+  </ul>
+</div>
+
+<a class="js-menu2">
+  <img class="logo" src="{{site.baseurl}}/images/infoico.png">
+</a>
+
+<div class="bottommenu flex align-center">
+  <p>Get awesome surf gear.<br>We've picked out the latest surfboard models as well as choice gifts, swag and must haves from Amazon.</p>
+</div>
+
+<!-- Modal -->
+<div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
