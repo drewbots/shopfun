@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 11 Sep 2016 12:12:39 -0700</pubDate>
-    <lastBuildDate>Sun, 11 Sep 2016 12:12:39 -0700</lastBuildDate>
+    <pubDate>Sun, 11 Sep 2016 12:14:22 -0700</pubDate>
+    <lastBuildDate>Sun, 11 Sep 2016 12:14:22 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -74,7 +74,7 @@
     &lt;!-- header start --&gt;
 
     &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
-    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/productico.png&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo prodbtn&quot; src=&quot;/images/productico.png&quot;&gt;&lt;/a&gt;
 
     &lt;!-- header end --&gt;
 
@@ -283,7 +283,7 @@
     &lt;!-- header start --&gt;
 
     &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
-    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/productico.png&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo prodbtn&quot; src=&quot;/images/productico.png&quot;&gt;&lt;/a&gt;
 
     &lt;!-- header end --&gt;
 
@@ -492,7 +492,7 @@
     &lt;!-- header start --&gt;
 
     &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
-    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/productico.png&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo prodbtn&quot; src=&quot;/images/productico.png&quot;&gt;&lt;/a&gt;
 
     &lt;!-- header end --&gt;
 

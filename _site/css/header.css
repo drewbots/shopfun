@@ -30,6 +30,11 @@
   height: 40px;
 }
 
+.logo.prodbtn {
+  width: 40px;
+  height: 40px;
+}
+
 .js-menu {
   float: right;
   padding: 20px;
