@@ -3,10 +3,10 @@
   <channel>
     <title>ShopJoy</title>
     <description></description>
-    <link>http://shopjoy.comhttp://shopjoy.com/</link>
-    <atom:link href="http://shopjoy.comhttp://shopjoy.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 11 Sep 2016 16:40:55 -0700</pubDate>
-    <lastBuildDate>Sun, 11 Sep 2016 16:40:55 -0700</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 11 Sep 2016 16:57:52 -0700</pubDate>
+    <lastBuildDate>Sun, 11 Sep 2016 16:57:52 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -62,14 +62,14 @@
 
 &lt;style&gt;
   .backdrop {
-    background-image: url('http://shopjoy.com/images/skate/skatebg.jpg');
+    background-image: url('/images/skate/skatebg.jpg');
   }
 &lt;/style&gt;
 
     &lt;!-- header start --&gt;
 
-    &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;http://shopjoy.com/images/logo.png&quot;&gt;&lt;/a&gt;
-    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo prodbtn&quot; src=&quot;http://shopjoy.com/images/productico.png&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo prodbtn&quot; src=&quot;/images/productico.png&quot;&gt;&lt;/a&gt;
 
     &lt;!-- header end --&gt;
 
@@ -93,7 +93,7 @@
       &lt;span id=&quot;tooltip_content1&quot;&gt;
         &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf&lt;/h6&gt;&lt;/a&gt;
         &lt;div&gt;
-          &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://shopjoy.com/images/skate/skateprod1.jpg&quot; alt=&quot;catch surf&quot; /&gt;&lt;/a&gt;
+          &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/skate/skateprod1.jpg&quot; alt=&quot;catch surf&quot; /&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;h5&gt;$240&lt;/h5&gt;
         &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
@@ -125,7 +125,7 @@
     &lt;li&gt;
       &lt;a class=&quot;flex&quot; href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot; &gt;
       &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;img src=&quot;http://shopjoy.com/images/skate/skateprod1.jpg&quot;&gt;
+        &lt;img src=&quot;/images/skate/skateprod1.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
         &lt;h6&gt;Catch Surf&lt;/h6&gt;
@@ -143,7 +143,7 @@
 &lt;/div&gt;
 
 &lt;a class=&quot;js-menu2&quot;&gt;
-  &lt;img class=&quot;logo infobtn&quot; src=&quot;http://shopjoy.com/images/infoico.png&quot;&gt;
+  &lt;img class=&quot;logo infobtn&quot; src=&quot;/images/infoico.png&quot;&gt;
 &lt;/a&gt;
 
 &lt;div class=&quot;bottommenu flex align-center&quot;&gt;
@@ -174,8 +174,8 @@
 
 </description>
         <pubDate>Sat, 10 Sep 2016 00:00:00 -0700</pubDate>
-        <link>http://shopjoy.comhttp://shopjoy.com/skate/</link>
-        <guid isPermaLink="true">http://shopjoy.comhttp://shopjoy.com/skate/</guid>
+        <link>/skate/</link>
+        <guid isPermaLink="true">/skate/</guid>
         
         
         <category>Sports</category>
@@ -235,14 +235,14 @@
 
 &lt;style&gt;
   .backdrop {
-    background-image: url('http://shopjoy.com/images/climb/climbbg.jpg');
+    background-image: url('/images/climb/climbbg.jpg');
   }
 &lt;/style&gt;
 
     &lt;!-- header start --&gt;
 
-    &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;http://shopjoy.com/images/logo.png&quot;&gt;&lt;/a&gt;
-    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo prodbtn&quot; src=&quot;http://shopjoy.com/images/productico.png&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo prodbtn&quot; src=&quot;/images/productico.png&quot;&gt;&lt;/a&gt;
 
     &lt;!-- header end --&gt;
 
@@ -268,7 +268,7 @@
       &lt;span id=&quot;tooltip_content2&quot;&gt;
         &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf2&lt;/h6&gt;&lt;/a&gt;
         &lt;div&gt;
-          &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://shopjoy.com/images/climb/climbprod1.jpg&quot; alt=&quot;catch surf&quot; /&gt;&lt;/a&gt;
+          &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/climb/climbprod1.jpg&quot; alt=&quot;catch surf&quot; /&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;h5&gt;$102&lt;/h5&gt;
         &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
@@ -300,7 +300,7 @@
     &lt;li&gt;
       &lt;a class=&quot;flex&quot; href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot; &gt;
       &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;img src=&quot;http://shopjoy.com/images/climb/climbprod1.jpg&quot;&gt;
+        &lt;img src=&quot;/images/climb/climbprod1.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
         &lt;h6&gt;Catch Surf2&lt;/h6&gt;
@@ -316,7 +316,7 @@
 &lt;/div&gt;
 
 &lt;a class=&quot;js-menu2&quot;&gt;
-  &lt;img class=&quot;logo infobtn&quot; src=&quot;http://shopjoy.com/images/infoico.png&quot;&gt;
+  &lt;img class=&quot;logo infobtn&quot; src=&quot;/images/infoico.png&quot;&gt;
 &lt;/a&gt;
 
 &lt;div class=&quot;bottommenu flex align-center&quot;&gt;
@@ -347,8 +347,8 @@
 
 </description>
         <pubDate>Sat, 20 Aug 2016 00:00:00 -0700</pubDate>
-        <link>http://shopjoy.comhttp://shopjoy.com/climb/</link>
-        <guid isPermaLink="true">http://shopjoy.comhttp://shopjoy.com/climb/</guid>
+        <link>/climb/</link>
+        <guid isPermaLink="true">/climb/</guid>
         
         
         <category>Sports</category>
@@ -417,14 +417,14 @@
 
 &lt;style&gt;
   .backdrop {
-    background-image: url('http://shopjoy.com/images/surf/surfbg.jpg');
+    background-image: url('/images/surf/surfbg.jpg');
   }
 &lt;/style&gt;
 
     &lt;!-- header start --&gt;
 
-    &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;http://shopjoy.com/images/logo.png&quot;&gt;&lt;/a&gt;
-    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo prodbtn&quot; src=&quot;http://shopjoy.com/images/productico.png&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo prodbtn&quot; src=&quot;/images/productico.png&quot;&gt;&lt;/a&gt;
 
     &lt;!-- header end --&gt;
 
@@ -444,7 +444,7 @@
       &lt;span id=&quot;tooltip_content1&quot;&gt;
         &lt;a href=&quot;http://amzn.to/2c8mxIe&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf Beater&lt;/h6&gt;&lt;/a&gt;
         &lt;div&gt;
-          &lt;a href=&quot;http://amzn.to/2c8mxIe&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://shopjoy.com/images/surf/surfprod1.jpg&quot; alt=&quot;catch surf beater&quot; /&gt;&lt;/a&gt;
+          &lt;a href=&quot;http://amzn.to/2c8mxIe&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/surf/surfprod1.jpg&quot; alt=&quot;catch surf beater&quot; /&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;h5&gt;$240&lt;/h5&gt;
         &lt;a href=&quot;http://amzn.to/2c8mxIe&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
@@ -462,7 +462,7 @@
       &lt;span id=&quot;tooltip_content2&quot;&gt;
         &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf Whomper&lt;/h6&gt;&lt;/a&gt;
         &lt;div&gt;
-          &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://shopjoy.com/images/surf/surfprod2.jpg&quot; alt=&quot;catch surf whomper&quot; /&gt;&lt;/a&gt;
+          &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/surf/surfprod2.jpg&quot; alt=&quot;catch surf whomper&quot; /&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;h5&gt;$35&lt;/h5&gt;
         &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
@@ -492,7 +492,7 @@
     &lt;li&gt;
       &lt;a class=&quot;flex&quot; href=&quot;http://amzn.to/2c8mxIe&quot; target=&quot;_blank&quot; &gt;
       &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;img src=&quot;http://shopjoy.com/images/surf/surfprod1.jpg&quot;&gt;
+        &lt;img src=&quot;/images/surf/surfprod1.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
         &lt;h6&gt;Catch Surf Beater&lt;/h6&gt;
@@ -507,7 +507,7 @@
     &lt;li&gt;
       &lt;a class=&quot;flex&quot; href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot; &gt;
       &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;img src=&quot;http://shopjoy.com/images/surf/surfprod2.jpg&quot;&gt;
+        &lt;img src=&quot;/images/surf/surfprod2.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
         &lt;h6&gt;Catch Surf Whomper&lt;/h6&gt;
@@ -527,7 +527,7 @@
 &lt;/div&gt;
 
 &lt;a class=&quot;js-menu2&quot;&gt;
-  &lt;img class=&quot;logo infobtn&quot; src=&quot;http://shopjoy.com/images/infoico.png&quot;&gt;
+  &lt;img class=&quot;logo infobtn&quot; src=&quot;/images/infoico.png&quot;&gt;
 &lt;/a&gt;
 
 &lt;div class=&quot;bottommenu flex align-center&quot;&gt;
@@ -558,8 +558,8 @@
 
 </description>
         <pubDate>Mon, 20 Jun 2016 00:00:00 -0700</pubDate>
-        <link>http://shopjoy.comhttp://shopjoy.com/surf/</link>
-        <guid isPermaLink="true">http://shopjoy.comhttp://shopjoy.com/surf/</guid>
+        <link>/surf/</link>
+        <guid isPermaLink="true">/surf/</guid>
         
         
         <category>Sports</category>

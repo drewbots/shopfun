@@ -1,26 +1,16 @@
 .sidemenu {
-  width: 100%;
+  width: 400px;
   height: 100%;
   background: rgba(47, 47, 47, 0.88);
   position: fixed;
   top: 0;
   z-index: 19;
-  transform: translateX(-100%);
-  -webkit-transform: translateX(-100%);
-
-  -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
-  transition: -webkit-transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
-  transition: transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
-  transition: transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91), -webkit-transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
+  right: -800px;
+  -webkit-transform: translateX(-400px);
+          transform: translateX(-400px);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
 }
-
-@media (max-width: 1000px) {
-.sidemenu {
-  width: 100%;
-}
-}
-
-
 
 .sidemenu img {
   z-index: 5;
@@ -28,8 +18,23 @@
 }
 
 .menu-open .sidemenu {
+  -webkit-transform: translateX(-800px);
+          transform: translateX(-800px);
+}
+
+@media (max-width: 1001px) {
+.sidemenu {
+  width: 100%;
+  right: auto;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.menu-open .sidemenu {
   -webkit-transform: translateX(0);
           transform: translateX(0);
+
+}
 }
 
 .sidemenu ul {
