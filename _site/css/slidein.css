@@ -76,11 +76,15 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .prodnames .button {
-  margin-bottom: 0;
+    margin-bottom: 0;
+    height: 22px;
+    line-height: 21px;
+    width: 100%;
+    padding: 0;
 }
 
 

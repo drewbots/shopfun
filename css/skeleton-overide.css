@@ -35,8 +35,8 @@ input[type="reset"]:focus,
 input[type="button"]:focus {
   outline: 0;
   color: #fff;
-  -webkit-transform: scale(1.04);
-  transform: scale(1.04); }
+/*  -webkit-transform: scale(1.04);
+  transform: scale(1.04); */}
 
 
 .button.button-primary,

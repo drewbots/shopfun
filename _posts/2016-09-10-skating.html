@@ -97,16 +97,16 @@ categories:
 
     {% for page in site.data.postdata %}
     {% if page.shortname == "surfer" %}
-    <li class="flex">
+    <a href="{{ page.link }}" target="_blank" ><li class="flex">
       <div class="squaredup half-flex-child">
         <a href="{{ page.link }}" target="_blank"><img src="{{ site.baseurl }}/images/surfer/{{ page.filename }}"></a>
       </div>
       <div class="prodnames">
-        <a href="{{ page.link }}" target="_blank"><h6>{{ page.product }}</h6></a>
+        <h6>{{ page.product }}</h6>
         <p>${{ page.price }}</p>
-        <a href="{{ page.link }}" target="_blank" ><div class="button">Buy</div></a>
+        <div class="button">Buy</div>
       </div>
-    </li>
+    </li></a>
     {% endif %}
     {% endfor %}
 
