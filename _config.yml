@@ -14,8 +14,8 @@ relative_permalinks: false
 url: https://drewbots.github.io/shopfun
 #url: http://localhost:2106
 #port: 2106
-baseurl: https://drewbots.github.io/shopfun
-name: SurfnSol
+baseurl: http://shopjoy.com
+name: ShopJoy
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -61,7 +61,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : https://drewbots.github.io/shopfun
+  BASE_PATH : http://shopjoy.com
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
