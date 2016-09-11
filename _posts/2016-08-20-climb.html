@@ -1,9 +1,9 @@
 ---
 id: 1
-title: For Skaters
+title: Climb
 author: drew
 layout: default
-permalink: /skate/
+permalink: /climb/
 categories:
   - Sports
 ---
@@ -14,7 +14,7 @@ categories:
              // image width and height
              image: {
                 {% for page in site.data.postdata %}
-                {% if page.main == "surfermain" %}
+                {% if page.main == "climbmain" %}
                 width: {{ page.xsize }},
                 height: {{ page.ysize }}
                 {% endif %}
@@ -25,7 +25,7 @@ categories:
              targets: [
                  
               {% for page in site.data.postdata %}
-                {% if page.shortname == "surfer" %}
+                {% if page.shortname == "climb" %}
 
                  {
                     x: {{ page.xpt }}, // these are
@@ -48,7 +48,7 @@ categories:
 
 <style>
   .backdrop {
-    background-image: url('{{ site.baseurl }}/images/skating/skate.jpg');
+    background-image: url('{{ site.baseurl }}/images/climb/climbbg.jpg');
   }
 </style>
 
@@ -60,7 +60,7 @@ categories:
     <div>
 
     {% for page in site.data.postdata %}
-    {% if page.shortname == "surfer" %}
+    {% if page.shortname == "climb" %}
      
       
       <a href="#" class="tooltiphide pointer tooltip pointer{{ page.num }}" data-content="#tooltip_content{{ page.num }}" title="This is my image's tooltip message!"></a>
@@ -70,7 +70,7 @@ categories:
       <span id="tooltip_content{{ page.num }}">
         <a href="{{ page.link }}" target="_blank"><h6>{{ page.product }}</h6></a>
         <div>
-          <a href="{{ page.link }}" target="_blank"><img src="{{ site.baseurl }}/images/surfer/{{ page.filename }}" alt="{{ page.alttag }}" /></a>
+          <a href="{{ page.link }}" target="_blank"><img src="{{ site.baseurl }}/images/climb/{{ page.filename }}" alt="{{ page.alttag }}" /></a>
         </div>
         <h5>${{ page.price }}</h5>
         <a href="{{ page.link }}" class="button" target="_blank">See Details</a>
@@ -82,11 +82,7 @@ categories:
     </div>
 
     <div class="backdrop flex">
-<!--     {% for page in site.data.postdata %}
-    {% if page.shortname == "surfer" %}
-        {{ page.backimages }}
-    {% endif %}
-    {% endfor %} -->
+
     </div>
 
   </div>
@@ -96,11 +92,11 @@ categories:
   <ul>
 
     {% for page in site.data.postdata %}
-    {% if page.shortname == "surfer" %}
+    {% if page.shortname == "climb" %}
     <li>
       <a class="flex" href="{{ page.link }}" target="_blank" >
       <div class="squaredup half-flex-child">
-        <img src="{{ site.baseurl }}/images/surfer/{{ page.filename }}">
+        <img src="{{ site.baseurl }}/images/climb/{{ page.filename }}">
       </div>
       <div class="prodnames">
         <h6>{{ page.product }}</h6>
@@ -120,7 +116,7 @@ categories:
 </a>
 
 <div class="bottommenu flex align-center">
-  <p>Get awesome surf gear.<br>We've picked out the latest surfboard models as well as choice gifts, swag and must haves from Amazon.</p>
+  <p>Hot climbing gear, ready for the rock.<br>Ethics</p>
 </div>
 
 <!-- Modal -->

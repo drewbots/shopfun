@@ -12,7 +12,6 @@ paginate_path: "page:num"
 permalink: /:title/
 relative_permalinks: false
 url: http://shopjoy.com
-#url: http://localhost:2106
 #port: 2106
 baseurl: http://shopjoy.com
 name: ShopJoy

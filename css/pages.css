@@ -103,11 +103,31 @@
   padding: 20px 3px 20px 6px;
 }
 
-a.equalize-left, a.equalize-right {
+a.equalize-left {
   position: fixed;
   color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #000000;
+  background-color: #ffffff;
+  border-right: 2px solid #303030;
+  border-top: 2px solid #303030;
+  border-bottom: 2px solid #303030;
+  z-index: 20;
+  transition:all 0.3s ease;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  box-shadow: #000 0em 0em 0em;
+  top: 33%;
+  bottom: 33%;
+  height: 33%;
+}
+
+a.equalize-right {
+  position: fixed;
+  color: #ffffff;
+  background-color: #ffffff;
+  border-left: 2px solid #303030;
+  border-top: 2px solid #303030;
+  border-bottom: 2px solid #303030;
   z-index: 20;
   transition:all 0.3s ease;
   opacity: 1;
@@ -121,19 +141,16 @@ a.equalize-left, a.equalize-right {
 
 a.equalize-left:hover, a.equalize-left:visited, a.equalize-left:focus {
   opacity: 1;
-  color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #000000;
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
   padding: 0px 9px 0px 6px;
 }
 
-a.equalize-right:hover {
+a.equalize-right:hover, a.equalize-right:visited, a.equalize-right:focus {
   opacity: 1;
   color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #000000;
+  background-color: #ffffff;
+  border: 1px solid #303030;
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
   padding: 20px 6px 20px 9px;
@@ -144,6 +161,7 @@ a.equalize-right:hover {
   min-width: 8px;
   max-width: 10px;
   margin-bottom: 0;
+  color: #303030;
 }
 
 a.equalize-left i, a.equalize-right i {
@@ -160,8 +178,8 @@ a.equalize-left i, a.equalize-right i {
   a.equalize-left:hover {
     opacity: 1;
     color: #ffffff;
-    background-color: #000000;
-    border: 1px solid #000000;
+    background-color: #303030;
+    border: 1px solid #303030;
     -webkit-transform: none;
     transform: none;
     padding: 20px 6px 20px 3px;
@@ -170,8 +188,8 @@ a.equalize-left i, a.equalize-right i {
   a.equalize-right:hover {
     opacity: 1;
     color: #ffffff;
-    background-color: #000000;
-    border: 1px solid #000000;
+    background-color: #303030;
+    border: 1px solid #303030;
     -webkit-transform: none;
     transform: none;
     padding: 20px 3px 20px 6px;

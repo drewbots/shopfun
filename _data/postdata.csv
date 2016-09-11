@@ -1,4 +1,5 @@
 main,imagelink,shortname,xsize,ysize,num,xpt,ypt,product,prodshortname,link,price,filename,alttag
-surfermain,http://www.istockphoto.com/photo/surfer-gm149084780-18693291?st=697d850,surfer,1235,822,1,600,400,Dakine Kainui Pro Comp Leash,dakine-leash,http://amzn.to/29kDo9j,21,dakine-pro-comp-leash.jpg,dakine kainui pro comp leash
-,,surfer,1235,822,2,450,350,Oneil Wetsuit,oneil-wetsuit,http://amzn.to/29jt8PM,100,oneil-wetsuit.jpg,wetsuit
-leavethecitymain,,leavethecity,1235,822,3,500,300,Lyft Deal,lyft-deal,,50 Free Credit,leave-the-city.jpeg,leave the city
+surfmain,…,surf,1235,822,1,600,400,Catch Surf Beater,catch-surf-beater,http://amzn.to/2c8mxIe,240,surfprod1.jpg,catch surf beater
+,,surf,1236,823,2,450,350,Catch Surf Whomper,catch-surf-whomper,http://amzn.to/2cOJhvJ,35,surfprod2.jpg,catch surf whomper
+skatemain,…,skate,1235,822,1,451,351,Catch Surf,catch-surf-beater,http://amzn.to/2cOJhvJ,240,surfprod1.jpg,catch surf
+climbmain,…,climb,1236,823,2,451,451,Catch Surf2,catch-surf-beater,http://amzn.to/2cOJhvJ,102,surfprod1.jpg,catch surf

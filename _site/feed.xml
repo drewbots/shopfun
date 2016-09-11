@@ -3,24 +3,26 @@
   <channel>
     <title>ShopJoy</title>
     <description></description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 11 Sep 2016 14:12:20 -0700</pubDate>
-    <lastBuildDate>Sun, 11 Sep 2016 14:12:20 -0700</lastBuildDate>
+    <link>http://shopjoy.comhttp://shopjoy.com/</link>
+    <atom:link href="http://shopjoy.comhttp://shopjoy.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 11 Sep 2016 15:42:52 -0700</pubDate>
+    <lastBuildDate>Sun, 11 Sep 2016 15:42:52 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>For Skaters</title>
+        <title>Skate</title>
         <description>&lt;script&gt;
          var _page_conf = {
              // image width and height
              image: {
                 
                 
+                
+                
+                
+                
                 width: 1235,
                 height: 822
-                
-                
                 
                 
                 
@@ -32,22 +34,15 @@
                  
               
                 
+                
+                
+                
+                
 
                  {
-                    x: 600, // these are
-                    y: 400, // target values
+                    x: 451, // these are
+                    y: 351, // target values
                     elem: &quot;.pointer1&quot; //this is pointer element id for this target
-                 },
-
-
-                
-                
-                
-
-                 {
-                    x: 450, // these are
-                    y: 350, // target values
-                    elem: &quot;.pointer2&quot; //this is pointer element id for this target
                  },
 
 
@@ -67,14 +62,14 @@
 
 &lt;style&gt;
   .backdrop {
-    background-image: url('/images/skating/skate.jpg');
+    background-image: url('http://shopjoy.com/images/skate/skatebg.jpg');
   }
 &lt;/style&gt;
 
     &lt;!-- header start --&gt;
 
-    &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
-    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo prodbtn&quot; src=&quot;/images/productico.png&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;http://shopjoy.com/images/logo.png&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo prodbtn&quot; src=&quot;http://shopjoy.com/images/productico.png&quot;&gt;&lt;/a&gt;
 
     &lt;!-- header end --&gt;
 
@@ -85,6 +80,10 @@
 
     
     
+    
+    
+    
+    
      
       
       &lt;a href=&quot;#&quot; class=&quot;tooltiphide pointer tooltip pointer1&quot; data-content=&quot;#tooltip_content1&quot; title=&quot;This is my image's tooltip message!&quot;&gt;&lt;/a&gt;
@@ -92,30 +91,12 @@
       &lt;button type=&quot;button&quot; href=&quot;#&quot; class=&quot;modalhide pointer pointer1&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/button&gt;
 
       &lt;span id=&quot;tooltip_content1&quot;&gt;
-        &lt;a href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Dakine Kainui Pro Comp Leash&lt;/h6&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf&lt;/h6&gt;&lt;/a&gt;
         &lt;div&gt;
-          &lt;a href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/surfer/dakine-pro-comp-leash.jpg&quot; alt=&quot;dakine kainui pro comp leash&quot; /&gt;&lt;/a&gt;
+          &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://shopjoy.com/images/skate/surfprod1.jpg&quot; alt=&quot;catch surf&quot; /&gt;&lt;/a&gt;
         &lt;/div&gt;
-        &lt;h5&gt;$21&lt;/h5&gt;
-        &lt;a href=&quot;http://amzn.to/29kDo9j&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
-      &lt;/span&gt;
-
-    
-    
-    
-     
-      
-      &lt;a href=&quot;#&quot; class=&quot;tooltiphide pointer tooltip pointer2&quot; data-content=&quot;#tooltip_content2&quot; title=&quot;This is my image's tooltip message!&quot;&gt;&lt;/a&gt;
-      
-      &lt;button type=&quot;button&quot; href=&quot;#&quot; class=&quot;modalhide pointer pointer2&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/button&gt;
-
-      &lt;span id=&quot;tooltip_content2&quot;&gt;
-        &lt;a href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Oneil Wetsuit&lt;/h6&gt;&lt;/a&gt;
-        &lt;div&gt;
-          &lt;a href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/surfer/oneil-wetsuit.jpg&quot; alt=&quot;wetsuit&quot; /&gt;&lt;/a&gt;
-        &lt;/div&gt;
-        &lt;h5&gt;$100&lt;/h5&gt;
-        &lt;a href=&quot;http://amzn.to/29jt8PM&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+        &lt;h5&gt;$240&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
 
     
@@ -126,17 +107,7 @@
     &lt;/div&gt;
 
     &lt;div class=&quot;backdrop flex&quot;&gt;
-&lt;!--     
-    
-        
-    
-    
-    
-        
-    
-    
-    
-     --&gt;
+
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -147,29 +118,18 @@
 
     
     
-    &lt;li&gt;
-      &lt;a class=&quot;flex&quot; href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot; &gt;
-      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;img src=&quot;/images/surfer/dakine-pro-comp-leash.jpg&quot;&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;prodnames&quot;&gt;
-        &lt;h6&gt;Dakine Kainui Pro Comp Leash&lt;/h6&gt;
-        &lt;p&gt;$21&lt;/p&gt;
-        &lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/a&gt;
-    &lt;/li&gt;
+    
     
     
     
     &lt;li&gt;
-      &lt;a class=&quot;flex&quot; href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot; &gt;
+      &lt;a class=&quot;flex&quot; href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot; &gt;
       &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;img src=&quot;/images/surfer/oneil-wetsuit.jpg&quot;&gt;
+        &lt;img src=&quot;http://shopjoy.com/images/skate/surfprod1.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
-        &lt;h6&gt;Oneil Wetsuit&lt;/h6&gt;
-        &lt;p&gt;$100&lt;/p&gt;
+        &lt;h6&gt;Catch Surf&lt;/h6&gt;
+        &lt;p&gt;$240&lt;/p&gt;
         &lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;
       &lt;/div&gt;
     &lt;/a&gt;
@@ -183,11 +143,11 @@
 &lt;/div&gt;
 
 &lt;a class=&quot;js-menu2&quot;&gt;
-  &lt;img class=&quot;logo infobtn&quot; src=&quot;/images/infoico.png&quot;&gt;
+  &lt;img class=&quot;logo infobtn&quot; src=&quot;http://shopjoy.com/images/infoico.png&quot;&gt;
 &lt;/a&gt;
 
 &lt;div class=&quot;bottommenu flex align-center&quot;&gt;
-  &lt;p&gt;Get awesome surf gear.&lt;br&gt;We've picked out the latest surfboard models as well as choice gifts, swag and must haves from Amazon.&lt;/p&gt;
+  &lt;p&gt;Get all the rad skate gear for you or the shredder in your life.&lt;br&gt;Vans, DK, DGC, Bones, Independent &amp; Nike&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;!-- Modal --&gt;
@@ -214,8 +174,8 @@
 
 </description>
         <pubDate>Sat, 10 Sep 2016 00:00:00 -0700</pubDate>
-        <link>/skate/</link>
-        <guid isPermaLink="true">/skate/</guid>
+        <link>http://shopjoy.comhttp://shopjoy.com/skate/</link>
+        <guid isPermaLink="true">http://shopjoy.comhttp://shopjoy.com/skate/</guid>
         
         
         <category>Sports</category>
@@ -223,19 +183,21 @@
       </item>
     
       <item>
-        <title>Neon Surf Gear</title>
+        <title>Climb</title>
         <description>&lt;script&gt;
          var _page_conf = {
              // image width and height
              image: {
                 
                 
-                width: 1235,
-                height: 822
                 
                 
                 
                 
+                
+                
+                width: 1236,
+                height: 823
                 
                 
              },
@@ -245,27 +207,20 @@
                  
               
                 
-
-                 {
-                    x: 600, // these are
-                    y: 400, // target values
-                    elem: &quot;.pointer1&quot; //this is pointer element id for this target
-                 },
-
-
+                
+                
+                
                 
                 
                 
 
                  {
-                    x: 450, // these are
-                    y: 350, // target values
+                    x: 451, // these are
+                    y: 451, // target values
                     elem: &quot;.pointer2&quot; //this is pointer element id for this target
                  },
 
 
-                
-                
                 
                 
 
@@ -280,14 +235,14 @@
 
 &lt;style&gt;
   .backdrop {
-    background-image: url('/images/climbing/climb.jpg');
+    background-image: url('http://shopjoy.com/images/climb/climbbg.jpg');
   }
 &lt;/style&gt;
 
     &lt;!-- header start --&gt;
 
-    &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
-    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo prodbtn&quot; src=&quot;/images/productico.png&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;http://shopjoy.com/images/logo.png&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo prodbtn&quot; src=&quot;http://shopjoy.com/images/productico.png&quot;&gt;&lt;/a&gt;
 
     &lt;!-- header end --&gt;
 
@@ -298,21 +253,9 @@
 
     
     
-     
-      
-      &lt;a href=&quot;#&quot; class=&quot;tooltiphide pointer tooltip pointer1&quot; data-content=&quot;#tooltip_content1&quot; title=&quot;This is my image's tooltip message!&quot;&gt;&lt;/a&gt;
-      
-      &lt;button type=&quot;button&quot; href=&quot;#&quot; class=&quot;modalhide pointer pointer1&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/button&gt;
-
-      &lt;span id=&quot;tooltip_content1&quot;&gt;
-        &lt;a href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Dakine Kainui Pro Comp Leash&lt;/h6&gt;&lt;/a&gt;
-        &lt;div&gt;
-          &lt;a href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/surfer/dakine-pro-comp-leash.jpg&quot; alt=&quot;dakine kainui pro comp leash&quot; /&gt;&lt;/a&gt;
-        &lt;/div&gt;
-        &lt;h5&gt;$21&lt;/h5&gt;
-        &lt;a href=&quot;http://amzn.to/29kDo9j&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
-      &lt;/span&gt;
-
+    
+    
+    
     
     
     
@@ -323,33 +266,21 @@
       &lt;button type=&quot;button&quot; href=&quot;#&quot; class=&quot;modalhide pointer pointer2&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/button&gt;
 
       &lt;span id=&quot;tooltip_content2&quot;&gt;
-        &lt;a href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Oneil Wetsuit&lt;/h6&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf2&lt;/h6&gt;&lt;/a&gt;
         &lt;div&gt;
-          &lt;a href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/surfer/oneil-wetsuit.jpg&quot; alt=&quot;wetsuit&quot; /&gt;&lt;/a&gt;
+          &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://shopjoy.com/images/climb/surfprod1.jpg&quot; alt=&quot;catch surf&quot; /&gt;&lt;/a&gt;
         &lt;/div&gt;
-        &lt;h5&gt;$100&lt;/h5&gt;
-        &lt;a href=&quot;http://amzn.to/29jt8PM&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+        &lt;h5&gt;$102&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
 
-    
-    
     
     
 
     &lt;/div&gt;
 
     &lt;div class=&quot;backdrop flex&quot;&gt;
-&lt;!--     
-    
-        
-    
-    
-    
-        
-    
-    
-    
-     --&gt;
+
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -360,35 +291,24 @@
 
     
     
-    &lt;li&gt;
-      &lt;a class=&quot;flex&quot; href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot; &gt;
-      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;img src=&quot;/images/surfer/dakine-pro-comp-leash.jpg&quot;&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;prodnames&quot;&gt;
-        &lt;h6&gt;Dakine Kainui Pro Comp Leash&lt;/h6&gt;
-        &lt;p&gt;$21&lt;/p&gt;
-        &lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/a&gt;
-    &lt;/li&gt;
+    
+    
+    
     
     
     
     &lt;li&gt;
-      &lt;a class=&quot;flex&quot; href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot; &gt;
+      &lt;a class=&quot;flex&quot; href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot; &gt;
       &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;img src=&quot;/images/surfer/oneil-wetsuit.jpg&quot;&gt;
+        &lt;img src=&quot;http://shopjoy.com/images/climb/surfprod1.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
-        &lt;h6&gt;Oneil Wetsuit&lt;/h6&gt;
-        &lt;p&gt;$100&lt;/p&gt;
+        &lt;h6&gt;Catch Surf2&lt;/h6&gt;
+        &lt;p&gt;$102&lt;/p&gt;
         &lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;
       &lt;/div&gt;
     &lt;/a&gt;
     &lt;/li&gt;
-    
-    
     
     
 
@@ -396,11 +316,11 @@
 &lt;/div&gt;
 
 &lt;a class=&quot;js-menu2&quot;&gt;
-  &lt;img class=&quot;logo infobtn&quot; src=&quot;/images/infoico.png&quot;&gt;
+  &lt;img class=&quot;logo infobtn&quot; src=&quot;http://shopjoy.com/images/infoico.png&quot;&gt;
 &lt;/a&gt;
 
 &lt;div class=&quot;bottommenu flex align-center&quot;&gt;
-  &lt;p&gt;Get awesome surf gear.&lt;br&gt;We've picked out the latest surfboard models as well as choice gifts, swag and must haves from Amazon.&lt;/p&gt;
+  &lt;p&gt;Hot climbing gear, ready for the rock.&lt;br&gt;Ethics&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;!-- Modal --&gt;
@@ -427,8 +347,8 @@
 
 </description>
         <pubDate>Sat, 20 Aug 2016 00:00:00 -0700</pubDate>
-        <link>/neon-surf-gear/</link>
-        <guid isPermaLink="true">/neon-surf-gear/</guid>
+        <link>http://shopjoy.comhttp://shopjoy.com/climb/</link>
+        <guid isPermaLink="true">http://shopjoy.comhttp://shopjoy.com/climb/</guid>
         
         
         <category>Sports</category>
@@ -436,7 +356,7 @@
       </item>
     
       <item>
-        <title>Surf Gear</title>
+        <title>Surf</title>
         <description>&lt;script&gt;
          var _page_conf = {
              // image width and height
@@ -445,6 +365,8 @@
                 
                 width: 1235,
                 height: 822
+                
+                
                 
                 
                 
@@ -481,6 +403,8 @@
                 
                 
                 
+                
+                
 
 
              ]
@@ -493,14 +417,14 @@
 
 &lt;style&gt;
   .backdrop {
-    background-image: url('/images/surfer/surfer.jpg');
+    background-image: url('http://shopjoy.com/images/surf/surfbg.jpg');
   }
 &lt;/style&gt;
 
     &lt;!-- header start --&gt;
 
-    &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
-    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo prodbtn&quot; src=&quot;/images/productico.png&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;http://shopjoy.com/images/logo.png&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo prodbtn&quot; src=&quot;http://shopjoy.com/images/productico.png&quot;&gt;&lt;/a&gt;
 
     &lt;!-- header end --&gt;
 
@@ -518,12 +442,12 @@
       &lt;button type=&quot;button&quot; href=&quot;#&quot; class=&quot;modalhide pointer pointer1&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/button&gt;
 
       &lt;span id=&quot;tooltip_content1&quot;&gt;
-        &lt;a href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Dakine Kainui Pro Comp Leash&lt;/h6&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/2c8mxIe&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf Beater&lt;/h6&gt;&lt;/a&gt;
         &lt;div&gt;
-          &lt;a href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/surfer/dakine-pro-comp-leash.jpg&quot; alt=&quot;dakine kainui pro comp leash&quot; /&gt;&lt;/a&gt;
+          &lt;a href=&quot;http://amzn.to/2c8mxIe&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://shopjoy.com/images/surf/surfprod1.jpg&quot; alt=&quot;catch surf beater&quot; /&gt;&lt;/a&gt;
         &lt;/div&gt;
-        &lt;h5&gt;$21&lt;/h5&gt;
-        &lt;a href=&quot;http://amzn.to/29kDo9j&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+        &lt;h5&gt;$240&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/2c8mxIe&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
 
     
@@ -536,14 +460,16 @@
       &lt;button type=&quot;button&quot; href=&quot;#&quot; class=&quot;modalhide pointer pointer2&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/button&gt;
 
       &lt;span id=&quot;tooltip_content2&quot;&gt;
-        &lt;a href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Oneil Wetsuit&lt;/h6&gt;&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf Whomper&lt;/h6&gt;&lt;/a&gt;
         &lt;div&gt;
-          &lt;a href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/surfer/oneil-wetsuit.jpg&quot; alt=&quot;wetsuit&quot; /&gt;&lt;/a&gt;
+          &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://shopjoy.com/images/surf/surfprod2.jpg&quot; alt=&quot;catch surf whomper&quot; /&gt;&lt;/a&gt;
         &lt;/div&gt;
-        &lt;h5&gt;$100&lt;/h5&gt;
-        &lt;a href=&quot;http://amzn.to/29jt8PM&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+        &lt;h5&gt;$35&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
       &lt;/span&gt;
 
+    
+    
     
     
     
@@ -552,17 +478,7 @@
     &lt;/div&gt;
 
     &lt;div class=&quot;backdrop flex&quot;&gt;
-&lt;!--     
-    
-        
-    
-    
-    
-        
-    
-    
-    
-     --&gt;
+
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -574,13 +490,13 @@
     
     
     &lt;li&gt;
-      &lt;a class=&quot;flex&quot; href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot; &gt;
+      &lt;a class=&quot;flex&quot; href=&quot;http://amzn.to/2c8mxIe&quot; target=&quot;_blank&quot; &gt;
       &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;img src=&quot;/images/surfer/dakine-pro-comp-leash.jpg&quot;&gt;
+        &lt;img src=&quot;http://shopjoy.com/images/surf/surfprod1.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
-        &lt;h6&gt;Dakine Kainui Pro Comp Leash&lt;/h6&gt;
-        &lt;p&gt;$21&lt;/p&gt;
+        &lt;h6&gt;Catch Surf Beater&lt;/h6&gt;
+        &lt;p&gt;$240&lt;/p&gt;
         &lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;
       &lt;/div&gt;
     &lt;/a&gt;
@@ -589,17 +505,19 @@
     
     
     &lt;li&gt;
-      &lt;a class=&quot;flex&quot; href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot; &gt;
+      &lt;a class=&quot;flex&quot; href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot; &gt;
       &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;img src=&quot;/images/surfer/oneil-wetsuit.jpg&quot;&gt;
+        &lt;img src=&quot;http://shopjoy.com/images/surf/surfprod2.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
-        &lt;h6&gt;Oneil Wetsuit&lt;/h6&gt;
-        &lt;p&gt;$100&lt;/p&gt;
+        &lt;h6&gt;Catch Surf Whomper&lt;/h6&gt;
+        &lt;p&gt;$35&lt;/p&gt;
         &lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;
       &lt;/div&gt;
     &lt;/a&gt;
     &lt;/li&gt;
+    
+    
     
     
     
@@ -609,11 +527,11 @@
 &lt;/div&gt;
 
 &lt;a class=&quot;js-menu2&quot;&gt;
-  &lt;img class=&quot;logo infobtn&quot; src=&quot;/images/infoico.png&quot;&gt;
+  &lt;img class=&quot;logo infobtn&quot; src=&quot;http://shopjoy.com/images/infoico.png&quot;&gt;
 &lt;/a&gt;
 
 &lt;div class=&quot;bottommenu flex align-center&quot;&gt;
-  &lt;p&gt;Get awesome surf gear.&lt;br&gt;We've picked out the latest surfboard models as well as choice gifts, swag and must haves from Amazon.&lt;/p&gt;
+  &lt;p&gt;Most chill surf gear&lt;br&gt;Get it at Swell.com &gt;&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;!-- Modal --&gt;
@@ -640,8 +558,8 @@
 
 </description>
         <pubDate>Mon, 20 Jun 2016 00:00:00 -0700</pubDate>
-        <link>/surf-gear/</link>
-        <guid isPermaLink="true">/surf-gear/</guid>
+        <link>http://shopjoy.comhttp://shopjoy.com/surf/</link>
+        <guid isPermaLink="true">http://shopjoy.comhttp://shopjoy.com/surf/</guid>
         
         
         <category>Sports</category>
