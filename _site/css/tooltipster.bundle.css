@@ -336,7 +336,9 @@
 	animation: tooltipster-scaling 600ms;
 }
 
-
+  .modalhide {
+    display: none;
+  }
 
 
 @media (max-width: 1000px), and (max-height: 700px) {

@@ -5,8 +5,8 @@
     <description></description>
     <link>http://shopjoy.comhttp://shopjoy.com/</link>
     <atom:link href="http://shopjoy.comhttp://shopjoy.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 11 Sep 2016 15:42:52 -0700</pubDate>
-    <lastBuildDate>Sun, 11 Sep 2016 15:42:52 -0700</lastBuildDate>
+    <pubDate>Sun, 11 Sep 2016 16:40:55 -0700</pubDate>
+    <lastBuildDate>Sun, 11 Sep 2016 16:40:55 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -21,8 +21,8 @@
                 
                 
                 
-                width: 1235,
-                height: 822
+                width: 1949,
+                height: 1194
                 
                 
                 
@@ -93,7 +93,7 @@
       &lt;span id=&quot;tooltip_content1&quot;&gt;
         &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf&lt;/h6&gt;&lt;/a&gt;
         &lt;div&gt;
-          &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://shopjoy.com/images/skate/surfprod1.jpg&quot; alt=&quot;catch surf&quot; /&gt;&lt;/a&gt;
+          &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://shopjoy.com/images/skate/skateprod1.jpg&quot; alt=&quot;catch surf&quot; /&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;h5&gt;$240&lt;/h5&gt;
         &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
@@ -125,7 +125,7 @@
     &lt;li&gt;
       &lt;a class=&quot;flex&quot; href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot; &gt;
       &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;img src=&quot;http://shopjoy.com/images/skate/surfprod1.jpg&quot;&gt;
+        &lt;img src=&quot;http://shopjoy.com/images/skate/skateprod1.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
         &lt;h6&gt;Catch Surf&lt;/h6&gt;
@@ -196,8 +196,8 @@
                 
                 
                 
-                width: 1236,
-                height: 823
+                width: 1600,
+                height: 1200
                 
                 
              },
@@ -268,7 +268,7 @@
       &lt;span id=&quot;tooltip_content2&quot;&gt;
         &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf2&lt;/h6&gt;&lt;/a&gt;
         &lt;div&gt;
-          &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://shopjoy.com/images/climb/surfprod1.jpg&quot; alt=&quot;catch surf&quot; /&gt;&lt;/a&gt;
+          &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://shopjoy.com/images/climb/climbprod1.jpg&quot; alt=&quot;catch surf&quot; /&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;h5&gt;$102&lt;/h5&gt;
         &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
@@ -300,7 +300,7 @@
     &lt;li&gt;
       &lt;a class=&quot;flex&quot; href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot; &gt;
       &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
-        &lt;img src=&quot;http://shopjoy.com/images/climb/surfprod1.jpg&quot;&gt;
+        &lt;img src=&quot;http://shopjoy.com/images/climb/climbprod1.jpg&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;prodnames&quot;&gt;
         &lt;h6&gt;Catch Surf2&lt;/h6&gt;
@@ -363,8 +363,8 @@
              image: {
                 
                 
-                width: 1235,
-                height: 822
+                width: 1382,
+                height: 922
                 
                 
                 
