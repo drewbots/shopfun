@@ -150,7 +150,7 @@ jQuery(function ($) {
 
             triggerOpen: {
                 click: true,
-                mouseenter: true,
+                mouseenter: false,
                 touchstart: true,
                 tap: true
             },
