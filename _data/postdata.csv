@@ -1,5 +1,5 @@
 main,imagelink,shortname,xsize,ysize,num,xpt,ypt,product,prodshortname,link,price,filename,alttag
 surfmain,…,surf,1235,822,1,600,400,Catch Surf Beater,catch-surf-beater,http://amzn.to/2c8mxIe,240,surfprod1.jpg,catch surf beater
 ,,surf,1236,823,2,450,350,Catch Surf Whomper,catch-surf-whomper,http://amzn.to/2cOJhvJ,35,surfprod2.jpg,catch surf whomper
-skatemain,…,skate,1235,822,1,451,351,Catch Surf,catch-surf-beater,http://amzn.to/2cOJhvJ,240,surfprod1.jpg,catch surf
-climbmain,…,climb,1236,823,2,451,451,Catch Surf2,catch-surf-beater,http://amzn.to/2cOJhvJ,102,surfprod1.jpg,catch surf
+skatemain,…,skate,1235,822,1,451,351,Catch Surf,catch-surf-beater,http://amzn.to/2cOJhvJ,240,skateprod1.jpg,catch surf
+climbmain,…,climb,1236,823,2,451,451,Catch Surf2,catch-surf-beater,http://amzn.to/2cOJhvJ,102,climbprod1.jpg,catch surf
