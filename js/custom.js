@@ -155,7 +155,7 @@ jQuery(function ($) {
                 tap: true
             },
             triggerClose: {
-                click: false,
+                click: true,
                 scroll: true,
                 mouseleave: false,
                 tap: true

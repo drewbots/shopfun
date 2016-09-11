@@ -5,9 +5,218 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 11 Sep 2016 11:22:06 -0700</pubDate>
-    <lastBuildDate>Sun, 11 Sep 2016 11:22:06 -0700</lastBuildDate>
+    <pubDate>Sun, 11 Sep 2016 11:31:56 -0700</pubDate>
+    <lastBuildDate>Sun, 11 Sep 2016 11:31:56 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>For Skaters</title>
+        <description>&lt;script&gt;
+         var _page_conf = {
+             // image width and height
+             image: {
+                
+                
+                width: 1235,
+                height: 822
+                
+                
+                
+                
+                
+                
+             },
+
+             // pointers and their targets
+             targets: [
+                 
+              
+                
+
+                 {
+                    x: 600, // these are
+                    y: 400, // target values
+                    elem: &quot;.pointer1&quot; //this is pointer element id for this target
+                 },
+
+
+                
+                
+                
+
+                 {
+                    x: 450, // these are
+                    y: 350, // target values
+                    elem: &quot;.pointer2&quot; //this is pointer element id for this target
+                 },
+
+
+                
+                
+                
+                
+
+
+             ]
+         };
+     &lt;/script&gt;
+
+&lt;/head&gt;
+
+&lt;body onload=&quot;loaded()&quot;&gt;
+
+&lt;style&gt;
+  .backdrop {
+    background-image: url('/images/skating/skate.jpg');
+  }
+&lt;/style&gt;
+
+    &lt;!-- header start --&gt;
+
+    &lt;a class=&quot;logowrap&quot; href=&quot;/&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logo.png&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;js-menu&quot; &gt;&lt;img class=&quot;logo&quot; src=&quot;/images/productico.png&quot;&gt;&lt;/a&gt;
+
+    &lt;!-- header end --&gt;
+
+&lt;div id=&quot;wrapper&quot;&gt;
+  &lt;div id=&quot;scroller&quot;&gt;
+
+    &lt;div&gt;
+
+    
+    
+     
+      
+      &lt;a href=&quot;#&quot; class=&quot;tooltiphide pointer tooltip pointer1&quot; data-content=&quot;#tooltip_content1&quot; title=&quot;This is my image's tooltip message!&quot;&gt;&lt;/a&gt;
+      
+      &lt;button type=&quot;button&quot; href=&quot;#&quot; class=&quot;modalhide pointer pointer1&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/button&gt;
+
+      &lt;span id=&quot;tooltip_content1&quot;&gt;
+        &lt;a href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Dakine Kainui Pro Comp Leash&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/surfer/dakine-pro-comp-leash.jpg&quot; alt=&quot;dakine kainui pro comp leash&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$21&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29kDo9j&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+      &lt;/span&gt;
+
+    
+    
+    
+     
+      
+      &lt;a href=&quot;#&quot; class=&quot;tooltiphide pointer tooltip pointer2&quot; data-content=&quot;#tooltip_content2&quot; title=&quot;This is my image's tooltip message!&quot;&gt;&lt;/a&gt;
+      
+      &lt;button type=&quot;button&quot; href=&quot;#&quot; class=&quot;modalhide pointer pointer2&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/button&gt;
+
+      &lt;span id=&quot;tooltip_content2&quot;&gt;
+        &lt;a href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Oneil Wetsuit&lt;/h6&gt;&lt;/a&gt;
+        &lt;div&gt;
+          &lt;a href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/surfer/oneil-wetsuit.jpg&quot; alt=&quot;wetsuit&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h5&gt;$100&lt;/h5&gt;
+        &lt;a href=&quot;http://amzn.to/29jt8PM&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+      &lt;/span&gt;
+
+    
+    
+    
+    
+
+    &lt;/div&gt;
+
+    &lt;div class=&quot;backdrop flex&quot;&gt;
+&lt;!--     
+    
+        
+    
+    
+    
+        
+    
+    
+    
+     --&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;sidemenu&quot;&gt;
+  &lt;ul&gt;
+
+    
+    
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
+        &lt;a href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/surfer/dakine-pro-comp-leash.jpg&quot;&gt;&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;a href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Dakine Kainui Pro Comp Leash&lt;/h6&gt;&lt;/a&gt;
+        &lt;p&gt;$21&lt;/p&gt;
+        &lt;a href=&quot;http://amzn.to/29kDo9j&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+    
+    
+    
+    &lt;li class=&quot;flex&quot;&gt;
+      &lt;div class=&quot;squaredup half-flex-child&quot;&gt;
+        &lt;a href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/surfer/oneil-wetsuit.jpg&quot;&gt;&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;prodnames&quot;&gt;
+        &lt;a href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Oneil Wetsuit&lt;/h6&gt;&lt;/a&gt;
+        &lt;p&gt;$100&lt;/p&gt;
+        &lt;a href=&quot;http://amzn.to/29jt8PM&quot; target=&quot;_blank&quot; &gt;&lt;div class=&quot;button&quot;&gt;Buy&lt;/div&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+    
+    
+    
+    
+
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;a class=&quot;js-menu2&quot;&gt;
+  &lt;img class=&quot;logo&quot; src=&quot;/images/infoico.png&quot;&gt;
+&lt;/a&gt;
+
+&lt;div class=&quot;bottommenu flex align-center&quot;&gt;
+  &lt;p&gt;Get awesome surf gear.&lt;br&gt;We've picked out the latest surfboard models as well as choice gifts, swag and must haves from Amazon.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;!-- Modal --&gt;
+&lt;div class=&quot;modal&quot; id=&quot;myModal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;myModalLabel&quot; aria-hidden=&quot;true&quot;&gt;
+  &lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;
+    &lt;div class=&quot;modal-content&quot;&gt;
+      &lt;div class=&quot;modal-header&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
+          &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;h4 class=&quot;modal-title&quot; id=&quot;myModalLabel&quot;&gt;Modal title&lt;/h4&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;modal-body&quot;&gt;
+        ...
+      &lt;/div&gt;
+      &lt;div class=&quot;modal-footer&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Save changes&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+</description>
+        <pubDate>Sat, 10 Sep 2016 00:00:00 -0700</pubDate>
+        <link>/skate/</link>
+        <guid isPermaLink="true">/skate/</guid>
+        
+        
+        <category>Sports</category>
+        
+      </item>
     
       <item>
         <title>Neon Surf Gear</title>
