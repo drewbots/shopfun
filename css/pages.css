@@ -33,8 +33,8 @@
 }
 
 .ion-ios-arrow-right:before {
-  line-height: 48px !important;
-  padding-left: 3px;
+  line-height: 44px !important;
+  padding-left: 2px;
 }
 
 
@@ -128,8 +128,8 @@
     font-size: 31px;
     margin-bottom: 0;
     color: #303030;
-    width: 46px;
-    height: 46px;
+    width: 42px;
+    height: 42px;
     line-height: 1;
     border-radius: 30px;
     background-color: #ffffff;
@@ -163,7 +163,7 @@ a.equalize-right {
     float: right;
     bottom: 0;
     right: 0;
-    padding: 20px;
+    padding: 22px;
     z-index: 21;
     color: #ffffff;
     /* border-radius: 30px; */
