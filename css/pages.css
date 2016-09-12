@@ -9,6 +9,8 @@
 
 .tooltipster-content h4 {
   padding-bottom: 10px;
+  width: 100%;
+  font-size: 3.4rem;
 }
 
 .tooltipster-content img {
