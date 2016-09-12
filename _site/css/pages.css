@@ -160,7 +160,7 @@ a.equalize-right {
     position: fixed;
     float: right;
     bottom: 0;
-    /* left: 0; */
+    right: 0;
     padding: 20px;
     z-index: 21;
     color: #ffffff;
