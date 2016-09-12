@@ -338,7 +338,7 @@
   }
 
 
-@media all and (max-width: 1000px) , or (max-height: 700px) {
+@media all and (max-width: 1000px) {
 
   .tooltiphide {
       opacity: 0 !important;
@@ -364,7 +364,7 @@
 
 }
 
-@media all and (min-width: 1001px) , or (min-height: 701px) {
+@media all and (min-width: 1001px) {
   .modalhide {
     display: none !important;
   }
