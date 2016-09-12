@@ -122,7 +122,7 @@
   right: 0;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
-  padding: 20px 3px 20px 6px;
+  padding: 0px 3px 0px 6px;
 }
 
 a.equalize-left {
@@ -168,7 +168,7 @@ a.equalize-left:hover, a.equalize-left:visited, a.equalize-left:focus {
 
 a.equalize-right:hover, a.equalize-right:visited, a.equalize-right:focus {
   opacity: 1;
-  padding: 0px 9px 0px 6px;
+  padding: 0px 6px 0px 9px;
 }
 
 .equalize-left h6, .equalize-right h6 {
