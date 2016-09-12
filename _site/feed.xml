@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 11 Sep 2016 16:57:52 -0700</pubDate>
-    <lastBuildDate>Sun, 11 Sep 2016 16:57:52 -0700</lastBuildDate>
+    <pubDate>Sun, 11 Sep 2016 17:15:27 -0700</pubDate>
+    <lastBuildDate>Sun, 11 Sep 2016 17:15:27 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -91,12 +91,15 @@
       &lt;button type=&quot;button&quot; href=&quot;#&quot; class=&quot;modalhide pointer pointer1&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/button&gt;
 
       &lt;span id=&quot;tooltip_content1&quot;&gt;
-        &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf&lt;/h6&gt;&lt;/a&gt;
-        &lt;div&gt;
-          &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/skate/skateprod1.jpg&quot; alt=&quot;catch surf&quot; /&gt;&lt;/a&gt;
-        &lt;/div&gt;
-        &lt;h5&gt;$240&lt;/h5&gt;
-        &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;
+          &lt;h6&gt;Catch Surf&lt;/h6&gt;
+
+          &lt;div&gt;
+            &lt;img src=&quot;/images/skate/skateprod1.jpg&quot; alt=&quot;catch surf&quot; /&gt;
+          &lt;/div&gt;
+          &lt;h5&gt;$240&lt;/h5&gt;
+          &lt;button class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/button&gt;
+        &lt;/a&gt;
       &lt;/span&gt;
 
     
@@ -266,12 +269,15 @@
       &lt;button type=&quot;button&quot; href=&quot;#&quot; class=&quot;modalhide pointer pointer2&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/button&gt;
 
       &lt;span id=&quot;tooltip_content2&quot;&gt;
-        &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf2&lt;/h6&gt;&lt;/a&gt;
-        &lt;div&gt;
-          &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/climb/climbprod1.jpg&quot; alt=&quot;catch surf&quot; /&gt;&lt;/a&gt;
-        &lt;/div&gt;
-        &lt;h5&gt;$102&lt;/h5&gt;
-        &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;
+          &lt;h6&gt;Catch Surf2&lt;/h6&gt;
+
+          &lt;div&gt;
+            &lt;img src=&quot;/images/climb/climbprod1.jpg&quot; alt=&quot;catch surf&quot; /&gt;
+          &lt;/div&gt;
+          &lt;h5&gt;$102&lt;/h5&gt;
+          &lt;button class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/button&gt;
+        &lt;/a&gt;
       &lt;/span&gt;
 
     
@@ -442,12 +448,15 @@
       &lt;button type=&quot;button&quot; href=&quot;#&quot; class=&quot;modalhide pointer pointer1&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/button&gt;
 
       &lt;span id=&quot;tooltip_content1&quot;&gt;
-        &lt;a href=&quot;http://amzn.to/2c8mxIe&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf Beater&lt;/h6&gt;&lt;/a&gt;
-        &lt;div&gt;
-          &lt;a href=&quot;http://amzn.to/2c8mxIe&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/surf/surfprod1.jpg&quot; alt=&quot;catch surf beater&quot; /&gt;&lt;/a&gt;
-        &lt;/div&gt;
-        &lt;h5&gt;$240&lt;/h5&gt;
-        &lt;a href=&quot;http://amzn.to/2c8mxIe&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/2c8mxIe&quot; target=&quot;_blank&quot;&gt;
+          &lt;h6&gt;Catch Surf Beater&lt;/h6&gt;
+
+          &lt;div&gt;
+            &lt;img src=&quot;/images/surf/surfprod1.jpg&quot; alt=&quot;catch surf beater&quot; /&gt;
+          &lt;/div&gt;
+          &lt;h5&gt;$240&lt;/h5&gt;
+          &lt;button class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/button&gt;
+        &lt;/a&gt;
       &lt;/span&gt;
 
     
@@ -460,12 +469,15 @@
       &lt;button type=&quot;button&quot; href=&quot;#&quot; class=&quot;modalhide pointer pointer2&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;&gt;&lt;/button&gt;
 
       &lt;span id=&quot;tooltip_content2&quot;&gt;
-        &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;h6&gt;Catch Surf Whomper&lt;/h6&gt;&lt;/a&gt;
-        &lt;div&gt;
-          &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/surf/surfprod2.jpg&quot; alt=&quot;catch surf whomper&quot; /&gt;&lt;/a&gt;
-        &lt;/div&gt;
-        &lt;h5&gt;$35&lt;/h5&gt;
-        &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/a&gt;
+        &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;
+          &lt;h6&gt;Catch Surf Whomper&lt;/h6&gt;
+
+          &lt;div&gt;
+            &lt;img src=&quot;/images/surf/surfprod2.jpg&quot; alt=&quot;catch surf whomper&quot; /&gt;
+          &lt;/div&gt;
+          &lt;h5&gt;$35&lt;/h5&gt;
+          &lt;button class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/button&gt;
+        &lt;/a&gt;
       &lt;/span&gt;
 
     

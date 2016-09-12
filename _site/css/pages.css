@@ -2,6 +2,10 @@
  * HomePage
  */
 
+.tooltipster-content a {
+  display: inline-block;
+}
+
 .removecontent:after {
   content: none;
 }
