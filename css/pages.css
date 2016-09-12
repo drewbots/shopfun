@@ -32,6 +32,10 @@
   max-width: 800px;
 }
 
+.ion-ios-arrow-right:before {
+  line-height: 1;
+}
+
 
 .pointer {
   margin-left:-15px;
@@ -119,12 +123,18 @@
   padding: 0px 6px 0px 3px;
 }
 
-.equalize-right {
-  right: 0;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
-  padding: 0px 3px 0px 6px;
-}
+.equalize-right h6 {
+    font-size: 31px;
+    margin-bottom: 0;
+    color: #303030;
+    width: 15px;
+    height: 15px;
+    line-height: 1;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border: 2px solid #303030;
+    padding: 10px;
+  }
 
 a.equalize-left {
   position: fixed;
@@ -145,21 +155,25 @@ a.equalize-left {
 }
 
 a.equalize-right {
-  position: fixed;
-  color: #ffffff;
-  background-color: #ffffff;
-  border-left: 2px solid #303030;
-  border-top: 2px solid #303030;
-  border-bottom: 2px solid #303030;
-  z-index: 20;
-  transition:all 0.3s ease;
-  opacity: 1;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  box-shadow: #000 0em 0em 0em;
-  top: 33%;
-  bottom: 33%;
-  height: 33%;
+    /* position: fixed; */
+    position: fixed;
+    float: right;
+    bottom: 0;
+    /* left: 0; */
+    padding: 20px;
+    z-index: 21;
+    color: #ffffff;
+    /* border-radius: 30px; */
+    /* background-color: #ffffff; */
+    /* border: 2px solid #303030; */
+    /* border-top: 2px solid #303030; */
+    /* border-bottom: 2px solid #303030; */
+    /* z-index: 20; */
+    transition: all 0.3s ease;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    box-shadow: #000 0em 0em 0em;
 }
 
 a.equalize-left:hover, a.equalize-left:visited, a.equalize-left:focus {
