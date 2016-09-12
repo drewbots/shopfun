@@ -8,9 +8,9 @@
 
 
 .tooltipster-content h5 {
-  padding-bottom: 20px;
-  width: 100%;
-  font-size: 3.4rem;
+    padding-bottom: 14px;
+    width: 100%;
+    line-height: 1.2;
 }
 
 .tooltipster-content img {
@@ -18,6 +18,10 @@
   max-height: 400px;
   padding: 0;
   margin: 0px;
+}
+
+.tooltipster-content img {
+  margin-bottom: 14px;
 }
 
 .removecontent:after {
