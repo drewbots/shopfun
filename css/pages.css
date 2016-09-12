@@ -4,6 +4,24 @@
 
 .tooltipster-content a {
   display: inline-block;
+}  
+
+
+.tooltipster-content h5 {
+  padding-bottom: 10px;
+}
+
+.tooltipster-content img {
+  max-width: 400px;
+  max-height: 400px;
+  padding: 0 0 10px 0;
+  margin: 0px;
+}
+
+.tooltipster-content button {
+  padding: 0;
+  margin-bottom: 0;
+  width: 100%;
 }
 
 .removecontent:after {

@@ -66,16 +66,6 @@
     background: #fff;
 }
 
-
-
-
-.tooltipster-content img {
-  max-width: 400px;
-  max-height: 400px;
-  padding: 0px;
-  margin: 0px;
-}
-
 .tooltipster-sidetip .tooltipster-box{height:auto;width:auto}
 .tooltipster-sidetip.tooltipster-bottom .tooltipster-box{margin-top:8px}
 .tooltipster-sidetip.tooltipster-left .tooltipster-box{margin-right:8px}
