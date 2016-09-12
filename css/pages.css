@@ -162,19 +162,15 @@ a.equalize-right {
 }
 
 a.equalize-left:hover, a.equalize-left:visited, a.equalize-left:focus {
-  opacity: 1;
-  -webkit-transform: scale(1.08);
-  transform: scale(1.08);
+  opacity: .7;
   padding: 0px 9px 0px 6px;
 }
 
 a.equalize-right:hover, a.equalize-right:visited, a.equalize-right:focus {
-  opacity: 1;
+  opacity: .7;
   color: #ffffff;
   background-color: #ffffff;
   border: 1px solid #303030;
-  -webkit-transform: scale(1.08);
-  transform: scale(1.08);
   padding: 20px 6px 20px 9px;
 }
 
