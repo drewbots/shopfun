@@ -33,7 +33,7 @@
 }
 
 .ion-ios-arrow-right:before {
-  line-height: 51px !important;
+  line-height: 48px !important;
   padding-left: 3px;
 }
 
@@ -128,8 +128,8 @@
     font-size: 31px;
     margin-bottom: 0;
     color: #303030;
-    width: 50px;
-    height: 50px;
+    width: 46px;
+    height: 46px;
     line-height: 1;
     border-radius: 30px;
     background-color: #ffffff;
