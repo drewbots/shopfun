@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 11 Sep 2016 17:44:27 -0700</pubDate>
-    <lastBuildDate>Sun, 11 Sep 2016 17:44:27 -0700</lastBuildDate>
+    <pubDate>Sun, 11 Sep 2016 17:46:14 -0700</pubDate>
+    <lastBuildDate>Sun, 11 Sep 2016 17:46:14 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -92,7 +92,7 @@
 
       &lt;span id=&quot;tooltip_content1&quot;&gt;
         &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;
-          &lt;h4&gt;Catch Surf&lt;/h4&gt;
+          &lt;h5&gt;Catch Surf&lt;/h5&gt;
           &lt;button class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/button&gt;
           &lt;div&gt;
             &lt;img src=&quot;/images/skate/skateprod1.jpg&quot; alt=&quot;catch surf&quot; /&gt;
@@ -268,7 +268,7 @@
 
       &lt;span id=&quot;tooltip_content2&quot;&gt;
         &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;
-          &lt;h4&gt;Catch Surf2&lt;/h4&gt;
+          &lt;h5&gt;Catch Surf2&lt;/h5&gt;
           &lt;button class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/button&gt;
           &lt;div&gt;
             &lt;img src=&quot;/images/climb/climbprod1.jpg&quot; alt=&quot;catch surf&quot; /&gt;
@@ -445,7 +445,7 @@
 
       &lt;span id=&quot;tooltip_content1&quot;&gt;
         &lt;a href=&quot;http://amzn.to/2c8mxIe&quot; target=&quot;_blank&quot;&gt;
-          &lt;h4&gt;Catch Surf Beater&lt;/h4&gt;
+          &lt;h5&gt;Catch Surf Beater&lt;/h5&gt;
           &lt;button class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/button&gt;
           &lt;div&gt;
             &lt;img src=&quot;/images/surf/surfprod1.jpg&quot; alt=&quot;catch surf beater&quot; /&gt;
@@ -464,7 +464,7 @@
 
       &lt;span id=&quot;tooltip_content2&quot;&gt;
         &lt;a href=&quot;http://amzn.to/2cOJhvJ&quot; target=&quot;_blank&quot;&gt;
-          &lt;h4&gt;Catch Surf Whomper&lt;/h4&gt;
+          &lt;h5&gt;Catch Surf Whomper&lt;/h5&gt;
           &lt;button class=&quot;button&quot; target=&quot;_blank&quot;&gt;See Details&lt;/button&gt;
           &lt;div&gt;
             &lt;img src=&quot;/images/surf/surfprod2.jpg&quot; alt=&quot;catch surf whomper&quot; /&gt;
