@@ -5,7 +5,7 @@ lsi: false
 simple_search: http://google.com/search
 markdown: kramdown
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate: 1
 paginate_path: "page:num"
 
