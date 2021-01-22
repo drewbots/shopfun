@@ -82,9 +82,82 @@ categories:
 
     </div>
 
-    <div class="backdrop flex">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
 
-    </div>
+<div style="height:300vh; position:absolute; width:20px;"></div>
+<div id="imagesequence" id="trigger">
+  <img id="myimg" src="1.png" style="display: block; position:fixed; width: 100%; height: 100vh; object-fit: cover;">
+</div>
+<div style="height: 100%;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;">
+  <img src="0.jpg" style="width: 100%;">
+</div>
+<script>
+  // define images
+  var images = [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png",
+    "8.png",
+    "9.png",
+    "10.png",
+    "11.png",
+    "12.png",
+    "13.png",
+    "14.png",
+    "15.png",
+    "16.png",
+    "17.png",
+    "18.png",
+    "19.png",
+    "20.png",
+
+  ];
+
+  // TweenMax can tween any property of any object. We use this object to cycle through the array
+  var obj = {curImg: 0};
+
+  // create tweenfile:///C:/Users/Andrew/Desktop/1.png
+  var tween = TweenMax.to(obj, 0.5,
+    {
+      curImg: images.length - 1,  // animate propery curImg to number of images
+      roundProps: "curImg",       // only integers so it can be used as an array index
+      repeat: 0,                  // repeat 3 times
+      immediateRender: true,      // load first image automatically
+      ease: Linear.easeNone,      // show every image the same ammount of time
+      onUpdate: function () {
+        $("#myimg").attr("src", images[obj.curImg]); // set the image source
+      }
+    }
+  );
+
+  // init controller
+  var controller = new ScrollMagic.Controller();
+
+  // build scene
+  var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 1400})
+          .setTween(tween)
+          .removeIndicators() // add indicators (requires plugin)
+          .addTo(controller);
+
+</script>
+
+
+
+
+
 
   </div>
 </div>
